@@ -56,9 +56,21 @@ class Cache:
     return os.path.join(self.path, url)
 
 
-  def load(self, url):
+  def _is_expired(self, fname, expiration_days):
+    if not expiration_days:
+      return False
+
+    mtime = datetime.datetime.fromtimestamp(os.stat(fname).st_mtime, tz=tzlocal.get_localzone())
+
+    return (mtime < now - datetime.timedelta(days=expiration_days))
+
+
+  def load(self, url, expiration_days = 0):
     fname = self._fname(url)
     if not os.path.exists(fname):
+      return None
+
+    if self._is_expired(fname, expiration_days):
       return None
 
     with open(fname, 'rb') as f:
@@ -79,7 +91,9 @@ cache = Cache()
 def download_page(url):
   print("\ndownloading {}...".format(url))
 
-  content = cache.load(url)
+  expiration_days = 0 if url != urls[0] else 1
+
+  content = cache.load(url, expiration_days)
   if content:
     return content
 
