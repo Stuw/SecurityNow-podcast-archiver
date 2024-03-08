@@ -119,8 +119,11 @@ def get_item(soup, item):
   header = link.findNext('table')
   episode, date, length = (x.strip() for x in header.text.split('|'))
   nr = int(episode.partition('#')[2])
-  minutes = int(length.split(' ')[0])
-  
+  try:
+    minutes = int(length.split(' ')[0])
+  except:
+    minutes = 1
+
   body = header.findNext('table')
 
   title = body.findChild('font', size=2).text
