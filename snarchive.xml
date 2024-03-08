@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 08 Mar 2024 22:59:19 +0300</lastBuildDate>
-<pubDate>Fri, 08 Mar 2024 22:59:19 +0300</pubDate>
+<lastBuildDate>Fri, 08 Mar 2024 23:35:49 +0300</lastBuildDate>
+<pubDate>Fri, 08 Mar 2024 23:35:49 +0300</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 964: PQ3</title>
+<pubDate>05 Mar 2024</pubDate>
+<comments>http://twit.tv/sn/964</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Last week we covered a large amount of security news; this week, not so much. There are security stories I'll be catching us up with next week, but after sharing a wonderful piece of writing about the fate of Voyager 1, news of an attractive new Humble Bundle, a tip of the week from a listener, a bit of SpinRite news and a number of interesting discussions resulting from feedback from our listeners, our promised coverage of Apple's new “PQ3” post-quantum safe iMessage protocol consumed the entire balance of this week's podcast budget, bulging today's show notes to a corpulent 21 pages. I think everyone's going to have a good time.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0964/sn0964.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0964/sn0964.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0964/sn0964.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0964/sn0964.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 963: Web Portal? Yes Please!</title>
 <pubDate>27 Feb 2024</pubDate>
@@ -2826,6 +2845,25 @@ during this week's Security Now! podcast.</description>
 </media:content>
 </item>
 <item>
+<title>SN 817: The Ransomware Task Force</title>
+<pubDate>04 May 2021</pubDate>
+<comments>http://twit.tv/sn/817</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>This week we touch on several topics surrounding ransomware. We look at the REvil attack that affected Apple, and at this past weekend's attack that brought down Southern California's world renown Scripps Health system. We catch up on the multinational takedown of the Emotet botnet and the FBI's contribution of more than 4 million compromised eMail addresses to Troy Hunt's Have I Been Pwned. We also look at the two notification services that Troy now offers. I take the opportunity to pound another well-deserved nail into QNAP, and take note of an update I just made to my favorite NNTP newsreader, Gravity. I also ran across a Dan Kaminsky anecdote that I had to share, then we have two pieces of closing the loop listener feedback before we conclude by taking a look at the just-announced task force to combat ransomware. Is there any hope that this scourge can be thwarted?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0817/sn0817.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0817/sn0817.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0817/sn0817.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0817/sn0817.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
 <title>SN 816: The Mystery of AS8003</title>
 <pubDate>27 Apr 2021</pubDate>
 <comments>http://twit.tv/sn/816</comments>
@@ -4075,6 +4113,25 @@ during this week's Security Now! podcast.</description>
 <link>http://cdn.twit.tv/audio/sn/sn0751/sn0751.mp3</link>
 <enclosure url="http://cdn.twit.tv/audio/sn/sn0751/sn0751.mp3" length="0" type="audio/mpeg"/>
 <media:content url="http://cdn.twit.tv/audio/sn/sn0751/sn0751.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 750: The CurveBall CryptoAPI</title>
+<pubDate>21 Jan 2020</pubDate>
+<comments>http://twit.tv/sn/750</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>This week we look at Google's addition of iOS devices as full Google account logon hardware security keys, as update on Apple vs Attorney General Barr, a serious new Internet Explorer 0-day and how the vulnerability can be mitigated, the release of Microsoft's Chromium-based Edge browser, the FBI's reaction to the Pulse Secure VPN vulnerability, another new and CRITICAL RDP remote code execution vulnerability that has slipped under the radar, a bit of miscellany, and then we examine the the headline grabbing CryptoAPI vulnerability that's been dubbed “CurveBall.”</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0750/sn0750.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0750/sn0750.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0750/sn0750.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0750/sn0750.mp3" fileSize="0" type="audio/mpeg" medium="audio">
 <media:rating scheme="urn:simple">nonadult</media:rating>
 <media:rating scheme="urn:v-chip">tv-g</media:rating>
 </media:content>
@@ -6317,6 +6374,25 @@ during this week's Security Now! podcast.</description>
 <link>http://cdn.twit.tv/audio/sn/sn0631/sn0631.mp3</link>
 <enclosure url="http://cdn.twit.tv/audio/sn/sn0631/sn0631.mp3" length="0" type="audio/mpeg"/>
 <media:content url="http://cdn.twit.tv/audio/sn/sn0631/sn0631.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 630: The Great DOM Fuzz-Off</title>
+<pubDate>25 Sep 2017</pubDate>
+<comments>http://twit.tv/sn/630</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>This week, Father Robert and I follow more Equifax breach fallout, look at encryption standards blowback from the Edward Snowden revelations, examine more worrisome news of the CCleaner breach, see that ISPs may be deliberately infecting their own customers, warn that turning off iOS radios doesn't, look at the first news of the FTC's suit against D-Link's poor security, examine a forthcoming Broadcom GPS chip features, warn of the hidden dangers of high-density barcodes, discuss Adobe's disclosure of their own private key, close the loop with our listeners, and examine the results of DOM fuzzing at Google's Project Zero.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0630/sn0630.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0630/sn0630.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0630/sn0630.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0630/sn0630.mp3" fileSize="0" type="audio/mpeg" medium="audio">
 <media:rating scheme="urn:simple">nonadult</media:rating>
 <media:rating scheme="urn:v-chip">tv-g</media:rating>
 </media:content>
