@@ -40,11 +40,55 @@ template = string.Template(open('sn-template.xml').read())
 itemtemplate = string.Template(open('sn-item.xml').read())
 
 
+import os
+
+class Cache:
+  def __init__(self):
+    self.path = ".cache"
+
+    if not os.path.exists(self.path):
+      os.mkdir(self.path)
+
+
+  def _fname(self, url):
+    for c in ":\\/&?=":
+      url = url.replace(c, "_")
+    return os.path.join(self.path, url)
+
+
+  def load(self, url):
+    fname = self._fname(url)
+    if not os.path.exists(fname):
+      return None
+
+    with open(fname, 'rb') as f:
+      return f.read()
+
+
+  def save(self, url, content):
+    if not content:
+      return
+    fname = self._fname(url)
+    with open(fname, "wb") as f:
+      f.write(content)
+
+
+cache = Cache()
+
+
 def download_page(url):
   print("\ndownloading {}...".format(url))
+
+  content = cache.load(url)
+  if content:
+    return content
+
   r = requests.get(url)
   if not r.ok:
     raise Exception("failed to download {}: {} {}".format(url, r.status_code, r.reason))
+
+  cache.save(url, r.content)
+
   return r.content
 
 
