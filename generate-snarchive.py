@@ -84,6 +84,8 @@ def get_item(soup, item):
   if description.startswith(title):
     description = description.partition(title)[2]
   description = description.strip()
+  # Remove control character
+  description = description.encode().replace(b'\x1e', b'').decode()
   title = title.strip()
   assert description
 
