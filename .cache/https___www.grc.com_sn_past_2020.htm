@@ -1,0 +1,1155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>GRC&nbsp;|&nbsp;Security Now! Episode Archive&nbsp;&nbsp;</title>
+<!-- ChangeDetection.com id=198mgjwxkml comment=" " detection="off" -->
+<meta name="author" content="Steve Gibson, GIBSON RESEARCH CORPORATION" />
+<meta name="keywords" content="Security Now!, weekly security audio column, steve gibson, internet security podcast, mp3 podcast, SockStress TCP Socket Stress and Exploitation, Denial of Service" />
+<meta name="description" content="Security Now! Weekly Internet Security Podcast. This week describing the newly revealed SockStress TCP stack vulnerabilities." />
+<meta name="sitemenu" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "offices_@_grc.com" for "https://www.grc.com" on "1998.03.30T21:20-0800" r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "https://www.grc.com" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "https://www.grc.com" r (n 0 s 0 v 0 l 0))' />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="icon" sizes="76x76" type="image/png" href="/apple-touch-icon.png" />
+<link rel="icon" sizes="32x32" type="image/png" href="/favicon-32x32.png" />
+<link rel="icon" sizes="16x16" type="image/png" href="/favicon-16x16.png" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="theme-color" content="#ffffff" />
+<link rel="meta" href="labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+<link rel="stylesheet" media="all" type="text/css" href="/grc.css?3" />
+<link rel="stylesheet" media="all" type="text/css" href="/search.css" />
+<link rel="stylesheet" media="all" type="text/css" href="/mainmenu.css?2" />
+<link rel="stylesheet" media="all" type="text/css" href="/webfonts.css" />
+
+</head><body link="#CC0000" vlink="#006666" alink="#FF0000"><a name="top"></a>
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-GS3MK15LN5"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-GS3MK15LN5');</script>
+
+<!-- ########################## GRC Masthead Menu ########################## -->
+<div class="menuminwidth0"><div class="menuminwidth1"><div class="menuminwidth2">
+<div id="masthead">
+	<a href="/default.htm"><img id="mastheadlogo" src="/mh-logo.gif" width="286" height="24" alt="Gibson Research Corporation" title="" /></a>
+	<img id="focus" src="/mh-focus.gif" width="121" height="13" alt="" title="What we're about" />
+	<a href="/mail.htm"><img id="email" src="/image/email-subscriptions.png" width="179" height="22" alt="email subscriptions" title=" User-managed email subscriptions " /></a>
+</div>
+
+<script async src="https://cse.google.com/cse.js?cx=000064552291181981813:y8yi5go2xza"></script>
+<div id="search" class="gcse-search"></div>
+
+<div class="menu">
+
+<ul>
+	<li><a href="/default.htm"><img src="/mb-home.gif" width="76" height="18" alt="[Home]" title="" />
+		<ul class="leftbutton">
+			<li><a href="/purchasing.htm">&nbsp;Purchasing</a></li>
+			<li><a href="/sales.htm">&nbsp;Sales Support</a></li>
+			<li><a href="/support.htm">&nbsp;Technical Support</a></li>
+			<li><a href="/mail.htm">&nbsp;Email Subscriptions</a></li>
+			<li><a href="/default.htm#bottom">&nbsp;Contact Us</a></li>
+			<li><a href="https://forums.grc.com">&nbsp;GRC Web Forums</a></li>
+			<li><a href="/privacy.htm">&nbsp;Privacy Policy</a></li>
+			<li><a href="/stevegibson.htm">&nbsp;Steve's Projects Page</a></li>
+			<li><a href="/resume.htm">&nbsp;Steve's Old Resume</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href=""><img src="/mb_products.gif" width="96" height="18" alt="[Products]" title="" />
+		<ul>
+			<li><a href="/dns/benchmark.htm">&nbsp;DNS Benchmark</a></li>
+			<li><a href="/sr/spinrite.htm">&nbsp;SpinRite (v6.1)</a></li>
+			<li><a href="/upgrade.htm">&nbsp;Upgrade to v6.1</a></li>
+		</ul>
+	</li>
+</ul>
+			
+<ul>
+	<li><a href="/x/ne.dll?bh0bkyd2"><img src="/mb-services.gif" width="94" height="18" alt="[Services]" title="" />
+		<ul>
+			<li><a href="/x/ne.dll?bh0bkyd2">&nbsp;ShieldsUP!</a></li>
+			<li><a href="/revocation.htm">&nbsp;Certificate Revocation</a></li>
+			<li><a href="/haystack.htm">&nbsp;Password Haystacks</a></li>
+			<li><a href="/fingerprints.htm">&nbsp;HTTPS Fingerprints</a></li>			
+			<li><a href="/securitynow.htm">&nbsp;Security Now!</a></li>
+			<li><a href="/dns/dns.htm">&nbsp;DNS Spoofability Test</a></li>
+			<li><a href="/passwords.htm">&nbsp;Perfect Passwords</a></li>
+			<li><a href="/ppp.htm">&nbsp;PPP Passwords</a></li>
+			<li><a href="/media.htm">&nbsp;Tech TV video clips</a></li>
+			<li><a href="/discussions.htm">&nbsp;Newsgroup Discussions</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href="/freepopular.htm"><img src="/mb-freeware.gif" width="98" height="18" alt="[Freeware]" title="" />
+		<ul class="skinny">
+			<li><a href=""><span class="drop"><span>Security</span>&raquo;</span>
+				<ul>
+					<li><a href="/inspectre.htm">&nbsp;InSpectre</a></li>
+					<li><a href="/securable.htm">&nbsp;Securable</a></li>
+					<li><a href="/isbootsecure.htm">&nbsp;IsBootSecure</a></li>
+					<li><a href="/lt/leaktest.htm">&nbsp;Leaktest</a></li>
+					<li><a href="/stm/shootthemessenger.htm">&nbsp;Shoot the messenger</a></li>
+					<li><a href="/unpnp/unpnp.htm">&nbsp;Unplug n' Pray</a></li>
+					<li><a href="/freeware/dcom.htm">&nbsp;DCOMbobulator</a></li>
+					<li><a href="/wmf/wmf.htm">&nbsp;MouseTrap</a></li>
+					<li><a href="/wmf/wmf.htm">&nbsp;MouseTrapCmd</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Utilities</span>&raquo;</span>
+				<ul>
+					<li><a href="/bootable.htm">&nbsp;BootAble</a></li>
+					<li><a href="/validrive.htm">&nbsp;ValiDrive</a></li>
+					<li><a href="/incontrol.htm">&nbsp;<b>In</b>Control</a></li>
+					<li><a href="/readspeed.htm">&nbsp;ReadSpeed</a></li>
+					<li><a href="/dns/benchmark.htm">&nbsp;DNS Benchmark</a></li>
+					<li><a href="/initdisk.htm">&nbsp;InitDisk</a></li>
+					<li><a href="/never10.htm">&nbsp;Never 10&nbsp;&nbsp;(no upgrade)</a></li>
+					<li><a href="/wizmo/wizmo.htm">&nbsp;Wizmo</a></li>
+					<li><a href="/id/idserve.htm">&nbsp;ID Serve</a></li>
+					<li><a href="/freeware/clickey.htm">&nbsp;ClicKey</a></li>
+					<li><a href="/ct/cleartype.htm">&nbsp;Free &amp; Clear</a></li>
+					<li><a href="/tip/id.htm">&nbsp;IDentity (ASPI)</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Obsolete</span>&raquo;</span>
+				<ul>
+					<li><a href="/cih/cih.htm">&nbsp;FIX-CIH</a></li>
+					<li><a href="/tip/clickdeath.htm">&nbsp;TIP (trouble in paradise)</a></li>
+					<li><a href="/oo-update.htm">&nbsp;OptOut</a></li>
+					<li><a href="/xpdite/xpdite.htm">&nbsp;XPdite</a></li>
+					<li><a href="/faq-shieldsup.htm">&nbsp;NoShare</a></li>
+					<li><a href="/faq-shieldsup.htm">&nbsp;LetShare</a></li>
+					<li><a href="/pw/patchwork.htm">&nbsp;Patchwork</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href=""><img src="/mb-research.gif" width="98" height="18" alt="[Research]" title="" />
+		<ul class="skinny">
+			<li><a href=""><span class="drop"><span>General</span>&raquo;</span>
+				<ul>
+					<li><a href="/malware.htm">&nbsp;Malware Repository</a></li>
+					<li><a href="/sqrl/sqrl.htm">&nbsp;SQRL&nbsp;Login&nbsp;Technology</a></li>					
+					<li><a href="/ssl/ev.htm">&nbsp;EV SSL/TLS Certificates</a></li>
+					<li><a href="/otg/uheprng.htm">&nbsp;Ultra-high entropy PRNG</a></li>
+					<li><a href="/menudemo.htm">&nbsp;Pure CSS web menus</a></li>
+					<li><a href="/nat/nat.htm">&nbsp;NAT router security</a></li>
+					<li><a href="/pda/palmpower.htm">&nbsp;PDA max battery life</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Pending</span>&raquo;</span>
+				<ul>
+					<li><a href="/nf/netfilter.htm">&nbsp;GRC NetFilter</a></li>
+					<li><a href="/tp/trustpuppy.htm">&nbsp;TrustPuppy</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Historical</span>&raquo;</span>
+				<ul>
+					<li><a href="/worms/25-01-03.htm">&nbsp;Worm wars of 2001</a></li>
+					<li><a href="/downloaders.htm">&nbsp;File downloader spying</a></li>
+					<li><a href="/ct/ctwhat.htm">&nbsp;Sub-pixel font rendering</a></li>
+					<li><a href="/su/earthlink.htm">&nbsp;Earthlink browser tag</a></li>
+					<li><a href="/tip/codfaq1.htm">&nbsp;ZIP &amp; JAZ click of death</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Dormant</span>&raquo;</span>
+				<ul>
+					<li><a href="/vpn/vpn.htm">&nbsp;OpenVPN</a></li>
+					<li><a href="/r&amp;d/assimilator.htm">&nbsp;The Assimilator</a></li>
+					<li><a href="/aspi_me.htm">&nbsp;ASPI ME</a></li>
+				</ul>
+			</li>
+
+			<li><a href="/health.htm"><span class="drop"><span>Health</span>&raquo;</span>
+				<ul>
+					<li><a href="/health.htm">&nbsp;Health Homepage</a></li>
+					<li><a href="/health/lowcarb.htm">&nbsp;The Low Carb Choice</a></li>
+					<li><a href="/health/vitamin-d.htm">&nbsp;Vitamin D</a></li>
+					<li><a href="/health/sleep/healthy_sleep_formula.htm">&nbsp;Healthy Sleep Formula</a></li>
+					<li><a href="/zeo.htm">&nbsp;Zeo Sleep Manager Pro</a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li id="other"><a href="/pdp-8/pdp-8.htm"><img src="/mb-other.gif" width="77" height="18" alt="[Other]" title="" />
+		<ul>
+			<li><a href="/sqrl/sqrl.htm">&nbsp;SQRL</a></li>
+			<li><a href="/pdp-8/pdp-8.htm">&nbsp;PDP-8 Computers</a></li>
+			<li><a href="/misc/truecrypt/truecrypt.htm">&nbsp;TrueCrypt Repository</a></li>
+			<li><a href="/Big-Number-Calculator.htm">&nbsp;Big Number Calculator</a></li>
+			<li><a href="/tqc/TheQuietCanine.htm">&nbsp;The Quiet Canine</a></li>
+		</ul>
+	</li>
+</ul>
+
+</div> <!-- close "menu" div -->
+</div></div></div> <!-- close the "minwidth" wrappers -->
+<!-- ###################### END OF GRC MASTHEAD MENU  ###################### -->
+
+
+<a style="text-decoration: none;" href="/dns/benchmark.htm"><div style="color:#FFF; font-size:16pt; background-color:#0A8; text-align: center; font-family: Arial, Geneva, Helvetica, Verdana, sans-serif; "><b><i>Click Here</i></b> &#8211; for GRC's <b><i>new</i></b> DNS Benchmark <b><i>v2 !!</i></b></div></a><center>
+<div style="background:black"><br /><table border=0 cellpadding=0 cellspacing=0><tr><span class="font7px"><br /><br /></span></tr><tr valign=middle><td><img src="/image/snsmall.gif" width=97 height=97 border=0></td><td align=center><img src="/image/sn_security.gif" width=312 height=48 border=0 hspace=20><br><img src="/image/sn_now.gif" width=175 height=48 border=0></td><td><img src="/image/snsmall.gif" width=97 height=97 border=0></td></tr><tr><td colspan=3 align=center><img src="/image/transpixel.gif" width=1 height=12 border=0><br><font color="white" size=2><b>Our weekly audio security column<br>&amp; podcast by Steve Gibson and Leo Laporte</b></font></td></tr></table></div>
+<div style="background:url(/image/fade.gif) repeat-x; height:30px;"></div>
+
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td><font size=2><b><a href="http://www.leoville.com">TechTV's Leo Laporte</a> and I</b> spend somewhat shy of two hours each week to discuss important issues of personal computer security. Sometimes we'll discuss something that just happened. Sometimes we'll talk about long-standing problems, concerns, or solutions. Either way, every week we endeavor to produce something interesting and important for every personal computer user.
+<br /><br />
+<center><img src="/image/SteveAndLeoAsPicardAndRiker.png" width="500" height="380" alt="SteveAndLeoAsPicardAndRiker" /><div style="font-size:smaller; color:#000">(This was <b>not</b> our idea. It was created by a fan of the podcast using GIMP (similar to<br />Photoshop). But as a work of <i>extreme</i> image manipulation, it came out surprisingly well.)</div></center>
+<br />
+<img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>You may download and listen to selected episodes</b> from this page (see below), or <a href="http://leoville.tv/podcasts/sn.xml">subscribe to the ongoing series as an RSS "podcast"</a> to have them automatically downloaded to you as they are produced. To subscribe, use whichever service you prefer<b>&nbsp;.&nbsp;.&nbsp;.</b>
+
+<p align=center><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/com.apple.jingle.app.store.DirectAction/viewPodcast?id=79016499"><img height="15" width="61"  hspace=10   border=0 title=" Subscribe to Security Now! through Apple's iTunes " src="/image/itunes_button.gif"></a><a href="podcast://leo.am/podcasts/sn"><img src="/image/iPodderX_button.gif" border=0 hspace=10 width=80 height=15 title=" Subscribe to Security Now! with iPodderX "></a><a href="http://odeo.com/channel/24852/view"><img src="/image/odeo_button.gif" border="0" hspace=10 width="80" height="15" title=" Subscribe to Security Now! via Odeo "></a><a href="http://www.podnova.com/index_your_podcasts.srf?action=add&amp;url=http://leo.am/podcasts/sn"><img border="0" src="/image/podnova_button.gif" width="91" height="17" hspace=10  title=" Subscribe to Security Now! via podnova "></a></p>
+<img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>Receive an automatic eMail reminder</b> whenever a new episode is posted here (from ChangeDetection.com). See the section at the bottom of this page.<br><img src="/image/transpixel.gif" width=1 height=8 border=0><br><img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>Send us your feedback:</b> Use the form at the bottom of the page to share your opinions, thoughts, ideas, and suggestions for future episodes.<br><img src="/image/transpixel.gif" width=1 height=8 border=0><br><img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>Leo also produces "<a href="http://www.thisweekintech.com">This Week in Tech</a>" (TWiT)</b> and a number of other very popular podcasts (TWiT is America's most listened to podcast!) So if you are looking for more informed technology talk, be sure to check out <a href="http://www.leoville.com">Leo's other podcasts</a> and mp3 files.<br><img src="/image/transpixel.gif" width=1 height=8 border=0><br><img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>And a huge thanks to AOL Radio</b> for hosting the high-quality MP3 files and providing the bandwidth to make this series possible. We use "local links" to count downloads, but all of the high-quality full-size MP3 files are being served by AOL Radio.</font></td></tr></table>
+
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td><font size=2><br><br><img src="/image/darkredpixel.gif" width="100%" height=3 border=0><br><center><img src="/image/transpixel.gif" width=1 height=8 border=0><br><img src="/image/snonwhite.gif" width=402 height=41 vspace=10 border=0><br><font color="#990033" size=5>Episode Archive</font><br><br><b>Each episode has SIX resources:</b><br><img src="/image/transpixel.gif" width=1 height=5 border=0><br><table bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor=white border=0 cellpadding=5 cellspacing=0><tr><td><table border=0 cellspacing=5 cellpadding=0>
+<tr><td><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK on these to download High Quality MP3 audio files" hspace=5 border=0></td><td><font size=1><b>High quality 64 kbps mp3 audio file</b></font></td></tr>
+<tr><td><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK on these to download Lower Quality MP3 audio files" hspace=5 border=0></td><td><font size=1><b>Quarter size, bandwidth-conserving,<br>16 kbps (lower quality) mp3 audio file</b></font></td></tr>
+<tr><td><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" hspace=5 border=0></td><td><font size=1><b>A PDF file containing Steve's show notes</b></font></td></tr>
+<tr><td><img src="/image/htmlfile.gif" width=16 height=16 title="RIGHT CLICK on these to download TEXT format transcripts" hspace=5 border=0></td><td><font size=1><b>A web page text transcript of the episode</b></font></td></tr>
+<tr><td><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK on these to download TEXT format transcripts" hspace=5 border=0></td><td><font size=1><b>A simple text transcript of the episode</b></font></td></tr>
+<tr><td><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK on these to download PDF format transcripts" hspace=5 border=0></td><td><font size=1><b>Ready-to-print PDF (Acrobat) transcript&nbsp;&nbsp;</b></font></td></tr>
+</table>
+
+</td></tr></table></td></tr></table><img src="/image/transpixel.gif" width=1 height=8 border=0><br><font size=1>(Note that the text transcripts will appear a few hours later<br>than the audio files since they are created afterwards.)</font></center><br><b>For best results: RIGHT-CLICK on one of the two audio icons <img src="/image/speaker-hq.gif" width=16 height=16 hspace=2 border=0> &amp; <img src="/image/speaker-lq.gif" width=16 height=16 hspace=2 border=0> below</b> then choose "Save Target As..." to download the audio file to your computer <b>before</b> starting to listen. For the other resources you can either LEFT-CLICK to open in your browser or RIGHT-CLICK to save the resource to your computer.</font></td></tr></table>
+
+<!-- ################################################################################ -->
+
+<!-- td style="color:#B00; font-size:7.5pt;"><em>This week's transcripts will be a few days delayed.</em></td -->
+<!-- td style="color:#B00; font-size:7.5pt;"><em>This episode's transcript is underway.</em></td -->
+<!-- <td><em>This episode's transcript is under way.</em></td> -->
+
+<div class="red_tight_headline" style="width:83%; font-size:16pt; margin-top:2em; border:2px solid #888; padding:4px; background:#f8f8ff;">2020 Archive Below...</div>
+
+<a name="799"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#799 | 29 Dec 2020 | 96 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>SunBurst &amp; SuperNova</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week, as we end 2020, we look at Chrome's backing away from a security initiative, Firefox's move to further thwart tracking, all of the browsers once again saying &#8220;No!&#8221; to Kazakhstan, the formation of a new industry-wide Ransomware Task Force, this week's widespread WordPress security disaster, the return of Treck's insecure embedded TCP/IP stack, and yes... finally, the long awaited announcement of the release of the ReadSpeed benchmark which serves as a testbed and proof-of-operation for the next generation of SpinRite. And then we look at everything more that has come to light three weeks downstream from the first revelations of the SolarWinds-based massively widespread network intrusion and compromise.
+</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-799.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>46&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-799-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-799-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;592&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-799.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>97&nbsp;KB</font></td>
+<td><a href="/sn/sn-799.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>69&nbsp;KB</font></td>
+<td><a href="/sn/sn-799.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>274&nbsp;KB</font></td>
+ 
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="798"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#798 | 22 Dec 2020 | 73 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The Best of 2020</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week is our annual holiday best of the year wrap up.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-798.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>54&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-798-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>14&nbsp;MB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="797"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#797 | 15 Dec 2020 | 113 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>SolarWinds</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week is crammed with news leading up to our holiday break.  Chrome is throttling ads.  There's new cross-browser as insertion malware.  We have a new term in the ransomware world.  We have last week's Patch Tuesday, a jaw-dropping policy leak from Microsoft, trouble for Cisco's Jabber, an embarrassing vulnerability in many D-Link VPN servers, the brief Google outage, more horrific news of IoT network stack vulnerabilities, another WordPress mess, the 2020 Pwnie Awards, the welcome end-of-life of Flash, JavaScript's 25th birthday and free instruction classes, a bit of closing the loop, and SpinRite news.  Then we take a full reconnaissance dive into what happened with the monumental and in so many ways horrific SolarWinds supply chain security breach.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-797.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>54&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-797-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>14&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-797-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;271&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-797.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>116&nbsp;KB</font></td>
+<td><a href="/sn/sn-797.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>87&nbsp;KB</font></td>
+<td><a href="/sn/sn-797.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>324&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="796"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#796 | 08 Dec 2020 | 112 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Amazon Sidewalk</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>At the beginning of this podcast, you're going to receive some details about another update to Chrome, and news of a few new high-profile ransomware victims.  You'll learn about a breathtaking, remotely exploitable zero-click complete iPhone security compromise, as well as another significant big step forward for DNS privacy beyond DoH.  We'll explain the nature of another serious and probably lingering problem within many Android apps.  I have a few interesting bits of miscellany and SpinRite news to share.  And before this is over, you will have obtained a full working sense for exactly what it is that Amazon has created and why, with their Amazon Sidewalk neighborhood IoT network concept, coming soon to all of your Amazon devices.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-796.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>54&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-796-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-796-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;237&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-796.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>115&nbsp;KB</font></td>
+<td><a href="/sn/sn-796.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>85&nbsp;KB</font></td>
+<td><a href="/sn/sn-796.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>318&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="795"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#795 | 01 Dec 2020 | 106 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>DNS Consolidation</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at a couple of new and forthcoming Chrome features.  I'll quickly run though some new and notable ransomware casualties, including a couple of follow-ups.  We'll look at a critical flaw in the Drupal content management system, the big trouble with generic smart doorbells, an interesting attack on Tesla Model X key fobs, CA's adaptation to single-year browser certs, several instances of leaked credential archives, a critical RCE in a major MDM server, a bit about the Salvation Trilogy, and some extremely promising news about SpinRite's future.  Then we'll wrap up by taking a look at the consequences of the increasing consolidation of DNS service providers.  It's not good if staying on the Internet is important to you.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-795.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>51&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-795-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-795-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;510&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-795.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>117&nbsp;KB</font></td>
+<td><a href="/sn/sn-795.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>81&nbsp;KB</font></td>
+<td><a href="/sn/sn-795.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>315&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="794"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#794 | 25 Nov 2020 | 93 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Cicada</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we have a bunch of news on both the Chrome and Firefox fronts with patches, updates, and new features.  We have a comical bit of news from the ransomware front, and more troubling ongoing WordPress attack specifics, including a weird eCommerce site spoofing attack.  We look at the future consequences of ongoing vulnerability announcements coupled with their very incomplete patching, and Android's bold move right into the middle of the unbreakable end-to-end encryption controversy.  And then we'll conclude with a look at a large, multiyear (as in 11-year) advanced very-persistent threat state-based attack perpetrator known as "Cicada."</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-794.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>45&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-794-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-794-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;497&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-794.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>69&nbsp;KB</font></td>
+<td><a href="/sn/sn-794.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>64&nbsp;KB</font></td>
+<td><a href="/sn/sn-794.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>237&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="793"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#793 | 17 Nov 2020 | 100 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>SAD DNS</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week the Chrome zero-days just keep on coming, and we contemplate what it means for the future.  We have two interesting bits of ransomware meta news including a new tactic.  We update after last week's Super Tuesday patch marathon, and examine new research into the most common source of Android malware to see where most unwanted apps come from  and it's not what we would likely guess.  We'll share a bit of listener feedback and an update on my work on SpinRite.  Then we look at the new "SAD DNS" attack which successfully regresses us 12 years in DNS cache poisoning and spoofing attack prevention.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-793.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>48&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-793-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-793-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;317&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-793.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>106&nbsp;KB</font></td>
+<td><a href="/sn/sn-793.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>75&nbsp;KB</font></td>
+<td><a href="/sn/sn-793.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>285&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="792"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#792 | 10 Nov 2020 | 98 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>&#8220;Slipstream&#8221; NAT Firewall Bypass</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at the dilemma of Let's Encrypt's coming root expiration, new Chrome and Apple zero-day vulnerabilities, some new high-profile ransomware victims, China's Tianfu Cup pwning competition, the retirement of a PC industry insider, the continuing Great Encryption Dilemma, police monitoring of consumers' video, more ongoing pain for WordPress, a note about a sci-fi book event one week from now, and Samy Kamkar's tricky Slipstream attack and its mitigations.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-792.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>47&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-792-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-792-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;366&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-792.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>114&nbsp;KB</font></td>
+<td><a href="/sn/sn-792.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>75&nbsp;KB</font></td>
+<td><a href="/sn/sn-792.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>310&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="791"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#791 | 03 Nov 2020 | 89 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Chrome's Root Program</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we examine a serious newly revealed Windows zero-day flaw, a public service reminder from Microsoft, Google's newly announced plan to get into the VPN service business, CERT's unappealing plan for automatic vulnerability naming, and a real mess that WordPress just made of an incremental security update to 455 million sites.  Then we'll close a loop, I'll update about SpinRite, and we'll finish by examining Google's new plan to go their own way with a new Chromium browser certificate Root Store.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-791.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>43&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-791-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-791-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;241&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-791.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>116&nbsp;KB</font></td>
+<td><a href="/sn/sn-791.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>68&nbsp;KB</font></td>
+<td><a href="/sn/sn-791.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>304&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="790"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#790 | 27 Oct 2020 | 88 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The 25 Most Attacked Vulnerabilities</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we examine a recently patched zero-day in Chrome and a nice new feature in that browser.  We look at the site isolation coming soon to Firefox, and Microsoft's announcement of Edge for Linux.  We have some movement in the further deprecation of Internet Explorer, and a potentially massive SQL injection attack that was recently dodged by more than one million WordPress sites, despite the fact that some admins complained.  Then we have a bit of miscellany, closing-the-loop feedback, and an update on my work on SpinRite.  We end by looking at the NSA's recently published list of the top 25 network vulnerabilities being used by malicious Chinese state actors to attack U.S. assets.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-790.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>42&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-790-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-790-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;222&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-790.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>95&nbsp;KB</font></td>
+<td><a href="/sn/sn-790.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>69&nbsp;KB</font></td>
+<td><a href="/sn/sn-790.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>275&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="789"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#789 | 20 Oct 2020 | 94 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Anatomy of a Ryuk Attack</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we examine the coming controversial changes to the WebExtension API. We look at the revelations and fallout from last week's Patch Tuesday, and at Zoom's latest announcement of this week's roll-out of end-to-end encryption. We make sure everyone knows about the latest horrific SonicWall vulnerability and Microsoft's pair of not-that-worrisome out-of-cycle patches. We share a bit of miscellany and closing-the-loop feedback. Then we examine an actual Ryuk Ransomware intrusion and attack... step-by-step.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-789.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>45&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-789-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-789-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;241&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-789.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>100&nbsp;KB</font></td>
+<td><a href="/sn/sn-789.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>70&nbsp;KB</font></td>
+<td><a href="/sn/sn-789.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>277&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="788"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#788 | 13 Oct 2020 | 104 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Well-Known URIs</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we catch up with Chrome 86's handful of security-related improvements.  We touch on several recent ransomware events and on the consequences of not logging free WiFi users in France.  We look at the results of an amazing bit of hacking of Apple, give an update on the enduring Zerologon threat, introduce the revenge of DNT with legislation-enhanced GPC, and describe another renewed attack on undecryptable E2EE now by seven countries.  Then, following a bit of SpinRite and GRC forum news, we're going to add the concept of IANA-registered well-known URIs to our bag-of-tricks knowledgebase.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-788.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>50&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-788-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-788-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;301&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+ 
+<td><a href="/sn/sn-788.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>116&nbsp;KB</font></td>
+<td><a href="/sn/sn-788.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>77&nbsp;KB</font></td>
+<td><a href="/sn/sn-788.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>313&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="787"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#787 | 06 Oct 2020 | 93 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Why Win7 Lives On</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we examine several new and welcome Google initiatives aimed at improving Android general web browser security. We look at Microsoft's solution for updating aging Windows offline images with the latest Defender definitions. We note some surprising network behavior from Windows second Subsytem for Linux. We check-in on Exchange Server updates after eight months. We cover Cloudflare's announcement of a very welcome WebAPI firewall, the US Treasury's recent policy regarding Ransomware payments, and Kaspersky's discovery of the use of UEFI Bootkits. Then we have a bit of errata and a GRC forums update. And we conclude by sharing the results of an interesting poll which illuminates the many reasons why Windows 7 refuses to die.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-787.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>45&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-787-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-787-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;397&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+ 
+<td><a href="/sn/sn-787.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>92&nbsp;KB</font></td>
+<td><a href="/sn/sn-787.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>69&nbsp;KB</font></td>
+<td><a href="/sn/sn-787.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>274&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="786"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#786 | 29 Sep 2020 | 107 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>ZeroLogon++</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look back at the just-released Chrome 85.  We see that an enterprise's choice of VPN gateway really does make a difference.  We drop in for an update on what would have to be called the new ransomware gold rush, and we examine the implications of Ring's latest announcement of their flying spy drone  I mean webcam.  Then we learn how much Vitamin D Dr. Fauci takes, and invite our podcast listeners to lock down their UserID of choice at GRC's new web forums using a non-public URL.  Then we conclude with the required big update to the Zerologon story which we began last week.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-786.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>51&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-786-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-786-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;544&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-786.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>132&nbsp;KB</font></td>
+<td><a href="/sn/sn-786.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>83&nbsp;KB</font></td>
+<td><a href="/sn/sn-786.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>326&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="785"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#785 | 22 Sep 2020 | 103 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Formal Verification</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at an important security update to Android for Firefox.  We bid a fond farewell to Firefox Send and Notes.  We look at the promise and growing popularity of the disastrously-named DuckDuckGo Internet search service.  We dig into what's behind last Friday's Emergency Directive 20-04 from the DHS/CISA.  We'll also take a look at the recent privacy and security improvements incorporated into Android 11 and iOS 14.  We have a bit of errata, closing-the-loop feedback, and SpinRite news.  Then we're going to take a look at the need for Formal Verification of our complex security protocols going forward in the context of another critical failure of a massively widespread system.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-785.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>49&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-785-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-785-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;186&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-785.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>117&nbsp;KB</font></td>
+<td><a href="/sn/sn-785.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>82&nbsp;KB</font></td>
+<td><a href="/sn/sn-785.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>317&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="784"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#784 | 15 Sep 2020 | 93 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>BlindSide &amp; BLURtooth</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at the Chrome browser's proactive technology which is designed to punish abusive ads.  We also look at the last hurrah for exploiting IE and Adobe Flash users, some Microsoft Edge updates, last Tuesday's Microsoft Patch-a-Palooza, Zoom's new implementation of two- factor authentication, that very bad WordPress File Manager attack two weeks out, the new Raccoon attack against TLS, and a quick SpinRite update.  Then we conclude with a look at two newly discovered attacks named BlindSide and BLURtooth.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-784.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>45&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-784-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-784-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;196&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-784.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>92&nbsp;KB</font></td>
+<td><a href="/sn/sn-784.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>66&nbsp;KB</font></td>
+<td><a href="/sn/sn-784.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>271&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="783"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#783 | 08 Sep 2020 | 110 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>IoT Isolation Strategies</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at another device to receive DoH privacy, a browser to block drive-by downloads, my favorite messaging solution going open source, a new and trivial attack against hundreds of thousands of WordPress sites, Facebook's new vulnerability disclosure policy and their publication of WhatsApp security advisories, forthcoming security researcher policies for U.S. government properties, a new Tor Project membership program, Intel's latest microcode patches, the result of a small but significant double-blind controlled trial related to COVID outcomes, a SpinRite update, and a discussion of the need and means of enforcing strict IoT network isolation.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-783.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>53&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-783-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-783-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;315&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-783.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>114&nbsp;KB</font></td>
+<td><a href="/sn/sn-783.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>83&nbsp;KB</font></td>
+<td><a href="/sn/sn-783.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>307&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="782"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#782 | 01 Sep 2020 | 94 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>I Know What You Did Last Summer</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we take some deeper dives into fewer topics. We look at a bunch of the new features offered by Chrome's latest update, we look into the fascinating details of a Russian attempt to co-opt and bribe an employee of Tesla, and at some sobering security research which successfully circumvents VISA's point of sale PIN protection, allowing purchases of any amount. We also have a bunch of closing-the-loop feedback and miscellany. Then we examine the surprising research into just how well knowing where our browser has gone in the past identifies who we are today. Knowing what someone did last summer tells us who they are with surprising accuracy.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-782.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>45&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-782-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-782-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;340&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-782.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>99&nbsp;KB</font></td>
+<td><a href="/sn/sn-782.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>72&nbsp;KB</font></td>
+<td><a href="/sn/sn-782.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>278&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="781"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#781 | 25 Aug 2020 | 105 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>SpiKey</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at a new Chrome remote code execution flaw, some interesting news of three new ransomware victims, an emergency patch from Microsoft, the emergence of amateur RDP exploiters, the 15th birthday of the Zero Day Initiative, finally a good Windows 10 garbageware remover, recommendations of several of my most recommended remote networking utilities, then a bit of miscellany and SpinRite news.  Then, finally, we examine a really terrific new high-tech hack against low-tech locks and their keys.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-781.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>51&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-781-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-781-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;307&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-781.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>120&nbsp;KB</font></td>
+<td><a href="/sn/sn-781.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>79&nbsp;KB</font></td>
+<td><a href="/sn/sn-781.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>320&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="780"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#780 | 18 Aug 2020 | 108 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Microsoft's 0-Day Folly</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we discuss the "Achilles" Snapdragon DPS flaw affecting more than one billion Android Smartphones, last week's third-largest Patch Tuesday in history, Mozilla's sadly uncertain future, the other shoe dropping after the ransomware attack on Canon, the nature of the so-called "software glitch"  preventing California from accurately tallying Coronavirus lab test results, the significance of Microsoft's addition of their Control Flow Guard technology to the Rust and LLVM code bases, Threema's addition of video calling to their super-secure communications platform, a bit of closing-the-loop feedback, news of a SpinRite technology decision, and then we take a sad look at Microsoft's recent seeming unconscionable behavior with regard to the two zero-day vulnerabilities that were finally patched last week.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-780.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>52&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-780-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-780-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;407&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-780.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>119&nbsp;KB</font></td>
+<td><a href="/sn/sn-780.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>82&nbsp;KB</font></td>
+<td><a href="/sn/sn-780.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>319&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="779"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#779 | 11 Aug 2020 | 107 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Geneva</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we note the completion of the first virtual Black Hat and Defcon conferences. We also examine the latest academic work to emerge from the Graz University, which dramatically advances our understanding of the past few years of performance optimizing processor vulnerabilities. We look at the ransomware attack on Canon, a mishandled vBulletin vulnerability disclosure, the forthcoming support for DoH on Windows 10, and the result of Troy Hunt's yearlong quest to find a home for his much-loved "Have I Been Pwned" services. We have a bit of miscellany, some feedback, and an update on my SpinRite work. Then we examine a very interesting new technology being used to evade state-based Internet censorship known as "Geneva."</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-779.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>52&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-779-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-779-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;353&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-779.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>119&nbsp;KB</font></td>
+<td><a href="/sn/sn-779.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>81&nbsp;KB</font></td>
+<td><a href="/sn/sn-779.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>319&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="778"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#778 | 04 Aug 2020 | 105 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>BootHole</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we touch on the recent update of Firefox to v79.  We check back on the Twitter hack with the news of the identity of the accused perpetrators.  We have more information about the Garmin ransomware hack.  We look at the behavior of another disgruntled vulnerability researcher and consider another aspect of the ethics of vulnerability disclosure.  We examine Zoom's bug of the week and the consequences of Microsoft's removal of all SHA-1 signed downloads, and note that QNAP NAS devices are still suffering from real trouble and neglect by their owners.  I'm going to check in with the SpinRite work.  Then we take a look at the week's biggest security event - the discovery of a boot security bypass for Linux.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-778.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>50&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-778-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-778-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;393&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-778.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>112&nbsp;KB</font></td>
+<td><a href="/sn/sn-778.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>79&nbsp;KB</font></td>
+<td><a href="/sn/sn-778.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>316&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="777"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#777 | 28 Jul 2020 | 88 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>rwxrwxrwx</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we revisit the trouble with F5 Networks' BIG-IP devices, we update on the epic Twitter hack, and we look at a security update for GnuTLS.  We also cover the big five-day Garmin outage and Cisco's latest troubles.  We'll point out a new Win10 debloater app and a bit of errata.  Then I want to wrap up by sharing some truly surprising and interesting results that are emerging from my work on the pre-SpinRite hyper-accurate storage benchmark.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-777.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>42&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-777-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-777-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;434&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-777.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>87&nbsp;KB</font></td>
+<td><a href="/sn/sn-777.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>64&nbsp;KB</font></td>
+<td><a href="/sn/sn-777.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>240&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="776"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#776 | 21 Jul 2020 | 102 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>A Tale of Two Counterfeits</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we, of course, start off by looking at what happened at Twitter last week. We look at Checkpoint's discovery of the headline-grabbing wormable DNS vulnerability that's been present in all Windows Servers for the past 17 years. We touch on last week's Patch Tuesday, Cloudflare's surprise outage, another glitch in Zoom's product, and seven "no-logging" VPN providers whose logs were all found online. We cover some other quick news and some interesting SpinRite development developments, then examine the problem of counterfeit networking equipment - which, as our Picture of the Week shows, is actually a big problem.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-776.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>49&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-776-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-776-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;784&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-776.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>119&nbsp;KB</font></td>
+<td><a href="/sn/sn-776.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>78&nbsp;KB</font></td>
+<td><a href="/sn/sn-776.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>317&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="775"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#775 | 14 Jul 2020 | 88 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Tsunami</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at Mozilla's surprise suspension of their Firefox Send service, Zoom's latest remote code exploit vulnerability, the latest revision of the U.S. Congress's EARN IT Act legislation, the growing tension with stalkerware apps, a Chinese Internet equipment vendor in the hot seat, the challenge of geolocating illegal drone operators, Fraunhofer's report of rampant router vulnerabilities, and SpinRite's move toward increased political correctness.  Then we wrap up by looking at Tsunami, Google's latest and extremely useful-looking contribution to the open source community.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-775.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>42&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-775-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-775-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;345&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-775.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>86&nbsp;KB</font></td>
+<td><a href="/sn/sn-775.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>65&nbsp;KB</font></td>
+<td><a href="/sn/sn-775.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>241&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="774"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#774 | 07 Jul 2020 | 97 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>123456</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at two new just-released emergency Windows 10 updates, and the new and curious path they will need to take to get to their users.  We look at a slick new privacy feature coming to iOS 14 and how it is already cleaning up prior behavior.  We'll take our annual survey of the rapidly growing success of the HackerOne program, and also note the addition of a major new participant in their bug bounty management program.  We briefly note the latest American city to ban the use of facial recognition for law enforcement, but we mostly examine the result of NIST's analysis of demographic bias in facial recognition outcomes.  We'll also look at a high-velocity vulnerability and exploitation, and close the loop with a couple of listeners.  I'll share an interesting bit of work on SpinRite's AHCI controller benchmarking.  Then we'll look at this episode's mysterious title:  "123456."</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-774.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>47&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-774-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-774-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;239&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-774.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>111&nbsp;KB</font></td>
+<td><a href="/sn/sn-774.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>75&nbsp;KB</font></td>
+<td><a href="/sn/sn-774.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>300&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="773"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#773 | 30 Jun 2020 | 97 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Ripple20 Too</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at news in the shortening of certificate lifetime change, at Apple's decision to deliberately ignore support for a bunch of new Web APIs, at Apple's announcement of DoH support, at some troubling Mozilla/Comcast news, at some welcome legislation to head off the use of facial recognition, and at another less welcome attempt to outlaw strong encryption.  We also look at the growing legislation against mandatory "chipping" and remind our listeners about the utility of VirusTotal.  Then, after catching up with a bit of miscellany and listener feedback, we revisit last week's very worrisome revelation of the many flaws in a very widely used embedded TCP/IP stack.  There's much news there.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-773.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>47&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-773-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-773-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;222&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-773.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>95&nbsp;KB</font></td>
+<td><a href="/sn/sn-773.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>72&nbsp;KB</font></td>
+<td><a href="/sn/sn-773.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>276&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="772"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#772 | 23 Jun 2020 | 113 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Ripple20</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at Microsoft's interesting decision to update Windows 7 desktops with their new Edge browser, Google's wholesale removal of 106 widely-downloaded malicious Chrome extensions, Microsoft's continuing drama over Win10 printing, a potentially critical remote code execution vulnerability in everyone's favorite VLC media player, an interesting move by RosKomNadZor!, Netgear's residence in the Dog House, a new and startling record in DDoS attack size, a bit of errata and the anticipated announcement of a new piece of spin-off freeware from the SpinRite project. Then we examine the ripple effects of the mass adoption of a embedded TCP/IP stack that is found to be horribly insecure many years after it has been quite widely adopted across the embedded device industry.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-772.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>54&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-772-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>14&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-772-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;292&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-772.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>123&nbsp;KB</font></td>
+<td><a href="/sn/sn-772.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>85&nbsp;KB</font></td>
+<td><a href="/sn/sn-772.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>323&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="771"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#771 | 16 Jun 2020 | 93 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Lamphone</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we address an accident that the Brave browser guys regret.  We take a look at last week's Patch Tuesday and its several ramifications and consequences.  We note a few odd new and unwelcome behaviors from this year's 2004 Win10 feature update and dip into yet another side-channel attack on Intel chips.  But we also note that a long-awaited powerful antimalware technology is also about to ship from Intel.  We look at the latest new SMB vulnerability named SMBleed, and conclude with an examination of the latest and more-practical-than-most techniques for covertly eavesdropping on a remote location - via a hanging light bulb.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-771.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>44&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-771-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-771-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;307&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-771.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>106&nbsp;KB</font></td>
+<td><a href="/sn/sn-771.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>71&nbsp;KB</font></td>
+<td><a href="/sn/sn-771.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>278&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="770"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#770 | 09 Jun 2020 | 98 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Zoom's E2EE Debacle</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we take an interesting new look at some new problems arising with DoH; we look at IBM's new stance on facial image recognition research; we look at two recently disclosed flaws in the Zoom client; we check on the severity of the latest UPnP service flaw; and we update on Microsoft's new Edge rollout.  We share a bit of miscellany and some terrific feedback from our listeners, touch on my SpinRite project progress, and then explore last week's truly confusing Zoom encryption reports that give the term "mixed messaging" a bad name.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-770.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>47&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-770-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-770-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;186&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-770.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>109&nbsp;KB</font></td>
+<td><a href="/sn/sn-770.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>74&nbsp;KB</font></td>
+<td><a href="/sn/sn-770.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>283&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="769"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#769 | 02 Jun 2020 | 113 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Zoom's E2EE Design</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at which browsers still permit drive-by website downloads, Google's plan to blacklist notification-abusing websites, a deeper dive into local PC port scanning being performed by websites, Facebook's move to tighten up on high-impact posters, the new lawsuit against Clearview AI, some very interesting strings found embedded in Google's latest messaging app, the very worrisome return of a much more potent StrandHogg for Android, the refusal of SHA-1 to die, a more powerful new USB fuzzer, and an update in some nearly finished SpinRite work.  Then we take a look at Zoom's newly detailed plans to become the world's most secure teleconferencing platform.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-769.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>54&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-769-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>14&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-769-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;328&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-769.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>111&nbsp;KB</font></td>
+<td><a href="/sn/sn-769.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>87&nbsp;KB</font></td>
+<td><a href="/sn/sn-769.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>319&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="768"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#768 | 26 May 2020 | 95 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Contact Tracing Apps R.I.P.</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we begin with some browser news to examine a nifty new trick to be offered by the next Firefox 77 and we spend a bunch of time on the many new features -- and how to enable them -- being offered in Chrome's 83rd edition. We also look at Adobe's four emergency out-of-cycle patches, and a surprisingly robust and well designed new Jailbreak for iPhones. We take a look at a surprisingly powerful DNS amplification attack with a packet count multiplier of up to 1620, the sad but true complete collapse of Bluetooth connection security and the odd report of eBay scanning their user's PC's. We'll then share a bit of closing the loop listener feedback and a quick bit of miscellany, then I'm going to editorialize a bit about why I'm very sure that contact tracking apps are dead on arrival.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-768.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>45&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-768-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-768-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;301&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-768.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>134&nbsp;KB</font></td>
+<td><a href="/sn/sn-768.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>76&nbsp;KB</font></td>
+<td><a href="/sn/sn-768.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>319&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="767"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#767 | 19 May 2020 | 108 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>WiFi 6</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>We begin this week as we often do on the third Tuesday with a look at the previous week's Patch Tuesday; and, in this case, a troubling new trend is emerging.  We look at the DoH support coming soon to Windows 10, and at a little known packet capture utility that was quietly added to Windows 10 with the October 2018 feature update.  We'll spend a bit of time on yesterday's DOJ/FBI press conference, and then take a look at a problem that Microsoft appears to be having a surprising time resolving.  We'll take a look at face masks thwarting automated public facial recognition, and Utah's decision to roll their own contact tracing and locating app.  And we'll wind up with what I hope will be an interesting walk through the history of Ethernet, from the beginning of wired to the evolution of the many confusing wireless protocols.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-767.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>52&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-767-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-767-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;208&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-767.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>123&nbsp;KB</font></td>
+<td><a href="/sn/sn-767.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>81&nbsp;KB</font></td>
+<td><a href="/sn/sn-767.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>319&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="766"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#766 | 12 May 2020 | 106 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Thunderspy</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we examine Firefox's recent move to 76 and slightly beyond; a wonderful new feature coming to Edge; and the security responsibility that attends the use of WordPress, vBulletin, and other complex and sophisticated web applications. We look at the plans for this summer's much-anticipated Black Hat and DEF CON conferences, a newly revealed CRITICAL bug affecting all of the past six years of Samsung Smartphones, and Zoom's latest security-boosting acquisition. I'll then provide an update on my SpinRite work which includes a bit of a rearrangement in sequence to provide another shorter term deliverable. And then we look at the new Thunderspy vulnerability that has the tech press huffing and puffing.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-766.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>51&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-766-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-766-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;297&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-766.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>116&nbsp;KB</font></td>
+<td><a href="/sn/sn-766.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>83&nbsp;KB</font></td>
+<td><a href="/sn/sn-766.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>318&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="765"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#765 | 05 May 2020 | 104 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>An Authoritarian Internet?</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we add Bruce Schneier's thoughts about the theoretical feasibility of contact tracing apps; we touch on our government's feelings about DNS over HTTPS; we look at yet another whacky way of exfiltrating data from an air-gapped computer; we examine a new vulnerability that has already damaged some large high-profile enterprise infrastructures; we note Adobe's latest round of critical updates, another welcome service coming from Mozilla, a dispiriting bit of over-the-top political correctness from the UK, and Google's plans to clean up the mess which is the Chrome Web Store. We then share a bit of errata, miscellany and SpinRite news, then take a look at China's proposed changes to the fundamental operation of our global Internet.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-765.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>50&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-765-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-765-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;402&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-765.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>124&nbsp;KB</font></td>
+<td><a href="/sn/sn-765.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>80&nbsp;KB</font></td>
+<td><a href="/sn/sn-765.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>321&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="764"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#764 | 28 Apr 2020 | 94 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>RPKI</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we update on the Apple/Google contact tracing technology. We also take a close look at the past week's frenzy over two newly disclosed vulnerabilities in iOS's mail application. We consider the choice of VPN provider relative to expanding global surveillance agreements. And we look at some recently spotted dangers of public repositories. We have a bit of miscellany, a SpinRite update and some useful feedback from a listener regarding Oracle's VirtualBox VM system. Then we wrap up the week with a look into RPKI, Resource Public Key Infrastructure for finally bringing some security to BGP, the Internet's critical Border Gateway Protocol.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-764.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>45&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-764-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-764-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;751&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-764.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>192&nbsp;KB</font></td>
+<td><a href="/sn/sn-764.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>71&nbsp;KB</font></td>
+<td><a href="/sn/sn-764.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>281&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="763"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#763 | 21 Apr 2020 | 86 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The COVID Effect</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week, as an interesting case study, we continue tracking the latest actions being taken by Zoom and another unfortunate consequence of their overnight success. We have two pieces of Chrome browser news, and security news including what happened with last Tuesday's Windows patch, rollbacks in authentication plans, Signal's reaction to the planned EARN IT Act, trouble at the Tor Project and an interesting CAPTCHA change at Cloudflare. I also want to share my recent change in preferred VM systems, two bits of listener's closing the loop feedback, and a SpinRite update -- since stuff's beginning to happen.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-763.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>41&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-763-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-763-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;252&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-763.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>89&nbsp;KB</font></td>
+<td><a href="/sn/sn-763.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>65&nbsp;KB</font></td>
+<td><a href="/sn/sn-763.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>260&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="762"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#762 | 14 Apr 2020 | 95 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Virus Contact Tracing</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we follow-up on a bunch of continuing Zoom news, since Zoom appears to be poised to become the teleconferencing platform of choice for the world at large. They've made more changes, have been sued and have been rapidly taking steps to fix their remaining problems. We have some browser news and another worrisome look into Android apps using a novel approach to quickly characterize them. We have an interesting and sad bit of miscellany and a progress report on my SpinRite work, and then we take the sort of full technical deep dive into the joint Apple/Google Contact Tracing system that our listeners have come to expect from this podcast. By the end of this podcast everyone will understand exactly what Apple and Google have done and how the system functions, in detail.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-762.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>45&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-762-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-762-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;260&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-762.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>101&nbsp;KB</font></td>
+<td><a href="/sn/sn-762.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>72&nbsp;KB</font></td>
+<td><a href="/sn/sn-762.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>275&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="761"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#761 | 07 Apr 2020 | 90 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Zoom Go Boom!</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week starts off with a bunch of web browser news including Firefox zero-days, Safari's recent scrape, more coronavirus-related feature rollbacks, the status of TLS v1.0 and 1.1, and some interesting developments on the Edge front.  We revisit the lingering STIR and SHAKEN telco protocol mess, then look at a new DNS-filtering add-on service from Cloudflare and at the growing influence of an Internet group hoping to tighten up the mess with BGP.  After a quick update on my SpinRite project, we take a look at what's been going on with the security of Zoom, the suddenly chosen tool for hosting Internet virtual classrooms and meetings of all kinds.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-761.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>43&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-761-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-761-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;297&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-761.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>86&nbsp;KB</font></td>
+<td><a href="/sn/sn-761.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>68&nbsp;KB</font></td>
+<td><a href="/sn/sn-761.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>259&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="760"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#760 | 31 Mar 2020 | 86 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Folding Proteins</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we examine some consequences of increased telecommuting with the use of RDP and VPNs skyrocketing, along with a new bug in iOS's handling of VPN connections.  We look at Google's unrelenting quest to get the "www" out, and note some changes to Firefox and further revisions of browser release schedules.  We take a deep dive into a very welcome forthcoming code security feature for Windows 10.  We share an action item for users of OpenWRT routers, and the result of an audit of Cloudflare's privacy-enforcing DNS service.  We divulge a few interesting bits of feedback and some SQRL and SpinRite miscellany, then finish by examining a new opportunity to donate our unused CPU cycles for help with COVID-19 research.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-760.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>41&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-760-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-760-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;291&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-760.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>86&nbsp;KB</font></td>
+<td><a href="/sn/sn-760.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>63&nbsp;KB</font></td>
+<td><a href="/sn/sn-760.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>254&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="759"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#759 | 24 Mar 2020 | 102 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>TRRespass</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at a new unpatched zero-day attack affecting billions of Windows users, Mozilla's reversal on TLS 1.0 and 1.1 deprecation due to the coronavirus, a welcome micropatch for Win7 and Server 2008, Chrome's altered release schedule during the coronavirus, Avast's latest screw-up, a new threat affecting Android users, the results from last week's Pwn2Own competition, and a few observations about the coronavirus math and some worthwhile explainer videos. Then we look at where we are with Rowhammer after six years.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-759.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>49&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-759-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-759-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;266&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-759.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>131&nbsp;KB</font></td>
+<td><a href="/sn/sn-759.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>82&nbsp;KB</font></td>
+<td><a href="/sn/sn-759.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>323&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="758"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#758 | 17 Mar 2020 | 109 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The SMBGHOST Fiasco</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we take a deep dive into the many repercussions preceding and following last week's Patch Tuesday. Wouldn't it be nice to have a quiet one for a change?  But first, we look at a nice list of free services being maintained by BleepingComputer's Lawrence Abrams. We look at a recent report into the state of open source software vulnerabilities, and at new and truly despicable legislation aimed at forcing social media companies to provide "lawful access" to their customers' encrypted content.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-758.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>52&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-758-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-758-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;309&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-758.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>169&nbsp;KB</font></td>
+<td><a href="/sn/sn-758.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>94&nbsp;KB</font></td>
+<td><a href="/sn/sn-758.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>401&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="757"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#757 | 10 Mar 2020 | 107 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The Fuzzy Bench</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we consider the new time-limited offers being made for free telecommuting tools, the continuing success of the DOD's "please come hack us" program, another take on the dilemma and reality of Android device security, some unwelcome news about AMD processor side-channel vulnerabilities, a new potentially serious and uncorrectable flaw in Intel processors, a 9.8-rated critical vulnerability in Linux system networking, a "stand back and watch the fireworks" forced termination of TLS v1.0 and v1.1, and the evolution of the SETI@home project after 19 years of distributed radio signal number crunching. We then touch on a bit of miscellany, and finish by looking at a new and open initiative launched by Google to uniformly benchmark the performance of security fuzzers. </font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-757.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>51&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-757-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-757-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;291&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-757.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>116&nbsp;KB</font></td>
+<td><a href="/sn/sn-757.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>82&nbsp;KB</font></td>
+<td><a href="/sn/sn-757.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>320&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="756"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#756 | 03 Mar 2020 | 104 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Kr00k</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at a significant milestone for Let's Encrypt; the uncertain future of Facebook, Google, Twitter and others in Pakistan; some revealing information about the facial image scraping and recognition company Clearview AI; the Swiss government's reaction to the Crypto AG revelations; a "must patch now" emergency for Apache Tomcat servers; a revisit of OCSP stapling; a tried and true means of increasing your immunity to viruses; an update on SpinRite; and the latest serious vulnerability in our WiFi infrastructure, known as Kr00k.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-756.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>50&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-756-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-756-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;236&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-756.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>141&nbsp;KB</font></td>
+<td><a href="/sn/sn-756.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>81&nbsp;KB</font></td>
+<td><a href="/sn/sn-756.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>351&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="755"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#755 | 25 Feb 2020 | 115 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Apple's Cert Surprise</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we reexamine the Windows 10 lost profiles problem, and also a consequence of the need to roll back (or avoid in the first place) the Patch Tuesday disaster.  We look at a new feature to arrive with the next Windows 10 feature release, unfortunately named the 2004 release.  We also examine the details of a new attack on the 4G LTE and 5G cellular technology, the full default rollout of Firefox's support for DoH, and also the availability of a powerful new sandboxing technology for Firefox.  We also check in with Chrome's fix earlier today of a zero-day that was found being exploited in the wild.  And, finally, before turning our attention to the bomb that Apple dropped in the lap of the entire certificate industry last week, I'm going to update our listeners about the things I've learned after returning to the work on SpinRite's next iteration.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-755.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>55&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-755-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>14&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-755-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;278&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-755.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>131&nbsp;KB</font></td>
+<td><a href="/sn/sn-755.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>86&nbsp;KB</font></td>
+<td><a href="/sn/sn-755.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>324&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="754"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#754 | 18 Feb 2020 | 88 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The Internet of Troubles</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we continue following the continuing agony surrounding this month's increasingly troubled Window Update.  We examine several significant failures which have befallen Windows 10 users after applying the month's "fixes," which have had the tendency of breaking things that weren't broken in the first place.  We look at the danger presented by a very popular GDPR-compliance add-in for WordPress sites.  We look at an eye-opening report about the stresses that CISOs are being subjected to, and also today's pilot test of Microsoft's new ElectionGuard voting system.  We then touch on some SQRL and SpinRite news before taking a close look at two newly revealed IoT - Internet of Troubles - security worries.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-754.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>42&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-754-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-754-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;569&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-754.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>95&nbsp;KB</font></td>
+<td><a href="/sn/sn-754.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>67&nbsp;KB</font></td>
+<td><a href="/sn/sn-754.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>273&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="753"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#753 | 11 Feb 2020 | 101 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Promiscuous Cookies</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we offer some welcome news about Microsoft A/V under Windows 7, we follow even more blow-by-blow consequences of January's final updates for Windows 7, we look at a worrisome exploitable Bluetooth bug Google just fixed in Android and what it means for those not fixed, we update on the ClearView AI face scanning saga, we take a peak into data recovery from physically destroyed phones, we entertain yet another whacky data exfiltration channel, and we conclude by looking at the consequences of the recent changes to make cookies mess promiscuous.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-753.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>49&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-753-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-753-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;283&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-753.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>112&nbsp;KB</font></td>
+<td><a href="/sn/sn-753.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>79&nbsp;KB</font></td>
+<td><a href="/sn/sn-753.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>312&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="752"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#752 | 04 Feb 2020 | 102 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The Little Red Wagon</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we examine the most recent flaw found in Intel's processors and what it means.  We look at the continually moving target that is Windows 10.  We consider the Free Software Foundation's suggestion that Microsoft open source Windows 7 and the fact that last month's was apparently NOT the last update of Windows 7 for all non-ESU users.  We look at the evolution of exploitation of the Remote Desktop Gateway flaw, Google's record breaking vulnerability bounty payouts, the return of Roskomnadzor, the size of fines, the question of who owns our biometrics, an update on Avast/AVG spying, the future of third-party AV, a major milestone for the WireGuard VPN, and the wonderful Little Red Wagon hack of the decade which titled this podcast.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-752.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>49&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-752-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-752-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;375&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-752.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>134&nbsp;KB</font></td>
+<td><a href="/sn/sn-752.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>89&nbsp;KB</font></td>
+<td><a href="/sn/sn-752.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>343&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="751"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#751 | 28 Jan 2020 | 107 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>SHAmbles</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at some surprising revelations of Apple's cloud storage encryption (or lack thereof).  We also cover a Microsoft cloud database mistake, some interesting legislation under consideration in New York, new attacks against a consumer router firmware, a rise of new attacks against our browsers, a welcome new publication from NIST on Privacy, a massive leakage of telnet usernames and passwords, a welcome micropatch for this month's IE zero-day, a bit of miscellany and SpinRite news, and then some coverage of the final nail that was recently pounded into SHA-1's coffin.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-751.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>51&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-751-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-751-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;224&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-751.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>127&nbsp;KB</font></td>
+<td><a href="/sn/sn-751.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>81&nbsp;KB</font></td>
+<td><a href="/sn/sn-751.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>322&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="750"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#750 | 21 Jan 2020 | ??? min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The CurveBall CryptoAPI</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week we look at Google's addition of iOS devices as full Google account logon hardware security keys, as update on Apple vs Attorney General Barr, a serious new Internet Explorer 0-day and how the vulnerability can be mitigated, the release of Microsoft's Chromium-based Edge browser, the FBI's reaction to the Pulse Secure VPN vulnerability, another new and CRITICAL RDP remote code execution vulnerability that has slipped under the radar, a bit of miscellany, and then we examine the the headline grabbing CryptoAPI vulnerability that's been dubbed &#8220;CurveBall.&#8221;</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-750.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>44&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-750-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-750-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;263&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-750.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>104&nbsp;KB</font></td>
+<td><a href="/sn/sn-750.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>70&nbsp;KB</font></td>
+<td><a href="/sn/sn-750.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>277&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="749"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#749 | 14 Jan 2020 | 117 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Win 7 - R. I. P.</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week's Security Now! podcast is titled "Windows 7 - R.I.P.," not because there's much that we haven't already said about the fact, but that it happens TODAY; and that, given the still massive install base of Windows 7, it's significant that all of those machines will now be going without any clearly needed security updates.  So the big news for this week WAS to be the event of the first successful preimage attack on the SHA-1 hash.  But that news was preempted at the last minute by the much more immediately significant news of the remotely exploitable "Cable Haunt" vulnerability that's present in most of the world's cable modems right now!  So we'll be talking about that after we look at the FBI's recent request to have Apple unlock another terrorist's iPhone; update on the Checkrain jailbreak solution; examine the challenge of checking for illegal images while preserving privacy; look at some deeply worrying research into just how easy it is for bad guys to get SIMs swapped; examine the consequences of not patching a bad VPN flaw; deal with a bit of miscellany; and then, finally, look at the new "Cable Haunt" vulnerability.</font></td></tr><tr>
+
+<td><a href="https://media.grc.com/sn/sn-749.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>56&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-749-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>14&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-749-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;535&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+
+<td><a href="/sn/sn-749.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>174&nbsp;KB</font></td>
+<td><a href="/sn/sn-749.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>97&nbsp;KB</font></td>
+<td><a href="/sn/sn-749.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>399&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+
+<a name="748"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#748 | 07 Jan 2020 | 118 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>A Malware Lexicon</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This first podcast of 2020 we look at a proposed standard for creating machine-readable warrant canaries. We also take a precautionary lesson from a big Xiaomi blunder, examine Microsoft's research into brute-forcing RDP, look at the continuing problem at the Point Of Sale, follow-up on Russia's plan to disconnect from the Internet, consider the end of life of Python 2.7, review the top 20 HackerOne bounty payers, warn of some bad new SQLite security vulnerabilities and cover a bit of Sci-Fi, SQRL and SpinRite miscellany. Then we group all malware into a seven-member Lexicon and quickly run through each one.</font></td></tr><tr>
+
+
+<td><a href="https://media.grc.com/sn/sn-748.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>57&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-748-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>14&nbsp;MB</font></td>
+
+<td><a href="/sn/sn-748-notes.pdf"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to retrieve the PDF of Steve's show notes" border=0 align=left></a><font size=1>&nbsp;186&nbsp;KB&nbsp;&nbsp;&nbsp;<-- Show Notes</font></td>
+<td><a href="/sn/sn-748.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>104&nbsp;KB</font></td>
+<td><a href="/sn/sn-748.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>92&nbsp;KB</font></td>
+<td><a href="/sn/sn-748.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>298&nbsp;KB</font></td>
+
+</tr></table></td></tr></table></td></tr></table>
+
+<p>
+&bull;&nbsp;<a href="/securitynow.htm">Current Podcast Page</a><br />
+&bull;&nbsp;<a href="/sn/past/2025.htm">Security Now 2025</a><br />
+&bull;&nbsp;<a href="/sn/past/2024.htm">Security Now 2024</a><br />
+&bull;&nbsp;<a href="/sn/past/2023.htm">Security Now 2023</a><br />
+&bull;&nbsp;<a href="/sn/past/2022.htm">Security Now 2022</a><br />
+&bull;&nbsp;<a href="/sn/past/2021.htm">Security Now 2021</a><br />
+&bull;&nbsp;<a href="/sn/past/2020.htm">Security Now 2020</a><br />
+&bull;&nbsp;<a href="/sn/past/2019.htm">Security Now 2019</a><br />
+&bull;&nbsp;<a href="/sn/past/2018.htm">Security Now 2018</a><br />
+&bull;&nbsp;<a href="/sn/past/2017.htm">Security Now 2017</a><br />
+&bull;&nbsp;<a href="/sn/past/2016.htm">Security Now 2016</a><br />
+&bull;&nbsp;<a href="/sn/past/2015.htm">Security Now 2015</a><br />
+&bull;&nbsp;<a href="/sn/past/2014.htm">Security Now 2014</a><br />
+&bull;&nbsp;<a href="/sn/past/2013.htm">Security Now 2013</a><br />
+&bull;&nbsp;<a href="/sn/past/2012.htm">Security Now 2012</a><br />
+&bull;&nbsp;<a href="/sn/past/2011.htm">Security Now 2011</a><br />
+&bull;&nbsp;<a href="/sn/past/2010.htm">Security Now 2010</a><br />
+&bull;&nbsp;<a href="/sn/past/2009.htm">Security Now 2009</a><br />
+&bull;&nbsp;<a href="/sn/past/2008.htm">Security Now 2008</a><br />
+&bull;&nbsp;<a href="/sn/past/2007.htm">Security Now 2007</a><br />
+&bull;&nbsp;<a href="/sn/past/2006.htm">Security Now 2006</a><br />
+&bull;&nbsp;<a href="/sn/past/2005.htm">Security Now 2005</a>
+</p>
+
+
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td><img src="/image/darkredpixel.gif" width="100%" height=3 border=0><br><br><font size=2><b>You can receive an eMail reminder</b> whenever this page is updated with a new Security Now! episode. Click the "Monitor Changes" button to have the highly-regarded "Change Detection" web site monitor this page and send you a note when it changes.
+<br><br>
+<!-- Begin ChangeDetection.com Panel HTML -->
+<!-- ChangeDetection.com id=4qxfzgwsns -->
+<form action="https://www.ChangeDetection.com/detect.html" method="get" target="_blank"><table width="100%" border=0 cellpadding=0 cellspacing=0><tr align=center valign="middle"><td><font size=2 face="Arial,Helvetica">Monitor this page for changes:&nbsp;</font></td><td><input type="submit" name="enter" value=" Monitor changes "></td><td><font face="Arial,Helvetica" size=2>(<a href="http://www.ChangeDetection.com/privacy.html" target="_blank">it's private</a> by <a href="http://www.ChangeDetection.com/monitor.html" target="_blank">ChangeDetection</a>)</font></td></tr></table></form>
+<!-- End ChangeDetection.com Panel HTML --><img src="/image/darkredpixel.gif" width="100%" height=3 border=0></font>
+
+<a name="bottom"></a><div class="dotted_green"><font size=2><div class="tight_center"><b>Security Now!, SpinRite Testimonials, and other Feedback:</b></div>Please use GRC's <a href="/feedback.htm"><b>Visitor &amp; Listener FEEDBACK Page</b></a> where you may easily submit any feedback for Security Now, SpinRite testimonials, suggestions for future Security Now topics or questions &amp comments for future Listener Feedback episodes. Thank you!<div class="tight_center"><a href="/feedback.htm"><b>/feedback</b></a></div>
+</font></div></td></tr></table>
+<!-- ChangeDetection.com detection="on" -->
+<br /></div>
+<br /><table border="0" cellpadding="0" cellspacing="0"><tr><td><a href="#top" target="_top"><img src="https://www.grctech.com/_szip0t4gqwq4a_/image/grc-icon.gif" width="51" height="51" border="0" alt="Jump to top of page" title="Jump to top of page"/></a></td><td><div style="margin:0 20px;"><font size="-2" color="#777777">Gibson Research Corporation is owned and operated by Steve Gibson.&nbsp;&nbsp;The contents<br />of this page are Copyright (c) 2026 Gibson Research Corporation. SpinRite, ShieldsUP,<br />NanoProbe, and any other indicated trademarks are registered trademarks of Gibson<br />Research Corporation, Laguna Hills, CA, USA. GRC's web and customer <a href="https://www.grc.com/privacy.htm" target="_top">privacy policy</a>.</font></div></td><td><div style="margin:7px 0;"><a href="#top" target="_top"><img src="https://www.grctech.com/_szip0t4gqwq4a_/image/jumptotop.png" width="52" height="38" border="0" alt="Jump to top of page"  title="Jump to top of page"/></a></div></td></tr></table><br />
+<!-- ChangeDetection.com detection="off" -->
+<table width="90%" border="0" cellspacing="0" cellpadding="0"><tr><td><font color="#666666" size="-2">Last Edit: Jan 03, 2022 at 12:23 (1,551.06 days ago)</font></td><td align="right"><font color="#666666" size="-2">Viewed 10 times per day</font></td></tr></table>
+</center><a name="bottom"></a></body></html>

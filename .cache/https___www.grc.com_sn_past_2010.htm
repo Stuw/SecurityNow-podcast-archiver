@@ -1,0 +1,855 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>GRC&nbsp;|&nbsp;Security Now! Episode Archive&nbsp;&nbsp;</title>
+<!-- ChangeDetection.com id=198mgjwxkml comment=" " detection="off" -->
+<meta name="author" content="Steve Gibson, GIBSON RESEARCH CORPORATION" />
+<meta name="keywords" content="Security Now!, weekly security audio column, steve gibson, internet security podcast, mp3 podcast, SockStress TCP Socket Stress and Exploitation, Denial of Service" />
+<meta name="description" content="Security Now! Weekly Internet Security Podcast. This week describing the newly revealed SockStress TCP stack vulnerabilities." />
+<meta name="sitemenu" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "offices_@_grc.com" for "https://www.grc.com" on "1998.03.30T21:20-0800" r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "https://www.grc.com" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "https://www.grc.com" r (n 0 s 0 v 0 l 0))' />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="icon" sizes="76x76" type="image/png" href="/apple-touch-icon.png" />
+<link rel="icon" sizes="32x32" type="image/png" href="/favicon-32x32.png" />
+<link rel="icon" sizes="16x16" type="image/png" href="/favicon-16x16.png" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="theme-color" content="#ffffff" />
+<link rel="meta" href="labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+<link rel="stylesheet" media="all" type="text/css" href="/grc.css?3" />
+<link rel="stylesheet" media="all" type="text/css" href="/search.css" />
+<link rel="stylesheet" media="all" type="text/css" href="/mainmenu.css?2" />
+<link rel="stylesheet" media="all" type="text/css" href="/webfonts.css" />
+
+</head><body link="#CC0000" vlink="#006666" alink="#FF0000"><a name="top"></a>
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-GS3MK15LN5"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-GS3MK15LN5');</script>
+
+<!-- ########################## GRC Masthead Menu ########################## -->
+<div class="menuminwidth0"><div class="menuminwidth1"><div class="menuminwidth2">
+<div id="masthead">
+	<a href="/default.htm"><img id="mastheadlogo" src="/mh-logo.gif" width="286" height="24" alt="Gibson Research Corporation" title="" /></a>
+	<img id="focus" src="/mh-focus.gif" width="121" height="13" alt="" title="What we're about" />
+	<a href="/mail.htm"><img id="email" src="/image/email-subscriptions.png" width="179" height="22" alt="email subscriptions" title=" User-managed email subscriptions " /></a>
+</div>
+
+<script async src="https://cse.google.com/cse.js?cx=000064552291181981813:y8yi5go2xza"></script>
+<div id="search" class="gcse-search"></div>
+
+<div class="menu">
+
+<ul>
+	<li><a href="/default.htm"><img src="/mb-home.gif" width="76" height="18" alt="[Home]" title="" />
+		<ul class="leftbutton">
+			<li><a href="/purchasing.htm">&nbsp;Purchasing</a></li>
+			<li><a href="/sales.htm">&nbsp;Sales Support</a></li>
+			<li><a href="/support.htm">&nbsp;Technical Support</a></li>
+			<li><a href="/mail.htm">&nbsp;Email Subscriptions</a></li>
+			<li><a href="/default.htm#bottom">&nbsp;Contact Us</a></li>
+			<li><a href="https://forums.grc.com">&nbsp;GRC Web Forums</a></li>
+			<li><a href="/privacy.htm">&nbsp;Privacy Policy</a></li>
+			<li><a href="/stevegibson.htm">&nbsp;Steve's Projects Page</a></li>
+			<li><a href="/resume.htm">&nbsp;Steve's Old Resume</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href=""><img src="/mb_products.gif" width="96" height="18" alt="[Products]" title="" />
+		<ul>
+			<li><a href="/dns/benchmark.htm">&nbsp;DNS Benchmark</a></li>
+			<li><a href="/sr/spinrite.htm">&nbsp;SpinRite (v6.1)</a></li>
+			<li><a href="/upgrade.htm">&nbsp;Upgrade to v6.1</a></li>
+		</ul>
+	</li>
+</ul>
+			
+<ul>
+	<li><a href="/x/ne.dll?bh0bkyd2"><img src="/mb-services.gif" width="94" height="18" alt="[Services]" title="" />
+		<ul>
+			<li><a href="/x/ne.dll?bh0bkyd2">&nbsp;ShieldsUP!</a></li>
+			<li><a href="/revocation.htm">&nbsp;Certificate Revocation</a></li>
+			<li><a href="/haystack.htm">&nbsp;Password Haystacks</a></li>
+			<li><a href="/fingerprints.htm">&nbsp;HTTPS Fingerprints</a></li>			
+			<li><a href="/securitynow.htm">&nbsp;Security Now!</a></li>
+			<li><a href="/dns/dns.htm">&nbsp;DNS Spoofability Test</a></li>
+			<li><a href="/passwords.htm">&nbsp;Perfect Passwords</a></li>
+			<li><a href="/ppp.htm">&nbsp;PPP Passwords</a></li>
+			<li><a href="/media.htm">&nbsp;Tech TV video clips</a></li>
+			<li><a href="/discussions.htm">&nbsp;Newsgroup Discussions</a></li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href="/freepopular.htm"><img src="/mb-freeware.gif" width="98" height="18" alt="[Freeware]" title="" />
+		<ul class="skinny">
+			<li><a href=""><span class="drop"><span>Security</span>&raquo;</span>
+				<ul>
+					<li><a href="/inspectre.htm">&nbsp;InSpectre</a></li>
+					<li><a href="/securable.htm">&nbsp;Securable</a></li>
+					<li><a href="/isbootsecure.htm">&nbsp;IsBootSecure</a></li>
+					<li><a href="/lt/leaktest.htm">&nbsp;Leaktest</a></li>
+					<li><a href="/stm/shootthemessenger.htm">&nbsp;Shoot the messenger</a></li>
+					<li><a href="/unpnp/unpnp.htm">&nbsp;Unplug n' Pray</a></li>
+					<li><a href="/freeware/dcom.htm">&nbsp;DCOMbobulator</a></li>
+					<li><a href="/wmf/wmf.htm">&nbsp;MouseTrap</a></li>
+					<li><a href="/wmf/wmf.htm">&nbsp;MouseTrapCmd</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Utilities</span>&raquo;</span>
+				<ul>
+					<li><a href="/bootable.htm">&nbsp;BootAble</a></li>
+					<li><a href="/validrive.htm">&nbsp;ValiDrive</a></li>
+					<li><a href="/incontrol.htm">&nbsp;<b>In</b>Control</a></li>
+					<li><a href="/readspeed.htm">&nbsp;ReadSpeed</a></li>
+					<li><a href="/dns/benchmark.htm">&nbsp;DNS Benchmark</a></li>
+					<li><a href="/initdisk.htm">&nbsp;InitDisk</a></li>
+					<li><a href="/never10.htm">&nbsp;Never 10&nbsp;&nbsp;(no upgrade)</a></li>
+					<li><a href="/wizmo/wizmo.htm">&nbsp;Wizmo</a></li>
+					<li><a href="/id/idserve.htm">&nbsp;ID Serve</a></li>
+					<li><a href="/freeware/clickey.htm">&nbsp;ClicKey</a></li>
+					<li><a href="/ct/cleartype.htm">&nbsp;Free &amp; Clear</a></li>
+					<li><a href="/tip/id.htm">&nbsp;IDentity (ASPI)</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Obsolete</span>&raquo;</span>
+				<ul>
+					<li><a href="/cih/cih.htm">&nbsp;FIX-CIH</a></li>
+					<li><a href="/tip/clickdeath.htm">&nbsp;TIP (trouble in paradise)</a></li>
+					<li><a href="/oo-update.htm">&nbsp;OptOut</a></li>
+					<li><a href="/xpdite/xpdite.htm">&nbsp;XPdite</a></li>
+					<li><a href="/faq-shieldsup.htm">&nbsp;NoShare</a></li>
+					<li><a href="/faq-shieldsup.htm">&nbsp;LetShare</a></li>
+					<li><a href="/pw/patchwork.htm">&nbsp;Patchwork</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href=""><img src="/mb-research.gif" width="98" height="18" alt="[Research]" title="" />
+		<ul class="skinny">
+			<li><a href=""><span class="drop"><span>General</span>&raquo;</span>
+				<ul>
+					<li><a href="/malware.htm">&nbsp;Malware Repository</a></li>
+					<li><a href="/sqrl/sqrl.htm">&nbsp;SQRL&nbsp;Login&nbsp;Technology</a></li>					
+					<li><a href="/ssl/ev.htm">&nbsp;EV SSL/TLS Certificates</a></li>
+					<li><a href="/otg/uheprng.htm">&nbsp;Ultra-high entropy PRNG</a></li>
+					<li><a href="/menudemo.htm">&nbsp;Pure CSS web menus</a></li>
+					<li><a href="/nat/nat.htm">&nbsp;NAT router security</a></li>
+					<li><a href="/pda/palmpower.htm">&nbsp;PDA max battery life</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Pending</span>&raquo;</span>
+				<ul>
+					<li><a href="/nf/netfilter.htm">&nbsp;GRC NetFilter</a></li>
+					<li><a href="/tp/trustpuppy.htm">&nbsp;TrustPuppy</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Historical</span>&raquo;</span>
+				<ul>
+					<li><a href="/worms/25-01-03.htm">&nbsp;Worm wars of 2001</a></li>
+					<li><a href="/downloaders.htm">&nbsp;File downloader spying</a></li>
+					<li><a href="/ct/ctwhat.htm">&nbsp;Sub-pixel font rendering</a></li>
+					<li><a href="/su/earthlink.htm">&nbsp;Earthlink browser tag</a></li>
+					<li><a href="/tip/codfaq1.htm">&nbsp;ZIP &amp; JAZ click of death</a></li>
+				</ul>
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Dormant</span>&raquo;</span>
+				<ul>
+					<li><a href="/vpn/vpn.htm">&nbsp;OpenVPN</a></li>
+					<li><a href="/r&amp;d/assimilator.htm">&nbsp;The Assimilator</a></li>
+					<li><a href="/aspi_me.htm">&nbsp;ASPI ME</a></li>
+				</ul>
+			</li>
+
+			<li><a href="/health.htm"><span class="drop"><span>Health</span>&raquo;</span>
+				<ul>
+					<li><a href="/health.htm">&nbsp;Health Homepage</a></li>
+					<li><a href="/health/lowcarb.htm">&nbsp;The Low Carb Choice</a></li>
+					<li><a href="/health/vitamin-d.htm">&nbsp;Vitamin D</a></li>
+					<li><a href="/health/sleep/healthy_sleep_formula.htm">&nbsp;Healthy Sleep Formula</a></li>
+					<li><a href="/zeo.htm">&nbsp;Zeo Sleep Manager Pro</a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li id="other"><a href="/pdp-8/pdp-8.htm"><img src="/mb-other.gif" width="77" height="18" alt="[Other]" title="" />
+		<ul>
+			<li><a href="/sqrl/sqrl.htm">&nbsp;SQRL</a></li>
+			<li><a href="/pdp-8/pdp-8.htm">&nbsp;PDP-8 Computers</a></li>
+			<li><a href="/misc/truecrypt/truecrypt.htm">&nbsp;TrueCrypt Repository</a></li>
+			<li><a href="/Big-Number-Calculator.htm">&nbsp;Big Number Calculator</a></li>
+			<li><a href="/tqc/TheQuietCanine.htm">&nbsp;The Quiet Canine</a></li>
+		</ul>
+	</li>
+</ul>
+
+</div> <!-- close "menu" div -->
+</div></div></div> <!-- close the "minwidth" wrappers -->
+<!-- ###################### END OF GRC MASTHEAD MENU  ###################### -->
+
+
+<a style="text-decoration: none;" href="/dns/benchmark.htm"><div style="color:#FFF; font-size:16pt; background-color:#0A8; text-align: center; font-family: Arial, Geneva, Helvetica, Verdana, sans-serif; "><b><i>Click Here</i></b> &#8211; for GRC's <b><i>new</i></b> DNS Benchmark <b><i>v2 !!</i></b></div></a><center>
+<div style="background:black"><br /><table border=0 cellpadding=0 cellspacing=0><tr><span class="font7px"><br /><br /></span></tr><tr valign=middle><td><img src="/image/snsmall.gif" width=97 height=97 border=0></td><td align=center><img src="/image/sn_security.gif" width=312 height=48 border=0 hspace=20><br><img src="/image/sn_now.gif" width=175 height=48 border=0></td><td><img src="/image/snsmall.gif" width=97 height=97 border=0></td></tr><tr><td colspan=3 align=center><img src="/image/transpixel.gif" width=1 height=12 border=0><br><font color="white" size=2><b>Our weekly audio security column<br>&amp; podcast by Steve Gibson and Leo Laporte</b></font></td></tr></table></div>
+<div style="background:url(/image/fade.gif) repeat-x; height:30px;"></div>
+
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td><font size=2><b><a href="http://www.leoville.com">TechTV's Leo Laporte</a> and I</b> take 30 to 90 minutes near the end of each week to discuss important issues of personal computer security. Sometimes we'll discuss something that just happened. Sometimes we'll talk about long-standing problems, concerns, or solutions. Either way, every week we endeavor to produce something interesting and important for every personal computer user.
+<br><br>
+<img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>You may download and listen to selected episodes</b> from this page (see below), or <a href="http://leoville.tv/podcasts/sn.xml">subscribe to the ongoing series as an RSS "podcast"</a> to have them automatically downloaded to you as they are produced. To subscribe, use whichever service you prefer<b>&nbsp;.&nbsp;.&nbsp;.</b>
+
+<p align=center><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/com.apple.jingle.app.store.DirectAction/viewPodcast?id=79016499"><img height="15" width="61"  hspace=10   border=0 title=" Subscribe to Security Now! through Apple's iTunes " src="/image/itunes_button.gif"></a><a href="podcast://leo.am/podcasts/sn"><img src="/image/iPodderX_button.gif" border=0 hspace=10 width=80 height=15 title=" Subscribe to Security Now! with iPodderX "></a><a href="http://odeo.com/channel/24852/view"><img src="/image/odeo_button.gif" border="0" hspace=10 width="80" height="15" title=" Subscribe to Security Now! via Odeo "></a><a href="http://www.podnova.com/index_your_podcasts.srf?action=add&amp;url=http://leo.am/podcasts/sn"><img border="0" src="/image/podnova_button.gif" width="91" height="17" hspace=10  title=" Subscribe to Security Now! via podnova "></a></p>
+<img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>Receive an automatic eMail reminder</b> whenever a new episode is posted here (from ChangeDetection.com). See the section at the bottom of this page.<br><img src="/image/transpixel.gif" width=1 height=8 border=0><br><img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>Send us your feedback:</b> Use the form at the bottom of the page to share your opinions, thoughts, ideas, and suggestions for future episodes.<br><img src="/image/transpixel.gif" width=1 height=8 border=0><br><img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>Leo also produces "<a href="http://www.thisweekintech.com">This Week in Tech</a>" (TWiT)</b> and a number of other very popular podcasts (TWiT is America's most listened to podcast!) So if you are looking for more informed technology talk, be sure to check out <a href="http://www.leoville.com">Leo's other podcasts</a> and mp3 files.<br><img src="/image/transpixel.gif" width=1 height=8 border=0><br><img src="/image/textbullet.gif" width=8 height=8 vspace=1 border=0>&nbsp;<b>And a huge thanks to AOL Radio</b> for hosting the high-quality MP3 files and providing the bandwidth to make this series possible. We use "local links" to count downloads, but all of the high-quality full-size MP3 files are being served by AOL Radio.</font></td></tr></table>
+
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td><font size=2><br><br><img src="/image/darkredpixel.gif" width="100%" height=3 border=0><br><center><img src="/image/transpixel.gif" width=1 height=8 border=0><br><img src="/image/snonwhite.gif" width=402 height=41 vspace=10 border=0><br><font color="#990033" size=5>Episode Archive</font><br><br><b>Each episode has SIX resources:</b><br><img src="/image/transpixel.gif" width=1 height=5 border=0><br><table bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor=white border=0 cellpadding=5 cellspacing=0><tr><td><table border=0 cellspacing=5 cellpadding=0>
+<tr><td><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK on these to download High Quality MP3 audio files" hspace=5 border=0></td><td><font size=1><b>High quality 64 kbps mp3 audio file</b></font></td></tr>
+<tr><td><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK on these to download Lower Quality MP3 audio files" hspace=5 border=0></td><td><font size=1><b>Quarter size, bandwidth-conserving,<br>16 kbps (lower quality) mp3 audio file</b></font></td></tr>
+<tr><td><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK on these to jump to a page of supplementary notes" hspace=5 border=0></td><td><font size=1><b>A web page with any supplementary notes</b></font></td></tr>
+<tr><td><img src="/image/htmlfile.gif" width=16 height=16 title="RIGHT CLICK on these to download TEXT format transcripts" hspace=5 border=0></td><td><font size=1><b>A web page text transcript of the episode</b></font></td></tr>
+<tr><td><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK on these to download TEXT format transcripts" hspace=5 border=0></td><td><font size=1><b>A simple text transcript of the episode</b></font></td></tr>
+<tr><td><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK on these to download PDF format transcripts" hspace=5 border=0></td><td><font size=1><b>Ready-to-print PDF (Acrobat) transcript&nbsp;&nbsp;</b></font></td></tr>
+</table>
+
+</td></tr></table></td></tr></table><img src="/image/transpixel.gif" width=1 height=8 border=0><br><font size=1>(Note that the text transcripts will appear a few hours later<br>than the audio files since they are created afterwards.)</font></center><br><b>For best results: RIGHT-CLICK on one of the two audio icons <img src="/image/speaker-hq.gif" width=16 height=16 hspace=2 border=0> &amp; <img src="/image/speaker-lq.gif" width=16 height=16 hspace=2 border=0> below</b> then choose "Save Target As..." to download the audio file to your computer <b>before</b> starting to listen. For the other resources you can either LEFT-CLICK to open in your browser or RIGHT-CLICK to save the resource to your computer.</font></td></tr></table>
+
+<!-- ################################################################################ -->
+
+
+
+<a name="281"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#281 | 30 Dec 2010 | 43 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The Portable Dog Killer, Encore</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This is our special &#8220;TWiT is Closed for the Holidays&#8221; Christmas special encore episode of the tale of &#8220;The Portable Dog Killer&#8221;, a story I relate to Leo and our listeners from my own past, 39 years ago, containing a strong moral about the importance of getting out from behind the video game screen and actually building something.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-281.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>21&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-281-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>5.2&nbsp;MB</font></td>
+<td><a href="/sn/sn-281.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>84&nbsp;KB</font></td>
+<td><a href="/sn/sn-281.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>41&nbsp;KB</font></td>
+<td><a href="/sn/sn-281.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>90&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="280"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#280 | 23 Dec 2010 | 99 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Bluetooth</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After first catching up with a bunch of fun and interesting security and privacy news, Leo and I plow into a meaty and detailed description of the technology of Bluetooth device interconnection and its cryptographic security. A follow-on episode will cover the past hacking attacks against Bluetooth.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-280.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>44&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-280-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-280.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>111&nbsp;KB</font></td>
+<td><a href="/sn/sn-280.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>71&nbsp;KB</font></td>
+<td><a href="/sn/sn-280.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>131&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="279"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#279 | 16 Dec 2010 | 81 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #107</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-279.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>39&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-279-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+<td><a href="/sn/sn-279.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>112&nbsp;KB</font></td>
+<td><a href="/sn/sn-279.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>70&nbsp;KB</font></td>
+<td><a href="/sn/sn-279.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>134&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="278"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#278 | 09 Dec 2010 | 80 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Tag Me (with RFID)</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After catching up on the week's security news, this week's co-host Tom Merritt and I discuss the interesting security, privacy, management and technology issues surrounding the implantation of a remotely readable RFID (radio frequency identification) tag into one's own body for the purpose of being authenticated by devices and systems in one's own environment, such as laptop, car, garage door, house front door, etc.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-278.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>38&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-278-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+<td><a href="/sn/sn-278.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>84&nbsp;KB</font></td>
+<td><a href="/sn/sn-278.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>67&nbsp;KB</font></td>
+<td><a href="/sn/sn-278.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>119&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="277"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#277 | 02 Dec 2010 | 97 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #106</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Before plowing into this week's Q&amp;A content, Leo and I catch up with the industry's security and privacy related news. I share a vitamin D researcher's reaction to a troubling new report about vitamin D, and share my recent science fiction reading discoveries and opinions.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-277.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>47&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-277-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+<td><a href="/sn/sn-277.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>136&nbsp;KB</font></td>
+<td><a href="/sn/sn-277.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>82&nbsp;KB</font></td>
+<td><a href="/sn/sn-277.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>150&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="276"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#276 | 25 Nov 2010 | 75 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Testing DNS Spoofability</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After catching up with the week's security updates and news, Leo and I revisit the continuing concern over DNS Spoofing by examining the technology behind my quite comprehensive, free, online DNS Spoofability Testing system at GRC.com.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-276.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>36&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-276-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.0&nbsp;MB</font></td>
+<td><a href="/sn/sn-276.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>91&nbsp;KB</font></td>
+<td><a href="/sn/sn-276.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>57&nbsp;KB</font></td>
+<td><a href="/sn/sn-276.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>110&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="275"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#275 | 18 Nov 2010 | 79 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #105</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-275.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>38&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-275-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.5&nbsp;MB</font></td>
+<td><a href="/sn/sn-275.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>106&nbsp;KB</font></td>
+<td><a href="/sn/sn-275.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>65&nbsp;KB</font></td>
+<td><a href="/sn/sn-275.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>123&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="274"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#274 | 11 Nov 2010 | 63 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Benchmarking DNS</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After catching up with the week's security updates and news, I formally unveil GRC's latest freeware, the DNS Benchmark. I explain the value of the program's many features and discusses the operation of this &#8220;long time in coming&#8221; freeware offering.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-274.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>30&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-274-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>7.5&nbsp;MB</font></td>
+<td><a href="/sn/sn-274.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>73&nbsp;KB</font></td>
+<td><a href="/sn/sn-274.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>50&nbsp;KB</font></td>
+<td><a href="/sn/sn-274.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>98&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="273"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#273 | 04 Nov 2010 | 77 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #104 &amp; The FireStorm</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-273.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>37&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-273-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.2&nbsp;MB</font></td>
+<td><a href="/sn/sn-273.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>104&nbsp;KB</font></td>
+<td><a href="/sn/sn-273.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>63&nbsp;KB</font></td>
+<td><a href="/sn/sn-273.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>122&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="272"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#272 | 28 Oct 2010 | 67 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Firesheep</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After catching up with a very busy week of security-related news and events, Steve and Leo celebrate the game-changing creation and release of "Firesheep", an add-on for the Firefox web browser which makes online web session hijacking as easy as it could possibly be. This WILL change the world for the better.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-272.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>32&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-272-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.1&nbsp;MB</font></td>
+<td><a href="/sn/sn-272.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>105&nbsp;KB</font></td>
+<td><a href="/sn/sn-272.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>57&nbsp;KB</font></td>
+<td><a href="/sn/sn-272.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>115&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="271"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#271 | 21 Oct 2010 | 96 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #103</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-271.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>46&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-271-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+<td><a href="/sn/sn-271.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>161&nbsp;KB</font></td>
+<td><a href="/sn/sn-271.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>84&nbsp;KB</font></td>
+<td><a href="/sn/sn-271.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>161&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="270"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#270 | 14 Oct 2010 | 76 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The Evercookie</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After reviewing the past week's security updates and news, Steve and Leo examine Samy Kamkar's (<a href="http://samy.pl/evercookie/">http://samy.pl/evercookie/</a>) clever suite of Javascript Hacks, collectively used to create an "Evercookie" for tagging web browsers in a fashion that's extremely difficult to shake off.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-270.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>37&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-270-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.1&nbsp;MB</font></td>
+<td><a href="/sn/sn-270.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>98&nbsp;KB</font></td>
+<td><a href="/sn/sn-270.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>61&nbsp;KB</font></td>
+<td><a href="/sn/sn-270.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>119&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="269"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#269 | 07 Oct 2010 | 70 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #102</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-269.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>34&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-269-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.4&nbsp;MB</font></td>
+<td><a href="/sn/sn-269.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>101&nbsp;KB</font></td>
+<td><a href="/sn/sn-269.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>62&nbsp;KB</font></td>
+<td><a href="/sn/sn-269.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>120&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="268"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#268 | 30 Sep 2010 | 72 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>CryptoSystem Backdoors</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the deeply troubling recent news of possible legislation that would require all encrypted Internet communications, of any kind, to provide a means for U.S. law enforcement &#8220;wiretap&#8221; style monitoring.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-268.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>34&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-268-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.6&nbsp;MB</font></td>
+<td><a href="/sn/sn-268.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>101&nbsp;KB</font></td>
+<td><a href="/sn/sn-268.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>61&nbsp;KB</font></td>
+<td><a href="/sn/sn-268.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>117&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="267"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#267 | 23 Sep 2010 | 72 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #101</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-267.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>35&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-267-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.7&nbsp;MB</font></td>
+<td><a href="/sn/sn-267.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>110&nbsp;KB</font></td>
+<td><a href="/sn/sn-267.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>64&nbsp;KB</font></td>
+<td><a href="/sn/sn-267.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>123&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="266"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#266 | 16 Sep 2010 | 83 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Inside OAuth</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week, after covering some rather significant security updates and news, Leo and I plow into the still-evolving Internet OAuth protocol. OAuth is used for managing the controlled delegation of access authorization to third-party web sites and services. It sounds more confusing than it is. Well, maybe not.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-266.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>40&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-266-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+<td><a href="/sn/sn-266.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>92&nbsp;KB</font></td>
+<td><a href="/sn/sn-266.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>64&nbsp;KB</font></td>
+<td><a href="/sn/sn-266.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>119&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="265"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#265 | 09 Sep 2010 | 74 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #100</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-265.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>36&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-265-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.9&nbsp;MB</font></td>
+<td><a href="/sn/sn-265.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>101&nbsp;KB</font></td>
+<td><a href="/sn/sn-265.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>63&nbsp;KB</font></td>
+<td><a href="/sn/sn-265.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>119&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="264"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#264 | 02 Sep 2010 | 64 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Side-Channel Privacy Leakage</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week Leo and I examine the many tiny bits of individually non-unique information that inherently leak from a user's web browser out on the Internet.  What's surprising is that when all of these individual non-unique bits are gathered together and assembled into a single &#8220;fingerprint,&#8221; the result IS often unique and can thereby be used as a tracking fingerprint to identify individual users' movements as they surf.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-264.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>31&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-264-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>7.7&nbsp;MB</font></td>
+<td><a href="/sn/sn-264.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>68&nbsp;KB</font></td>
+<td><a href="/sn/sn-264.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>48&nbsp;KB</font></td>
+<td><a href="/sn/sn-264.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>95&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="263"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#263 | 26 Aug 2010 | 81 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #99</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-263.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>39&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-263-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+<td><a href="/sn/sn-263.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>115&nbsp;KB</font></td>
+<td><a href="/sn/sn-263.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>69&nbsp;KB</font></td>
+<td><a href="/sn/sn-263.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>131&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="262"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#262 | 19 Aug 2010 | 61 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Strict Transport Security</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week, after catching up with the week's security news, Steve describes the exciting emerging web standard known as "STS" or "Strict Transport Security" which, when supported by browser and web site, allows a web site to dramatically increase its access security by telling the browser to only connect securely and disallow any security exceptions.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-262.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>29&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-262-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>7&nbsp;MB</font></td>
+<td><a href="/sn/sn-262.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>77&nbsp;KB</font></td>
+<td><a href="/sn/sn-262.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>49&nbsp;KB</font></td>
+<td><a href="/sn/sn-262.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>97&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="261"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#261 | 12 Aug 2010 | 69 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #98</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-261.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>33&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-261-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.3&nbsp;MB</font></td>
+<td><a href="/sn/sn-261.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>96&nbsp;KB</font></td>
+<td><a href="/sn/sn-261.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>61&nbsp;KB</font></td>
+<td><a href="/sn/sn-261.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>117&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="260"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#260 | 05 Aug 2010 | 82 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>DNS Rebinding</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week, after catching up on all of the post-BlackHat and DefCon conference news, Steve and Leo plow into the detailed depths of &#8220;DNS Rebinding.&#8221; Together they thoroughly explore this significant and fundamental weakness of the Internet's security.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-260.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>40&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-260-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.9&nbsp;MB</font></td>
+<td><a href="/sn/sn-260.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>115&nbsp;KB</font></td>
+<td><a href="/sn/sn-260.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>68&nbsp;KB</font></td>
+<td><a href="/sn/sn-260.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>130&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="259"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#259 | 29 Jul 2010 | 95 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #97</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-259.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>46&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-259-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-259.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>137&nbsp;KB</font></td>
+<td><a href="/sn/sn-259.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>79&nbsp;KB</font></td>
+<td><a href="/sn/sn-259.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>149&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="258"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#258 | 22 Jul 2010 | 89 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Five Years of Vulnerabilities</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week Leo and I discuss a disturbing new Windows 0-day vulnerability present in all versions of Windows. We cover a very busy week of security news, then discuss the recently released report from Secunia which analyzes the past five years of Windows software vulnerabilities.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-258.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>43&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-258-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-258.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>104&nbsp;KB</font></td>
+<td><a href="/sn/sn-258.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>69&nbsp;KB</font></td>
+<td><a href="/sn/sn-258.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>127&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="257"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#257 | 15 Jul 2010 | 84 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #96</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-257.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>40&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-257-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+<td><a href="/sn/sn-257.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>134&nbsp;KB</font></td>
+<td><a href="/sn/sn-257.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>74&nbsp;KB</font></td>
+<td><a href="/sn/sn-257.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>142&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="256"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#256 | 08 Jul 2010 | 109 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>LastPass</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Steve and Leo cover the week's Internet-related security news, then Steve delivers his long awaited in-depth review and evaluation of LastPass. Steve explains the nature of the need for high-security passwords, the problem that need creates, and the way the design of LastPass completely and in every way securely answers that need.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-256.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>52&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-256-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+<td><a href="/sn/sn-256.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>148&nbsp;KB</font></td>
+<td><a href="/sn/sn-256.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>90&nbsp;KB</font></td>
+<td><a href="/sn/sn-256.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>163&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="255"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#255 | 01 Jul 2010 | 70 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #95</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-255.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>34&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-255-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.4&nbsp;MB</font></td>
+<td><a href="/sn/sn-255.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>92&nbsp;KB</font></td>
+<td><a href="/sn/sn-255.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>57&nbsp;KB</font></td>
+<td><a href="/sn/sn-255.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>113&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="254"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#254 | 24 Jun 2010 | 74 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>What We'll Do for Speed</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>This week Steve and Leo examine the amazing evolution of microprocessor internals. They trace the development of the unbelievably complex technologies that have been developed over the past 25 years to wring every last possible cycle of performance from an innocent slice of silicon.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-254.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>35&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-254-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.8&nbsp;MB</font></td>
+<td><a href="/sn/sn-254.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>85&nbsp;KB</font></td>
+<td><a href="/sn/sn-254.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>57&nbsp;KB</font></td>
+<td><a href="/sn/sn-254.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>108&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="253"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#253 | 17 Jun 2010 | 71 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #94</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-253.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>34&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-253-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.5&nbsp;MB</font></td>
+<td><a href="/sn/sn-253.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>83&nbsp;KB</font></td>
+<td><a href="/sn/sn-253.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>56&nbsp;KB</font></td>
+<td><a href="/sn/sn-253.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>107&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="252"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#252 | 10 Jun 2010 | 85 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>RISCy Business</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After catching up from a very busy week of security news, I recount the history of the development of complex instruction set (CISC) computers following their evolution into reduced instruction set (RISC) computers.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-252.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>41&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-252-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB&nbsp;</font></td>
+<td><a href="/sn/sn-252.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>119&nbsp;KB</font></td>
+<td><a href="/sn/sn-252.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>70&nbsp;KB</font></td>
+<td><a href="/sn/sn-252.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>131&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="251"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#251 | 03 Jun 2010 | 86 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #93</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-251.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>41&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-251-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+<td><a href="/sn/sn-251.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>147&nbsp;KB</font></td>
+<td><a href="/sn/sn-251.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>80&nbsp;KB</font></td>
+<td><a href="/sn/sn-251.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>152&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="250"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#250 | 27 May 2010 | 91 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Operating Systems</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After catching up on the week's important security news, Steve & Leo continue their tour of the fundamentals of computer technology by looking at the history and present day features of modern operating systems.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-250.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>44&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-250-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-250.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>105&nbsp;KB</font></td>
+<td><a href="/sn/sn-250.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>72&nbsp;KB</font></td>
+<td><a href="/sn/sn-250.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>128&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="249"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#249 | 20 May 2010 | 104 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #92</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-249.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>50&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-249-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+<td><a href="/sn/sn-249.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>182&nbsp;KB</font></td>
+<td><a href="/sn/sn-249.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>95&nbsp;KB</font></td>
+<td><a href="/sn/sn-249.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>177&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="248"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#248 | 13 May 2010 | 90 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The Portable Dog Killer</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>In commemoration of the 50th anniversary of the invention of the LASER, this week Steve is going to relate a story from his own past, 39 years ago, containing a strong moral about the importance of getting out from behind the video game screen and actually building something.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-248.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>43&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-248-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-248.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>181&nbsp;KB</font></td>
+<td><a href="/sn/sn-248.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>83&nbsp;KB</font></td>
+<td><a href="/sn/sn-248.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>163&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="247"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#247 | 06 May 2010 | 72 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The &#8220;Multi&#8221;-verse</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Steve and Leo continue with their &#8220;fundamentals of computing&#8221; series this week, building upon all previous installments, to explain the details of multi-threading, multi-tasking, multi-processing, multi-core ... the &#8220;multi&#8221;-verse of modern computing.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-247.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>35&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-247-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.7&nbsp;MB</font></td>
+<td><a href="/sn/sn-247.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>114&nbsp;KB</font></td>
+<td><a href="/sn/sn-247.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>63&nbsp;KB</font></td>
+<td><a href="/sn/sn-247.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>122&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="246"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#246 | 29 Apr 2010 | 89 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #91</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-246.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>43&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-246-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-246.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>133&nbsp;KB</font></td>
+<td><a href="/sn/sn-246.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>79&nbsp;KB</font></td>
+<td><a href="/sn/sn-246.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>147&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="245"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#245 | 22 Apr 2010 | 71 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>The Security of Open vs CLosed</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After catching up on many interesting recent security events, Steve and Leo seriously examine the proven comparative security of open versus closed source and development software, and open versus closed execution platforms.  What's really more secure?</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-245.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>35&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-245-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.6&nbsp;MB</font></td>
+<td><a href="/sn/sn-245.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>93&nbsp;KB</font></td>
+<td><a href="/sn/sn-245.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>58&nbsp;KB</font></td>
+<td><a href="/sn/sn-245.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>113&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="244"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#244 | 15 Apr 2010 | 90 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #90</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-244.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>43&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-244-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-244.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>130&nbsp;KB</font></td>
+<td><a href="/sn/sn-244.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>80&nbsp;KB</font></td>
+<td><a href="/sn/sn-244.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>149&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="243"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#243 | 08 Apr 2010 | 85 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>State Subversion of SSL</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I catch up with the weekly security news, and I share my very positive impressions of my Apple iPad.  Then I explain why and how world governments are able to legally compel their national SSL Certificate Authorities to issue Intermediate CA certificates which allow agencies of those governments to surreptitiously intercept, decrypt, and monitor secured SSL connections of any and all kinds.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-243.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>41&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-243-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+<td><a href="/sn/sn-243.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>114&nbsp;KB</font></td>
+<td><a href="/sn/sn-243.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>70&nbsp;KB</font></td>
+<td><a href="/sn/sn-243.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>131&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="242"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#242 | 01 Apr 2010 | 80 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #89</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-242.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>38&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-242-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.4&nbsp;MB</font></td>
+<td><a href="/sn/sn-242.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>126&nbsp;KB</font></td>
+<td><a href="/sn/sn-242.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>72&nbsp;KB</font></td>
+<td><a href="/sn/sn-242.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>138&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="241"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#241 | 25 Mar 2010 | 81 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Hardware Interrupts</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>In this fourth installment of Steve's &#8220;How Computers Work&#8221; series, Steve explains the operation of &#8220;hardware interrupts&#8221; which, by instantly interrupting the normal flow of instructions, allow computers to attend to the needs of the hardware that interacts with the outside world while they are in the middle of doing other things.
+</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-241.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>39&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-241-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.8&nbsp;MB</font></td>
+<td><a href="/sn/sn-241.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>102&nbsp;KB</font></td>
+<td><a href="/sn/sn-241.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>67&nbsp;KB</font></td>
+<td><a href="/sn/sn-241.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>123&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="240"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#240 | 18 Mar 2010 | 80 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #88</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-240.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>38&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-240-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>10&nbsp;MB</font></td>
+<td><a href="/sn/sn-240.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>115&nbsp;KB</font></td>
+<td><a href="/sn/sn-240.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>71&nbsp;KB</font></td>
+<td><a href="/sn/sn-240.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>133&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="239"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#239 | 11 Mar 2010 | 92 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Stacks, Registers &amp; Recursion</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After a significant security news update, Steve and Leo continue their description of the operation of computers at the raw hardware level. This week Steve explains why and how computers have multiple accumulators, and also how a computer's "stack" operates and why stacks have become a crucial component of all modern computers.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-239.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>44&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-239-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-239.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>117&nbsp;KB</font></td>
+<td><a href="/sn/sn-239.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>72&nbsp;KB</font></td>
+<td><a href="/sn/sn-239.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>132&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="238"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#238 | 04 Mar 2010 | 91 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #87</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-238.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>43&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-238-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>11&nbsp;MB</font></td>
+<td><a href="/sn/sn-238.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>127&nbsp;KB</font></td>
+<td><a href="/sn/sn-238.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>75&nbsp;KB</font></td>
+<td><a href="/sn/sn-238.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>140&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="237"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#237 | 25 Feb 2010 | 50 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Indirection: The Power of Pointers</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>A feature present in the earliest commercial computers, known as &#8220;indirection&#8221;, has proven to be necessary, powerful, beneficial<b>&nbsp;.&nbsp;.&nbsp;.</b> and amazingly dangerous and difficult for programmers to &#8220;get right&#8221;. This week, Leo and I examine the Power of Pointers and why, even after all these years, they continue to bedevil programmers of all ages.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-237.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>24&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-237-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>6.0&nbsp;MB</font></td>
+<td><a href="/sn/sn-237.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>61&nbsp;KB</font></td>
+<td><a href="/sn/sn-237.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>40&nbsp;KB</font></td>
+<td><a href="/sn/sn-237.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>83&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="236"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#236 | 18 Feb 2010 | 81 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #86</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-236.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>39&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-236-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.7&nbsp;MB</font></td>
+<td><a href="/sn/sn-236.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>121&nbsp;KB</font></td>
+<td><a href="/sn/sn-236.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>72&nbsp;KB</font></td>
+<td><a href="/sn/sn-236.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>134&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="235"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#235 | 11 Feb 2010 | 69 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Machine Language</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>After starting at the very beginning two weeks ago by looking at how resistors and transistors can be used to assemble logical functions, this week Steve and Leo use those functions to build a working digital computer that understands a simple but entirely useful and workable machine language.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-235.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>33&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-235-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.3&nbsp;MB</font></td>
+<td><a href="/sn/sn-235.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>88&nbsp;KB</font></td>
+<td><a href="/sn/sn-235.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>55&nbsp;KB</font></td>
+<td><a href="/sn/sn-235.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>106&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="234"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#234 | 04 Feb 2010 | 81 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #85</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-234.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>39&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-234-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>9.7&nbsp;MB</font></td>
+<td><a href="/sn/sn-234.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>118&nbsp;KB</font></td>
+<td><a href="/sn/sn-234.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>73&nbsp;KB</font></td>
+<td><a href="/sn/sn-234.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>137&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="233"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#233 | 28 Jan 2010 | 75 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Let's Design a Computer (part 1)</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>To understand the advances made during 50 years of computer evolution, we need to understand computers 50 years ago. In this first installment of a new Security Now series, we design a 50 year old computer.  In future weeks, we will trace the factors that shaped their design during the four decades that followed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-233.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>36&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-233-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>8.9&nbsp;MB</font></td>
+<td><a href="/sn/sn-233.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>90&nbsp;KB</font></td>
+<td><a href="/sn/sn-233.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>59&nbsp;KB</font></td>
+<td><a href="/sn/sn-233.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>112&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="232"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#232 | 21 Jan 2010 | 100 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #84</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-232.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>48&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-232-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>12&nbsp;MB</font></td>
+<td><a href="/sn/sn-232.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>148&nbsp;KB</font></td>
+<td><a href="/sn/sn-232.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>91&nbsp;KB</font></td>
+<td><a href="/sn/sn-232.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>166&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="231"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#231 | 14 Jan 2010 | 106 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Mega Security Update &amp; CES Observations</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I catch up on two busy weeks of security news with a &#8220;mega security news update&#8221;<b>&nbsp;.&nbsp;.&nbsp;.</b> and Steve, who watched Leo's streaming video coverage of CES, weighs in with his own discoveries and findings from the big annual consumer electronics fest.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-231.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>51&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-231-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>13&nbsp;MB</font></td>
+<td><a href="/sn/notes-231.htm"><img src="/image/snnotes.gif" width=16 height=16 title="LEFT CLICK to view any supplementary notes" border=0 align=left></a><font size=1>4.3&nbsp;KB</font></td>
+<td><a href="/sn/sn-231.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>203&nbsp;KB</font></td>
+<td><a href="/sn/sn-231.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>95&nbsp;KB</font></td>
+<td><a href="/sn/sn-231.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>182&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<a name="230"></a>
+<br>
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td>
+<font size=1>Episode&nbsp;#230 | 07 Jan 2010 | 54 min.</font></td></tr></table><table width="85%" bgcolor="#999999" border=0 cellpadding=1 cellspacing=0><tr><td><table width="100%" bgcolor="#F8F8F8" border=0 cellpadding=0 cellspacing=0><tr><td><table width="100%" border=0 cellpadding=0 cellspacing=10><tr><td colspan=6><font size=1><font size=2><b>Listener Feedback #83</b></font><br><img src="/image/transpixel.gif" width=1 height=4 border=0><br>Leo and I discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  We tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</font></td></tr><tr>
+<td><a href="https://media.grc.com/sn/sn-230.mp3"><img src="/image/speaker-hq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a high quality MP3 audio file" border=0 align=left></a><font size=1>26&nbsp;MB</font></td>
+<td><a href="https://media.grc.com/sn/sn-230-lq.mp3"><img src="/image/speaker-lq.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a smaller MP3 audio file" border=0 align=left></a><font size=1>6.5&nbsp;MB</font></td>
+<td><a href="/sn/sn-230.htm"><img src="/image/htmlfile.gif" width=16 height=16 title="LEFT CLICK to view text transcript as web page" border=0 align=left></a><font size=1>82&nbsp;KB</font></td>
+<td><a href="/sn/sn-230.txt"><img src="/image/textfile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download a text format transcript" border=0 align=left></a><font size=1>49&nbsp;KB</font></td>
+<td><a href="/sn/sn-230.pdf"><img src="/image/pdffile.gif" width=16 height=16 title="RIGHT CLICK and SAVE AS to download PDF format transcript" border=0 align=left></a><font size=1>100&nbsp;KB</font></td>
+</tr></table></td></tr></table></td></tr></table>
+
+<p>
+&bull;&nbsp;<a href="/securitynow.htm">Current Podcast Page</a><br />
+&bull;&nbsp;<a href="/sn/past/2025.htm">Security Now 2025</a><br />
+&bull;&nbsp;<a href="/sn/past/2024.htm">Security Now 2024</a><br />
+&bull;&nbsp;<a href="/sn/past/2023.htm">Security Now 2023</a><br />
+&bull;&nbsp;<a href="/sn/past/2022.htm">Security Now 2022</a><br />
+&bull;&nbsp;<a href="/sn/past/2021.htm">Security Now 2021</a><br />
+&bull;&nbsp;<a href="/sn/past/2020.htm">Security Now 2020</a><br />
+&bull;&nbsp;<a href="/sn/past/2019.htm">Security Now 2019</a><br />
+&bull;&nbsp;<a href="/sn/past/2018.htm">Security Now 2018</a><br />
+&bull;&nbsp;<a href="/sn/past/2017.htm">Security Now 2017</a><br />
+&bull;&nbsp;<a href="/sn/past/2016.htm">Security Now 2016</a><br />
+&bull;&nbsp;<a href="/sn/past/2015.htm">Security Now 2015</a><br />
+&bull;&nbsp;<a href="/sn/past/2014.htm">Security Now 2014</a><br />
+&bull;&nbsp;<a href="/sn/past/2013.htm">Security Now 2013</a><br />
+&bull;&nbsp;<a href="/sn/past/2012.htm">Security Now 2012</a><br />
+&bull;&nbsp;<a href="/sn/past/2011.htm">Security Now 2011</a><br />
+&bull;&nbsp;<a href="/sn/past/2010.htm">Security Now 2010</a><br />
+&bull;&nbsp;<a href="/sn/past/2009.htm">Security Now 2009</a><br />
+&bull;&nbsp;<a href="/sn/past/2008.htm">Security Now 2008</a><br />
+&bull;&nbsp;<a href="/sn/past/2007.htm">Security Now 2007</a><br />
+&bull;&nbsp;<a href="/sn/past/2006.htm">Security Now 2006</a><br />
+&bull;&nbsp;<a href="/sn/past/2005.htm">Security Now 2005</a>
+</p>
+
+
+<!-- ################################################################################ -->
+
+<br>
+
+<table width="85%" border=0 cellpadding=0 cellspacing=0><tr><td><img src="/image/darkredpixel.gif" width="100%" height=3 border=0><br><br><font size=2><b>You can receive an eMail reminder</b> whenever this page is updated with a new Security Now! episode. Click the "Monitor Changes" button to have the highly-regarded "Change Detection" web site monitor this page and send you a note when it changes.
+<br><br>
+<!-- Begin ChangeDetection.com Panel HTML -->
+<!-- ChangeDetection.com id=4qxfzgwsns -->
+<form action="http://www.ChangeDetection.com/detect.html" method="get" target="_blank"><table width="100%" border=0 cellpadding=0 cellspacing=0><tr align=center valign="middle"><td><font size=2 face="Arial,Helvetica">Monitor this page for changes:&nbsp;</font></td><td><input type="submit" name="enter" value=" Monitor changes "></td><td><font face="Arial,Helvetica" size=2>(<a href="http://www.ChangeDetection.com/privacy.html" target="_blank">it's private</a> by <a href="http://www.ChangeDetection.com/monitor.html" target="_blank">ChangeDetection</a>)</font></td></tr></table></form>
+<!-- End ChangeDetection.com Panel HTML --><img src="/image/darkredpixel.gif" width="100%" height=3 border=0></font>
+
+<a name="bottom"></a><div class="dotted_green"><font size=2><div class="tight_center"><b>Security Now!, SpinRite Testimonials, and other Feedback:</b></div>Please use GRC's <a href="/feedback.htm"><b>Visitor &amp; Listener FEEDBACK Page</b></a> where you may easily submit any feedback for Security Now, SpinRite testimonials, suggestions for future Security Now topics or questions &amp comments for future Listener Feedback episodes. Thank you!<div class="tight_center"><a href="/feedback.htm"><b>https://www.grc.com/feedback</b></a></div>
+</font></div></td></tr></table>
+<!-- ChangeDetection.com detection="on" -->
+<br /><table border="0" cellpadding="0" cellspacing="0"><tr><td><a href="#top" target="_top"><img src="https://www.grctech.com/_gonezflxudxkj_/image/grc-icon.gif" width="51" height="51" border="0" alt="Jump to top of page" title="Jump to top of page"/></a></td><td><div style="margin:0 20px;"><font size="-2" color="#777777">Gibson Research Corporation is owned and operated by Steve Gibson.&nbsp;&nbsp;The contents<br />of this page are Copyright (c) 2026 Gibson Research Corporation. SpinRite, ShieldsUP,<br />NanoProbe, and any other indicated trademarks are registered trademarks of Gibson<br />Research Corporation, Laguna Hills, CA, USA. GRC's web and customer <a href="https://www.grc.com/privacy.htm" target="_top">privacy policy</a>.</font></div></td><td><div style="margin:7px 0;"><a href="#top" target="_top"><img src="https://www.grctech.com/_gonezflxudxkj_/image/jumptotop.png" width="52" height="38" border="0" alt="Jump to top of page"  title="Jump to top of page"/></a></div></td></tr></table><br />
+<!-- ChangeDetection.com detection="off" -->
+<table width="90%" border="0" cellspacing="0" cellpadding="0"><tr><td><font color="#666666" size="-2">Last Edit: Jan 02, 2015 at 16:06 (4,108.91 days ago)</font></td><td align="right"><font color="#666666" size="-2">Viewed 9 times per day</font></td></tr></table>
+</center><a name="bottom"></a></body></html>
+
+
+
+
+
+

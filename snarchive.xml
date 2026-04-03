@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 08 Mar 2024 23:35:49 +0300</lastBuildDate>
-<pubDate>Fri, 08 Mar 2024 23:35:49 +0300</pubDate>
+<lastBuildDate>Fri, 03 Apr 2026 20:52:53 +0000</lastBuildDate>
+<pubDate>Fri, 03 Apr 2026 20:52:53 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -51,6 +51,2051 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Software How-To"/>
 </itunes:category>
 <item>
+<title>SN 1072: LiteLLM</title>
+<pubDate>31 Mar 2026</pubDate>
+<comments>http://twit.tv/sn/1072</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Will California require Linux to verify its user's age. • Apple's iOS 26.4 requires UK users to prove their age. • Russia chooses to use home grown 5G mobile encryption. • Ukraine knew the webcam was installed by Russian spies. • Google moves quantum computing "Q Day" to 2029. • At RSA, UK's NCSC CEO warns of vibe-coded SaaS replacements. • More information about nasty ClickFix campaigns. • More than one in seven Reddit postings are an AI-bot. • The story behind the LiteLLM disaster that was averted.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1072/sn1072.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:27:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1072/sn1072.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1072/sn1072.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1072/sn1072.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1071: Bucketsquatting</title>
+<pubDate>24 Mar 2026</pubDate>
+<comments>http://twit.tv/sn/1071</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• H&amp;R Block's tax software does something SO WRONG. • The Intoxalock breathalyzer calibration cyber attack. • Firefox now offers a 100% free built-in VPN. • TikTok and Meta's tracking pixels are so much more. • Russians beg for the return of Telegram, WhatsApps and others. • Never connect your crypto-wallet to an unknown service. • What would a week be without a Cisco CVSS of 10.0. • Ubiquiti patches a 10.0 critical flaw. • Listener feedback and... • What's "Bucketsquatting" and what can be done to prevent it.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1071/sn1071.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:33:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1071/sn1071.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1071/sn1071.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1071/sn1071.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1070: CISA's Free Internet Scanning</title>
+<pubDate>17 Mar 2026</pubDate>
+<comments>http://twit.tv/sn/1070</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The Security Now “Caption That Photo” contest. • A mega social media company says “no” to strong encryption. • WhatsApp to give parents more control. • Consumer bandwidth proxying is becoming a big deal. • Meta buys the Moltbook duo. • The EU gives up and settles upon the status quo. • When a ransomware negotiation is not what it seems. • CISA compels federal agencies to submit their logs. • Is that a VPN in your pocket or something more malicious. • Be careful what you download, thinking it's AI. • A super-clever and super-simple A/V scanner bypass. • Will AI write code for me? • Another listener discovers the Joy of AI. • Steve's CISA Internet scanning experience.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1070/sn1070.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:19:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1070/sn1070.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1070/sn1070.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1070/sn1070.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1069: You can't hide from LLMs</title>
+<pubDate>10 Mar 2026</pubDate>
+<comments>http://twit.tv/sn/1069</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Anthropic &amp; Mozilla improve Firefox's security. • Apple &amp; Google begin testing cross-platform RCS encryption. • Ubuntu's SUDO starts echoing asterisks. • Inviting a web proxy into your home.
+• Apple devices cleared by Germany for NATO's use. • A serious remote takeover of OpenClaw. • TokTok won't encrypt messaging for visibility. • Microsoft bans the term “Microslop” on Discord. • Lot's of great listener feedback. • LLMs could make Orwell's 1984 seem optimistic.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1069/sn1069.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:26:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1069/sn1069.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1069/sn1069.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1069/sn1069.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1068: The Call is Coming from Inside the House</title>
+<pubDate>04 Mar 2026</pubDate>
+<comments>http://twit.tv/sn/1068</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>ThreadLocker Special – Steve &amp; Leo take to the stage during ThreatLocker's 4th annual Zero Trust World security conference to discuss the final frontier of enterprise security and the need to rethinking the need for true “least privilege” security design.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1068/sn1068.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:49:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1068/sn1068.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1068/sn1068.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1068/sn1068.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1067: KongTuke's CrashFix</title>
+<pubDate>03 Mar 2026</pubDate>
+<comments>http://twit.tv/sn/1067</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The lowdown on last week's “no turn” picture of the week. • Is an AI-driven hacking campaign a big deal now. • Clause used in multiple Mexican government attacks. • Apple continues to be confronted with age restrictions. • COPPA needs an exception to allow age collection. • Meta swamps law enforcement with AI-slop CSAM reports. • Roskomnadzor has been busy blocking VPNs. Guess how many? • The UK tries to report their self-scanning success. • Remember that hacker who extorted the psychotherapy patients? • Scattered Lapsus$ Hunters is actively recruiting women. • Cisco lands another breathtakingly rare 10.0 CVSS.
+• VulnCheck's report on 2025 vulnerabilities and exploits. • Steve discovers a fabulous $72 Hardware Security Module. • A listener shares an interesting AI service discovery. • The very potent “ClickFix” exploit evolves.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1067/sn1067.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:15:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1067/sn1067.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1067/sn1067.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1067/sn1067.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1066: Password Leakage</title>
+<pubDate>24 Feb 2026</pubDate>
+<comments>http://twit.tv/sn/1066</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• CA's warn us to urgently prepare for the inevitable. • Three U.S. states attempt to ban 3D printed firearms. • Denied ransom, ShinyHunters leaks 967,000 personal details. • "Billions" of U.S. social security numbers leaked. • Is Apple planning to add cameras to three new gadgets. • No more security fixes for Firefox on Windows 7 &amp; 8. • Russia blocks the official Linux kernel site they need. • Will the U.S."freedom.gov" site post EU blocked content. • LLM's will offer secure passwords. Do Not Use Them. • As predicted, the "ClickFix" attack strategy takes over. • A listener believes his computer is compromised. • How could three popular password managers get things wrong.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1066/sn1066.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:28:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1066/sn1066.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1066/sn1066.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1066/sn1066.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1065: Attestation</title>
+<pubDate>17 Feb 2026</pubDate>
+<comments>http://twit.tv/sn/1065</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Websites can place high demands upon limited CPU resources. • Microsoft appears to back away from its security commitment. • What's Windows 11 26H1 and where do I get it. • Chrome 145 brings Device Bound Session Credentials. • More countries are moving to ban underage social media use. • The return of Roskomnadzor. • Discord to require proof of adulthood for adult content. • Might you still be using WinRAR 7.12 -- I was. • Paragon's Graphite can definitely spy on all instant messaging. • 30 malicious Chrome Extensions. • 287 Chrome extensions from spying on 37.4 million users. • The first malicious Outlook add-in steals 4000 user's credentials. • Some AI "vibe" coding thoughts. • What I just went through to obtain a new code signing certificate.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1065/sn1065.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:14:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1065/sn1065.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1065/sn1065.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1065/sn1065.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1064: Least Privilege</title>
+<pubDate>10 Feb 2026</pubDate>
+<comments>http://twit.tv/sn/1064</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• How is the EU's GDPR fine collection going. • Western democracies are getting serious about offensive cybercrime. • The powerful cyber component of the Midnight Hammer operation. • Signs of psychological dependence upon OpenAI's GPT-4o chatbot. • CISA orders government agencies to unplug end-of-support devices. • How to keep Windows from annoying us after an upgrade. • What is OpenClaw, how safe is it to use, what does it mean. • Another listener uses AI to completely code an app. • Coinbase suffers another insider breach. What can be done.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1064/sn1064.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:19:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1064/sn1064.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1064/sn1064.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1064/sn1064.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1063: Mongo's Too Easy</title>
+<pubDate>03 Feb 2026</pubDate>
+<comments>http://twit.tv/sn/1063</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• An anti-virus system infects its own users. • Apple's next iOS release “fuzzes” cellular locations. • cURL discontinues bug bounties under bogus AI flood. • AI discovers and fixes 15 CVE-worthy 0-days in OpenSSL. • Ireland did NOT already pass their spying legislation. • AI irreversibly deletes all project files. Says it's sorry. • Windows has a serious global clipboard security problem. • ISPs have the ability to monetize their subscriber's identities. • MongoDB has lowered the hacking skill level bar to the floor.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1063/sn1063.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:30:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1063/sn1063.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1063/sn1063.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1063/sn1063.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1062: VoidLink: AI-Generated Malware</title>
+<pubDate>27 Jan 2026</pubDate>
+<comments>http://twit.tv/sn/1062</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• CISA's uncertain future remains quite worrisome. • Worrisome is Ireland's new "lawful" interception law. • The EU's Digital Rights organization pushes back. • Microsoft acknowledges it turns over user encryption keys. • Alex Neihaus on AI enterprise usage dangers. • Gavin confesses he put a database on the Internet. • Worries about a massive podcast rewinding backlog. • What does the emergence of AI-generated malware portend?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1062/sn1062.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:27:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1062/sn1062.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1062/sn1062.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1062/sn1062.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1061: More GhostPoster</title>
+<pubDate>20 Jan 2026</pubDate>
+<comments>http://twit.tv/sn/1061</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• RAM pricing to affect enterprise firewall equipment. • Anthropic provides sizeable support to Python Foundation. • The FTC clamps down on GM's secret sale of driving data. • “ANCHOR” replaces “CIPAC” for industry-government sharing. • Germany planning to legislate total access to global data. • Grubhub becomes the latest ShinyHunters extortion victim. • Let's Encrypt's 6-Day certs are available to everyone. • Iran planning to permanently take itself off the Internet. • HD Tune before and after a SpinRite Level 3 refresh. • Some great listener feedback, and • More trouble from GhostPoster malicious browser extensions.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1061/sn1061.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:14:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1061/sn1061.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1061/sn1061.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1061/sn1061.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1060: 3-Day Certificates</title>
+<pubDate>13 Jan 2026</pubDate>
+<comments>http://twit.tv/sn/1060</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• A look at Microsoft's Azure cloud code signing. • California implements DROP, global data broker opt-out. • Where's the town of “Whata Bod” Idaho. • iOS built-in Mail app worked itself out of a job. • A 30-minute tutorial for non-coders about AI coding. • Claude Code appears to be winning over the AI coding world. • Various listener musings on code signing. • A bit of Magnesium feedback. • What use are 3-day code signing certs?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1060/sn1060.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:27:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1060/sn1060.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1060/sn1060.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1060/sn1060.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1059: MongoBleed</title>
+<pubDate>06 Jan 2026</pubDate>
+<comments>http://twit.tv/sn/1059</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Code-signing certificate lifetimes shortened by two years. • Sadly, ChatGPT is heading toward an advertising profit model. • The Python Package Index is strengthening its security. • BitLocker gets hardware acceleration, but not today. • New York City's mayoral inauguration banned Raspberry Pi's. • An astonishingly good British time travel series. • A critical link between Vitamin D and Magnesium. • A look inside the very bad MongoBleed vulnerability.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1059/sn1059.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:51:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1059/sn1059.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1059/sn1059.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1059/sn1059.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1057: GhostPoster</title>
+<pubDate>23 Dec 2025</pubDate>
+<comments>http://twit.tv/sn/1057</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• North Korea's profitable fixation on cryptocurrency. • Amazon uncovers a cryptomining sneaking into customer clouds. • Insecure Docker API servers are also hosting cryptominers. • A new and truly massive SmartTV-based botnet discovery. • DNS Benchmark's 4th release. • Who, besides Let's Encrypt, offers free automated certs. • Some interesting listener feedback. • And how a PNG Icon was used to infect 50,000 Firefox users.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1057/sn1057.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:13:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1057/sn1057.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1057/sn1057.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1057/sn1057.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1056: Australia</title>
+<pubDate>16 Dec 2025</pubDate>
+<comments>http://twit.tv/sn/1056</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Home Depot's puzzling reluctance to close a bad hole. • GNOME's shell extension manager is unhappy with AI. • How attacks on open source repositories compares in 2025. • China's researchers have taken aim at the US power grid. • How bad has the React2Shell vulnerability turned out to be. • More new React vulnerabilities. • Apple moves to iOS 26.2.
+• Let's Encrypt's crosses into one billion servers managed. • A DNS Benchmark update. • Some interesting listener feedback, then... • How things going with Australia's social media ban and what we are learning.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1056/sn1056.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:33:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1056/sn1056.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1056/sn1056.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1056/sn1056.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1055: React's Perfect 10</title>
+<pubDate>09 Dec 2025</pubDate>
+<comments>http://twit.tv/sn/1055</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• France's VanityFair face a stiff fine over cookies. • GrapheneOS pulls out of France over coercion worries. • The EU adds to the pile-on over underage social media. • India mandates the tracking of all smartphones. • Apple says no. • India abandons its smartphone tracking mandate. • India requires all encrypted messaging to be SIM-tied. • Scattered Lapsus$ Hunters --becomes--&gt; SLH. • AI demand has driven RAM pricing sky high. • GRC's DNS Benchmark is finished and available. • Cisco may talk a good game, but they're still Cisco. • Browsers to ask users for local network access permission. • React: The worst remote code exploit in a LONG time.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1055/sn1055.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:24:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1055/sn1055.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1055/sn1055.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1055/sn1055.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1054: Bots in the Belfry</title>
+<pubDate>02 Dec 2025</pubDate>
+<comments>http://twit.tv/sn/1054</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Scattered Lapsus$ Hunters strikes (Salesforce) again. • Cisco actually (no kidding) sees the light. • Next week, Australia bans all underage social media. • The EU Parliament moves to replace US computer tech. • When to use Passwords, Passkeys or Yubikeys. • Do unpowered SSDs lose their data. • How about a "Joy of Coding" podcast. • A Bitwarden Passkeys integration glitch. • XSLT is sneaky. It's where you don't expect it. • We know where last week's picture came from. • The long-awaited return of a new Stargate series. • A simple test to check for any LAN bot infection.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1054/sn1054.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:36:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1054/sn1054.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1054/sn1054.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1054/sn1054.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1053: Banning VPNs</title>
+<pubDate>25 Nov 2025</pubDate>
+<comments>http://twit.tv/sn/1053</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The EU finally comes to its "Chat Control" senses. • Windows 11 to include SysInternals Sysmon natively. • Chrome's tabs (optionally) go vertical. • The Pentagon begins its investment in warfare AI. • Members of the military are being doxed by social media. • A look inside the futility of trying to corral AI. • The surprising lack of WhatsApp user privacy. • Exactly what happened last week to Cloudflare? • Britain (over)reacts to the Jaguar Land Rover incident. • Project: Hail Mary's second trailer released. • US state legislatures want to ban VPNs altogether.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1053/sn1053.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:19:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1053/sn1053.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1053/sn1053.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1053/sn1053.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1052: Global Cellphone Tracking</title>
+<pubDate>18 Nov 2025</pubDate>
+<comments>http://twit.tv/sn/1052</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Apple introduces a new Digital ID inside Wallet. • Checkout.com refuses to pay a ransom demand. • Google announces "Private AI Compute" in the cloud. • Google backpedals on their "devs must register" demand. • Win11 added a Passkeys API which 1Password &amp; Bitwarden support. • Russia tracks SIM card appearances to thwart drone usage. • Google sues Chinese Phishing as a Service platform. • Lots of interesting listener feedback. • Global cellphone tracking is alive, well, malware free and a distressingly common commercial enterprise.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1052/sn1052.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:34:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1052/sn1052.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1052/sn1052.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1052/sn1052.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1051: Amazon sues Perplexity</title>
+<pubDate>11 Nov 2025</pubDate>
+<comments>http://twit.tv/sn/1051</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• FFmpeg teaching assembly language for performance. • The state of Nevada recovers after not paying ransom. • A “rounding error” nets a clever attacker $128 million. • Why would Chrome decide to start form-filling driver's licenses? • The UK's six major telecom providers to block number spoofing. • XSLT support being removed from browsers. Will anyone notice. • Firefox introduced paid support options for organizations. • Russia continues to fight against non-Russian Internet. • Google acquires another Internet security company (Wiz). • The EU to finally fix their cookie permission mistake. • More countries drop Microsoft office for open choices. • More countries question and examine Chinese made buses. • Microsoft discovers some information leakage from LLMs. • What does Amazon's lawsuit against Perplexity's agents mean for next-generation browsers?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1051/sn1051.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:26:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1051/sn1051.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1051/sn1051.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1051/sn1051.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1050: Here Come the AI Browsers</title>
+<pubDate>04 Nov 2025</pubDate>
+<comments>http://twit.tv/sn/1050</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Secret radios discovered in Chinese-made busses. • Edge &amp; Chrome introduce LLM-based "scareware" blocking. • A perfect example of what scareware blocking hopes to prevent. • Aardvark: OpenAI's new vulnerability scanner for code. • Italy to require age verification from 48 specific sites. • Russia to require the use of only Russian software within Russia. • Russia further clamping down on non-MAX Telegram and WhatsApp messaging. • 187 new malicious NPM packages. Could AI help with that? • BadCandy malware has infiltrated Australian Cisco routers. • Github's 2025 report with the dominance of TypeScript. • Windows 11 gets new extra-secure Admin Protection feature. • A bunch of interesting feedback and listener thoughts. • And why the new AI-driven web browsers may be bringing a whole new world of hurt.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1050/sn1050.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:50:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1050/sn1050.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1050/sn1050.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1050/sn1050.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1049: DNS Cache Poisoning Returns</title>
+<pubDate>28 Oct 2025</pubDate>
+<comments>http://twit.tv/sn/1049</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The unsuspected sucking power of a Linux-based robot vacuum. • Russia to follow China's vulnerability reporting laws. • A pair of Scattered Spider UK teen hackers arrested. • Facebook, Instagram and TikTok violating the EU's DSA. • Microsoft Teams bringing user WiFi tracking by policy. • You backed up. That's great. Did you test that backup? • Coveware reports all-time low ransomware payment rate. • Ransomware negotiator reports how the bad guys get in. • Lots of listener thoughts and feedback about NIST passwords. • And against all reason and begging credulity, it seems we still haven't managed to put high-quality random number generators into our DNS resolvers.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1049/sn1049.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:28:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1049/sn1049.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1049/sn1049.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1049/sn1049.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1048: Mic-E-Mouse</title>
+<pubDate>21 Oct 2025</pubDate>
+<comments>http://twit.tv/sn/1048</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The long awaited lawsuit to block Texas SB2420. • Embattled Texas SB2420 also impacts Google Play. • At long last, NIST modernizes their password policy. • Scattered LAPSUS$ Hunters demise was exaggerated. • China claims that the NSA has been hacking them. • Half of all geosynchronous satellite traffic is unencrypted. • AWS outage highlights the rising risk of Internet monoculture. • A terrific collection of listener feedback and... • Could your PC's mouse have much bigger ears than you know?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1048/sn1048.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:23:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1048/sn1048.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1048/sn1048.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1048/sn1048.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1047: RediShell's CVSS 10.0</title>
+<pubDate>14 Oct 2025</pubDate>
+<comments>http://twit.tv/sn/1047</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The EU aborted their Chat Control vote knowing it would fail. • Salesforce says it's not going to pay; customer data is released. • Hackers claim Discord breach netted 70,000 government IDs. • Microsoft to move Github to Azure. What could possibly go wrong. • New California law allows universal data sharing opt-out. • OpenAI reports that it's blocking foreign abuse. Who cares. • IE Mode refuses to die, so Microsoft is burying it deeper. • The massive mess created by Texas legislation SB2420. • The BreachForums website gets a makeover. • 100,000 strong global botnet attacking U.S. RDP services. • UI experts weigh in on Apple's iOS 26 user-interface. • 330,000 publicly exposed REDIS servers are RCE-vulnerable.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1047/sn1047.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:11:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1047/sn1047.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1047/sn1047.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1047/sn1047.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1046: Google's Developer Registration Decree</title>
+<pubDate>07 Oct 2025</pubDate>
+<comments>http://twit.tv/sn/1046</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Qantas says no one can releak their stolen data. • Brave's usage is up. But is it really 3 times faster. • Next Tuesday the EU votes on “Chat Control”. • Microsoft formally launches a “Security Store”. • Outlook moves to block JavaScript in SVG's. • A new release of Chrome. • Gmail will no longer pull external email via POP. • Googe Drive starts blocking ransomware encryptions. • The UK issues another order to Apple. • Researchers create a “Battering RAM” attack device. • HackerOne's significant bug bounty payouts. • The Imgur service goes dark across the UK. Guess why. • The Netherlands plans to say NO to “Chat Control”. • Discord was breached and government IDs leaked. • Salesforce says it's not another new breach. • Signal introduces a new post-quantum ratchet. • Your motherboard MIGHT support TPM 2.0. • Google to force Android app devs to register and pay.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1046/sn1046.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:7:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1046/sn1046.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1046/sn1046.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1046/sn1046.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1045: News and Listener Views</title>
+<pubDate>30 Sep 2025</pubDate>
+<comments>http://twit.tv/sn/1045</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Gmail's spam filtering false-positive spree. • iOS 26's Safari randomizes its fingerprint by default. • Cisco's SNMP stands for "Security Not My Problem". • Windows' "stuck" Extended Security Updates (ESU). • Europe complains, gets 1-year of ESU with no strings. • Where to get $6 TLS certs (really) while they last. • The lessons to learn from Jaguar Land Rover's mess. • The NEON app: get paid to have your voice recorded. • Bluesky's age verification, now coming to Ohio. • What is "Kids Web Services" for age verification. • More than 10K Ollama instances publicly exposed. • GRC's DNS Benchmark reaches "release candidate".</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1045/sn1045.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:27:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1045/sn1045.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1045/sn1045.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1045/sn1045.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1044: The EU's Online Age Verification</title>
+<pubDate>23 Sep 2025</pubDate>
+<comments>http://twit.tv/sn/1044</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Consumer Reports on Windows 10 updates. • Waste (not fraud or abuse) within DoD Cyberoperations. • China's DeepSeek produces deliberately flawed code. • WebAssembly v3.0 officially released. • Firefox v143 updates and new features. • Firefox for Android now offers DoH. • A nearly terminal flaw in Microsoft's Entra ID. • Chrome hits its 6th 0-day this year. Emergency update. • DRAM (now DDR5) still vulnerable to RowHammer. • SAMSUNG kitchen refrigerators begin showing ads. • China says no to NVIDIA. • 300 more (new) NPM malicious packages found and removed. • The EU is already testing proper online age verification.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1044/sn1044.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:43:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1044/sn1044.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1044/sn1044.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1044/sn1044.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1043: Memory Integrity Enforcement</title>
+<pubDate>16 Sep 2025</pubDate>
+<comments>http://twit.tv/sn/1043</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• My experience with 'X' vs email. • Google TIG blackmailed to fire two security researchers. • 1.1.1.1 DNS TLS certificate mis-issued.
+• Artists blackmailed with threats of training AI on their art. • Firefox extended end-of-life for Windows 7 to next March. • Is the renewal of cybersecurity info sharing coming soon. • Should security analysis be censored due to vibe-coding. • UK versus Apple may not be settled after all. • Another very serious supply chain attack. • Can the software supply-chain ever be trustworthy. • Why did BYTE Magazine die. • What happens if Google and others go on the attack.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1043/sn1043.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:24:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1043/sn1043.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1043/sn1043.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1043/sn1043.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1042: Letters of Marque</title>
+<pubDate>09 Sep 2025</pubDate>
+<comments>http://twit.tv/sn/1042</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Are Bitcoin ATMs anything more than scamming terminals? • Ransomware hits the Uvalde school district and Jaguar. • Did “Scattered LapSus Hunters” just throw in the towel? • Germany, for one, to vote “no” on Chat Control. • Russia's new MAX messenger has startup troubles. • Samsung follows Apple's WhatsApp patch chain. • Shocker! UK school hacks are mostly by students! • HackerOne was hacked. • Connected washing machines in Amsterdam hacked. • DDoS breaks another record. • Bluesky to implement conditional age verification. • Enforcement actions for Global Privacy Control. • Might Apple have finally beaten vulnerabilities?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1042/sn1042.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:32:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1042/sn1042.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1042/sn1042.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1042/sn1042.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1041: Covering all the bases</title>
+<pubDate>02 Sep 2025</pubDate>
+<comments>http://twit.tv/sn/1041</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• A look back at issue #1 of BYTE magazine exactly 50 years ago. • The enforcement of the SHAKEN &amp; STIR Telecom protocols. • The inherent danger of consolidating authentication. • Can AI be controlled. • Vivaldi says a big "no" to AI-enhanced web browsers. • How WhatsApp figured into Apple's recent 0-day attacks. • Leveraging AI as an attack aid. • The latest TransUnion data breach. • Two scummy websites sue the UK over age requirements. • OpenSSH reminds its users to adopt post-quantum crypto. • The DOD uses open source maintained by a Russian national. • Much great feedback from our terrific listeners. • Sci-Fi news from "The Frontiers Saga" Ryk Brown</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1041/sn1041.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:37:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1041/sn1041.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1041/sn1041.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1041/sn1041.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1040: Clickjacking “Whac-A-Mole”</title>
+<pubDate>26 Aug 2025</pubDate>
+<comments>http://twit.tv/sn/1040</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Germany may soon outlaw ad blockers. • What's happening in the courts over AI. • The U.K. drops its demands of Apple. • New Microsoft 365 tenants being throttled. • Is Russia preparing to block Google Meet. • Bluesky suspends its service in Mississippi. • How to throttle AI • A tricky SSH-busting Go library. • Here comes the Linux desktop malware. • Apple just patched a doozy of a vulnerability. • A trivial Docker escape was found and fixed. • Why the recent browser 0-day clickjacking is really just whac-a-mole.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1040/sn1040.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:21:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1040/sn1040.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1040/sn1040.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1040/sn1040.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1039: The Sad Case of ScriptCase</title>
+<pubDate>19 Aug 2025</pubDate>
+<comments>http://twit.tv/sn/1039</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• What AI website summaries mean for Internet economics. • Time to urgently update Plex Servers (again). • Allianz Life stolen data gets leaked. • Chrome test Incognito-mode fingerprint script blocking. • Chrome 140 additions coming in two weeks. • Data brokers hide opt-out pages from search engines. • Secure messaging changes in Russia. • NIST rolls-out lightweight IoT crypto. • SyncThing moves to v2.0 and beyond. • Alien:Earth -- first take. • What can we learn from another critical vulnerability?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1039/sn1039.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:27:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1039/sn1039.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1039/sn1039.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1039/sn1039.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1038: Perplexity's Duplicity</title>
+<pubDate>12 Aug 2025</pubDate>
+<comments>http://twit.tv/sn/1038</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• CISA's Emergency Directive to ALL Federal agencies re: SharePoint. • NVIDIA firmly says "no" to any embedded chip gimmicks. • Dashlane is terminating its (totally unusable) free tier. • Malicious repository libraries are becoming even more hostile. • The best web filter (uBlock Origin) comes to Safari. • The very popular SonicWall firewall is being compromised. • &gt;100 models of Dell Latitude and Precision laptops are in danger. • The significant challenge of patching SharePoint (for example). • A quick look at my DNS Benchmark progress. • Does InControl prevent an important update. • An venerable Sci-Fi franchise may be getting a great new series. • What to do about the problem of AI "website sucking".</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1038/sn1038.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:40:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1038/sn1038.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1038/sn1038.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1038/sn1038.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1037: Chinese Participation in MAPP</title>
+<pubDate>05 Aug 2025</pubDate>
+<comments>http://twit.tv/sn/1037</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• A follow-up to the SharePoint server patch mess. • How Russia arranges to spy on other country's local embassies. • "Dropbox Passwords" manager app is ending in October. • Signal will leave Australia rather than help spy. • YouTube deploys viewing history age-estimation heuristics. • Chrome adds clever lightweight extension signing to prevent abuse. • A domain registrar is coming close to losing its rights. • A TP-Link router that doesn't encrypt its configuration. • What is “TruAge” and might it be useful for age verification. • An update on “Artemis”. • With U.S.-China tensions on the rise, should Chinese security companies receive weeks of advance notice of forthcoming Microsoft flaw patches?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1037/sn1037.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:22:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1037/sn1037.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1037/sn1037.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1037/sn1037.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1036: Inside the SharePoint 0-day RCE</title>
+<pubDate>29 Jul 2025</pubDate>
+<comments>http://twit.tv/sn/1036</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Brave randomizes its fingerprints. • The next Brave will block Microsoft Recall by default. • Clorox sues its IT provider for $380 million in damages. • 6-month Win10 ESU offers are beginning to appear. • Warfare has significantly become cyber. • Allianz Life loses control of 125 million customers' data. • The CIA's Acquisition Research Center website was hacked. • The Pentagon says the SharePoint RCE didn't get them. • A look at a DPRK "laptop farm" to impersonate Americans. • FIDO's passkey was NOT bypassed by a MITM after all. • Is our data safe anywhere? • The UK is trying to back-pedal out of the Apple ADP mess. • Meanwhile, the EU resumes its push for "Chat Control". • What happened after Microsoft fumbled the patch of a powerful Pwn2Own exploit?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1036/sn1036.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:30:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1036/sn1036.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1036/sn1036.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1036/sn1036.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1035: Cloudflare's 1.1.1.1 Outage</title>
+<pubDate>22 Jul 2025</pubDate>
+<comments>http://twit.tv/sn/1035</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Bypassing all passkey protections. • The ransomware attacks just keep on coming. • Cloudflare capitulates to the MPA and starts blocking. • The need for online age verification is exploding. • Microsoft really wants Exchange Servers to subscribe. • Russia (further) clamps down on Internet usage. • The global trend toward more Internet restrictions. • China can inspect locked Android phones. Use a burner. • Web shells are the new buffer overflow. • An age verification protocol sketch. • What Cloudflare did to create an outage of 1.1.1.1.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1035/sn1035.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:35:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1035/sn1035.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1035/sn1035.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1035/sn1035.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1034: Introduction to Zero Knowledge Proofs</title>
+<pubDate>15 Jul 2025</pubDate>
+<comments>http://twit.tv/sn/1034</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• A glorious takedown of quantum factorization. • Notepad++ signs its own code signing certificate. • Dennis Taylor has Bobiverse Book 6 on his lap. • Crypto/ATM machines flat out outlawed. • Signal vs WhatsApp: Encryption in flight and at rest. • A close look at browser fingerprinting metrics. • Rewriting interpreters in memory-safe languages. • An introduction to zero-knowledge proofs.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1034/sn1034.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:31:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1034/sn1034.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1034/sn1034.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1034/sn1034.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1033: Going on the Offensive</title>
+<pubDate>08 Jul 2025</pubDate>
+<comments>http://twit.tv/sn/1033</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Another Israeli spyware vendor surfaces. • Win11 to delete restore points more quickly. • The EU accelerates its plans to abandon Microsoft Azure. • The EU sets timelines for Post-Quantum crypto adoption. • Russia to create a massive IMEI database. • Canada and the UK create the "Common Good Cyber Fund". • U.S. states crack down on Bitcoin ATMs amid growing scams. • Congressional staffers cannot use WhatsApp on gov devices. • LibXML2 and the problems with commercial use of OSS. • A(nother) remote code execution vulnerability in WinRAR. • Have-I-Been-Pwned gets a cool data visualization site. • How is ransomware getting in? • Windows to offer "safe" non-kernel endpoint security? • Proactive age verification coming to porn sites. How? • Canada (also) says "bye bye" to Hikvision. • Germany will be banning DeekSeek. The whole EU may follow. • Cloudflare throttled in Russia? • What must the U.S. do to compete in global exploit acquisition?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1033/sn1033.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:43:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1033/sn1033.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1033/sn1033.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1033/sn1033.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1032: Pervasive Web Fingerprinting</title>
+<pubDate>01 Jul 2025</pubDate>
+<comments>http://twit.tv/sn/1032</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Let's Encrypt drops its long-running email notifications. • Microsoft's new “Unexpected Restart Experience”. • Microsoft's response to last year's massive CrowdStrike outage. • Windows 10's extended service updates will sort of be free. • Russia-sold iPhones MUST include the RuStore app. • Lyon, in France, says bye-bye to Windows. Hello to Linux. • The US Gov gets more serious about memory-safe languages. • A new unbelievable AI malware scanner evasion technique. • A new pair of Cisco 9.8 and 10.0 vulnerabilities. • The current state of post-Elon government cybersecurity. • PNGv3, Swift on Android, and the Samsung email purge. • Andy Weir's “Project Hail Mary” movie trailer. • And a close look at the pervasiveness of web browser tracking fingerprinting.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1032/sn1032.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:37:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1032/sn1032.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1032/sn1032.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1032/sn1032.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1031: How Salt Typhoon gets in</title>
+<pubDate>24 Jun 2025</pubDate>
+<comments>http://twit.tv/sn/1031</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• China's Salt Typhoon claims another victim (or two). • State healthcare portals are tracking and leaking. No kidding. • Apple adopts FIDO's Passkeys and other credentials transport. • Facebook gets Passkey logon. • TikTok continues ticking for at least another 90 days. • Canadian telco admits they were infiltrated by Salt Typhoon. • Microsoft to remove unwanted (and hopefully unneeded) hardware drivers. • The Austrian government legislates court-warranted message decryption. • I (Steve) finally get full clarity on what today's "AI" means. • A deep dive into the Salt Typhoon's operation and how they got in.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1031/sn1031.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:39:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1031/sn1031.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1031/sn1031.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1031/sn1031.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1030: Internet Foreground Radiation</title>
+<pubDate>17 Jun 2025</pubDate>
+<comments>http://twit.tv/sn/1030</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• An exploited iOS iMessage vulnerability Apple denies? • The NPM repository is under siege with no end in sight. • Were Comcast and Digital Realty compromised? Don't ask them. • Matthew Green agrees: XChat does not offer true security. • We may know how Russia is convicting Telegram users. • Microsoft finally decides to block two insane Outlook file types. • 40,000 openly available video camera are online. Who owns them? • Running SpinRite on encrypted drives. • An LLM describes Steve's (my) evolution on Microsoft security. • What do we know about the bots that are scanning the Internet?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1030/sn1030.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:20:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1030/sn1030.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1030/sn1030.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1030/sn1030.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1029: The Illusion of Thinking</title>
+<pubDate>10 Jun 2025</pubDate>
+<comments>http://twit.tv/sn/1029</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• In memoriam: Bill Atkinson. • Meta native apps &amp; JavaScript collude for a localhost local mess. • The EU rolls out its own DNS4EU filtered DNS service. • Ukraine DDoS's Russia's Railway DNS ... and... so what? • The Linux Foundation creates an alternative Wordpress package manager. • Court tells OpenAI it must NOT delete ANYONE's chats. Period! :( • A CVSS 10.0 in Erlang/OTP's SSH library. • Can Russia intercept Telegram? Perhaps. • Spain's ISPs mistakenly block Google sites. • Reddit sues Anthropic. • Twitter's new encrypted DM's are as lame as the old ones. • The Login.gov site may not have any backups. • Apple explores the question of recent Large Reasoning Models “thinking”.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1029/sn1029.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:22:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1029/sn1029.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1029/sn1029.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1029/sn1029.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1028: AI Vulnerability Hunting</title>
+<pubDate>03 Jun 2025</pubDate>
+<comments>http://twit.tv/sn/1028</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Pwn2Own 2025, Berlin results. • PayPal seeks a “newly registered domains” patent. • An expert iOS jailbreak developer gives up.
+• The rising abuse of SVG images, via JavaScript. • Interesting feedback from our listeners.
+• Four classic science fiction movies not to miss. • How OpenAI's o3 model discovered a 0-day in the Linux kernel</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1028/sn1028.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:42:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1028/sn1028.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1028/sn1028.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1028/sn1028.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1027: Artificial Intelligence</title>
+<pubDate>27 May 2025</pubDate>
+<comments>http://twit.tv/sn/1027</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• What's the status of Encrypted Client Hello (ECH)? • What radio technology would be best for remote inverter shutdown? • Some DNS providers already block newly listed domains. • Knowing when not to click a link can take true understanding. • Why can losing a small portion of a power grid bring the rest down? • Where are we in the “AI Hype Cycle” and is this the first? • Speaking of hype: An AI system resorted to blackmail? • Why are we so quick to imbue AI with awareness? • ChatGPT's latest o3 model ignored the order to shutdown. • Copilot may not be making Windows core code any better. • Venice.AI is an unfiltered and unrestrained LLM.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1027/sn1027.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:29:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1027/sn1027.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1027/sn1027.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1027/sn1027.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1026: Rogue Comms Tech Found in US Power Grid</title>
+<pubDate>20 May 2025</pubDate>
+<comments>http://twit.tv/sn/1026</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Chrome to actively refuse admin privileges. • Android Messenger is getting manual key verification. • Pwn2Own to add AI “pwning” as in-scope attack targets. • AI has already been found to be replicating. • Microsoft not killing off Office on Win10 after October. • 23andMe's asset purchaser revealed. • Many fun talking points thanks to our listeners. • Steve's review of “Andor”, season 2. • What's been discovered inside the U.S. power grid.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1026/sn1026.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:22:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1026/sn1026.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1026/sn1026.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1026/sn1026.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1025: Secure Conversation Records Retention</title>
+<pubDate>13 May 2025</pubDate>
+<comments>http://twit.tv/sn/1025</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The state of Virginia passes an age-restriction law that has no chance. • New Zealand also tries something similar, citing Australia's lead. • A nasty Python package for Discord survived 3 years and 11K downloads. • The FBI says it's a good idea to discard end-of-life consumer routers. • What's in WhatsApp? Finding out was neither easy nor certain. • The UK's Cyber Centre says AI promises to make things much worse. • A bunch of great feedback from our great listeners, then: • Is true end-to-end encryption possible when records must be retained?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1025/sn1025.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:20:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1025/sn1025.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1025/sn1025.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1025/sn1025.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1024: Don't Blame Signal</title>
+<pubDate>06 May 2025</pubDate>
+<comments>http://twit.tv/sn/1024</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Microsoft to officially abandon passwords and support their deletion. • Meta's RayBan smart-glasses weaken their privacy terms. • 30% of Microsoft code is now being written by AI. • Google says prying Chrome from it will damage its security. • Nearly 1,000 six-year old eCommerce backdoors spring to life. • eM Client moves to version 10.3 • A bunch of terrific listener feedback creates talking points. • A little known insecure message archiving service comes to light.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1024/sn1024.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:26:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1024/sn1024.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1024/sn1024.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1024/sn1024.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1023: Preventing Windows Sandbox Abuse</title>
+<pubDate>29 Apr 2025</pubDate>
+<comments>http://twit.tv/sn/1023</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Enabling Firefox's Tab Grouping.
+• Why did a mysterious empty “inetpub” directory appear after April's Patch Tuesday? • And what new Windows Update crashing hack did this also create? • North Korea is now creating fake US companies to lure would-be employees. • The “Inception” attack subverts all GPT conversational AIs. • New information about data loss in unpowered SSD mass storage. • Lots of terrific feedback from our listeners. • How malware has taken to hiding inside the Windows Sandbox and what you can do to stop it.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1023/sn1023.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:22:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1023/sn1023.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1023/sn1023.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1023/sn1023.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1022: Windows Sandbox</title>
+<pubDate>22 Apr 2025</pubDate>
+<comments>http://twit.tv/sn/1022</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Enabling Firefox's Tab Grouping.
+• Recalled Recall Re-Rolls out. • The crucial CVE program nearly died. It's been given new life.
+• China confesses to hacking the US (blames our stance on Taiwan). • CISA says what Oracle still refuses to. • Brute force attacks on the (rapid) rise. • An AI/ML Python package rates a 9.8 (again!) • The CA/Browser forum passed short-life certs. :( • A wonderful crosswalk hack hits Silicon Valley. • Android to add force restarting ahead of schedule. Maybe. • The EFF is never happy. But especially now, about Florida. • Interesting research into ransomware payouts. • Windows Sandbox: The amazing gem hidden inside all Windows 10 &amp; 11!</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1022/sn1022.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:34:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1022/sn1022.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1022/sn1022.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1022/sn1022.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1021: Device Bound Session Credentials</title>
+<pubDate>15 Apr 2025</pubDate>
+<comments>http://twit.tv/sn/1021</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Android to get "Lockdown Mode". • What's in the new editions of Chrome and Firefox? • Why did Apple silently re-enable automatic updates? • My new iPhone 16, Chinese tariffs and electronics. • Dynamic "hotpatching" coming to Win11 Enterprise &amp; Edu. • Why is it so difficult for Oracle to fess up? • Another multi-year breach inside US Treasury. • An Apple -vs- the UK update. • "Thundermail" (Can't someone come up with a better name?) • The (in)Security of Programmable Logic Controllers. • When LLM's write code and hallucinate non-existent packages. • Wordpress core security and PHP gets an important audit. • Device-Bound Session Credentials update session cookie technology.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1021/sn1021.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:48:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1021/sn1021.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1021/sn1021.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1021/sn1021.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1020: Multi-Perspective Issuance Corroboration</title>
+<pubDate>08 Apr 2025</pubDate>
+<comments>http://twit.tv/sn/1020</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Canon printer driver vulnerabilities enable Windows kernel exploitation. • Astonishing cyber-security awareness from a household appliance manufacturer. • France tries to hook 2.5 million school children with a Phishing test. • Wordpress added an abuse prone feature in 2022. Guess what happened? • Oracle? Is there something you'd like to tell us? • Utah's governor just signed the App Store Accountability Act. Now what? • AI bots hungry for new data are DDoSing FOSS projects.
+• No Microsoft Account? No Microsoft Windows 11. • Gmail claims it now offers E2EE. It kinda sorta does. Somewhat. • A dreaded CVSS 10.0 was discovered in Apache Parquet. • A bunch of terrific listener feedback. • What's Multi-Perspective Issuance Corroboration and why must all certificate authorities now do it?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1020/sn1020.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:43:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1020/sn1020.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1020/sn1020.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1020/sn1020.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1019: EU OS</title>
+<pubDate>01 Apr 2025</pubDate>
+<comments>http://twit.tv/sn/1019</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Kuala Lumpur International Airport says no to a ransom attack, switches to whiteboard. • A tired and jet-lagged Troy Hunt got Phished then listed himself on his own site. • Cloudflare completely pulls the plug on port 80 (HTTP) API access. • Malware is switching to obscure languages to avoid detection. FORTH, anyone? • Password reuse doesn't appear to be dropping. Cloudflare has numbers. • A listener shares his log of malicious Microsoft login attempts. Why no geofencing? • 23andMe down for the count (reminder). • A sobering Ransomware attack &amp; victim listing website. Gulp! • “InControl” keeps VR planes aloft. • And the European Union gets serious about a switch to Linux.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1019/sn1019.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:39:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1019/sn1019.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1019/sn1019.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1019/sn1019.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1018: The Quantum Threat</title>
+<pubDate>25 Mar 2025</pubDate>
+<comments>http://twit.tv/sn/1018</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The dangers of doing things you don't understand. • Espressif responds to the claims of an ESP32 backdoor. • A widely leveraged mistake Microsoft stubbornly refuses to correct. • A disturbingly simple remote takeover of Apache Tomcat servers. • A 10/10 vulnerability affecting some ASUS, ASRock and HPE motherboards. • Google snapped up another cloud security firm but paid a price! • RCS messaging to soon get full end-to-end encryption (done right!). • How did an AI Crypto Chatbot lose $105,000? ...and what is an AI Crypto Chatbot? • Looks like Oracle may take stewardship of TikTok to keep it in-country. • Whoops! 23andMe is sinking – don't let them take your genetics with them! • The White House says “the cyber guys should stay!” • AI project failure rates are on the rise. Anyone surprised? • Listener feedback, and a very interesting update on just how looming is the threat from quantum computing?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1018/sn1018.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:35:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1018/sn1018.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1018/sn1018.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1018/sn1018.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1017: Is YOUR System Vulnerable to RowHammer?</title>
+<pubDate>18 Mar 2025</pubDate>
+<comments>http://twit.tv/sn/1017</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>An analysis of Telegram Messenger's crypto. A beautiful statement of the goal of modern crypto design. Who was behind Twitter's recent outage trouble? An embedded Firefox root certificate expired. Who was surprised? AI-generated Github repos, voice cloning, Patch Tuesday and an Apple 0-day. The FBI warns of another novel attack vector that's seeing a lot of action. Google weighs in on the Age Verification controversy. In a vacuum, Kazakhstan comes up with their own solution. Was Google also served an order from the UK? Can they say? A serious PHP vulnerability you need to know you don't have. A bunch of great listener feedback, some Sci-Fi content reviews and... a new tool allows YOU to test YOUR PCs for their RowHammer susceptibility.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1017/sn1017.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:34:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1017/sn1017.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1017/sn1017.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1017/sn1017.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1016: The Bluetooth Backdoor</title>
+<pubDate>11 Mar 2025</pubDate>
+<comments>http://twit.tv/sn/1016</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Utah passes age verification requirement for app stores. The inside story on fake North Korean employees. Is that a Texas accent? An update on the ongoing Bybit cryptoheist saga. The industry may be making some changes in the wake of the Bybit attack. Apple pushes back legally against the UK's secret order. Did someone crack Passkeys? The UK launches a legal salvo at an innocent security researcher. The old data breach we witnessed that just keeps on giving. A bit more Bybit post-mortem forensic news. A lesson to learn from a clever and effective ransomware attack. And what about that Bluetooth Backdoor discovery everyone is talking about?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1016/sn1016.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:28:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1016/sn1016.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1016/sn1016.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1016/sn1016.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1015: Spatial-Domain Wireless Jamming</title>
+<pubDate>04 Mar 2025</pubDate>
+<comments>http://twit.tv/sn/1015</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Firefox amends their privacy policy -- the world melts down. • Signal threatens to leave Sweden. • Aftermath of the massive $1.5 billion Bybit ETH heist. • It turns out that it wasn't actually Bybit's fault. • "The Lazarus Bounty" monitoring and management site. • Mozilla's commitment to Manifest V2 (and the uBlock Origin). • What does the ACM's plea for memory-safe languages mean for developers? • What exactly are memory-safe languages? • Australia joins the Kaspersky ban. • Gmail plans to switch from SMS to QR code authentication. • A SpinRite success and some fun feedback. • An astonishing new technology for targeted radio jamming.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1015/sn1015.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:30:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1015/sn1015.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1015/sn1015.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1015/sn1015.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1014: FREEDOM Administration Login</title>
+<pubDate>25 Feb 2025</pubDate>
+<comments>http://twit.tv/sn/1014</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Apple disables Advanced Data Protection for new UK users. • Paying ransoms is not as cut and dried as we might imagine. • Elon Musk's "X" social media blocks "Signal.me" links. • Spain's soccer league blocks Cloudflare and causes a mess.
+• Two new (and rare) vulnerabilities discovered in OpenSSH. • The U.S. seems unable to evict Chinese attackers from its Telecom systems. • What are those Chinese "Salt Typhoon" hackers doing to get in? • The largest (by far) cryptocurrency heist in history occurred Friday. • Ex-NSA head says the U.S. is falling behind on the cyber front lines. • We have the winner (and a good one) replacement term for "backdoor". • A look at a pathetic access control system that begs to be hacked (and will be).</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1014/sn1014.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:17:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1014/sn1014.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1014/sn1014.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1014/sn1014.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1013: Chrome Web Store is a mess</title>
+<pubDate>18 Feb 2025</pubDate>
+<comments>http://twit.tv/sn/1013</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>US lawmakers respond to the UK's outrageous demand about Apple's encryption. What, exactly, is a "backdoor", and can a "backdoor" NOT be secret? Highlights from last week's Windows' Patch Tuesday. A look into RansumHub: The latest king of the Ransomware hill. "TOAD": Telephone-Oriented Attack Delivery. The state of Texas -versus- DeepSeek. Disabling Apple's "Restricted Mode". Where did I put that $800 million in Bitcoin? A Sci-Fi author update. And a deep dive into the misoperation of Chrome's critically important Web Extension Store.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1013/sn1013.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:10:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1013/sn1013.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1013/sn1013.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1013/sn1013.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1012: Hiding School Cyberattacks</title>
+<pubDate>11 Feb 2025</pubDate>
+<comments>http://twit.tv/sn/1012</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>New “SparkCat” secret-stealing AI image scanner discovered in App and Play stores. The UK demands that Apple does the impossible: decrypting ADP cloud data. France moves forward on legislation to require backdoors to encryption. Firefox moves to 135 with a bunch of useful new features. The Five Eyes alliance publishes edge-device security guidance. Six NetGear routers contain CVSS 9.6 and 9.8 vulnerabilities. Sysinternals utilities allow malicious Windows DLL injection. Google removes restrictive do-gooder language from AI application policies. “AI Fuzzing” successfully jailbreaks the most powerful ChatGPT o3 model. Examining the well and deliberately hidden truth behind ransomware cyberattacks on U.S. K-12 schools.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1012/sn1012.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:17:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1012/sn1012.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1012/sn1012.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1012/sn1012.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1011: Jailbreaking AI</title>
+<pubDate>04 Feb 2025</pubDate>
+<comments>http://twit.tv/sn/1011</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Why was DeepSeek banned by Italian authorities? What internal proprietary DeepSeek data was found online? What is "DeepSeek" anyway? Why do we care, and what does it mean? Did Microsoft just make OpenAI's strong model available for free? Google explains how generative AI can be and is being misused. An actively exploited and unpatched Zyxel router vulnerability. The new US "ROUTERS" Act. Is pirate-site blocking legislation justified or is it censorship? Russia's blocked website count tops 400,000. Microsoft adds "scareware" warnings to Edge. Bitwarden improves account security. What's still my favorite disk imaging tool? And let's take a close look into the extraction of proscribed knowledge from today's AI systems -- It only requires a bit of patience.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1011/sn1011.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:45:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1011/sn1011.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1011/sn1011.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1011/sn1011.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1010: DNS over TLS</title>
+<pubDate>28 Jan 2025</pubDate>
+<comments>http://twit.tv/sn/1010</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>eM Client CAN be purchased outright. An astonishing 5-year-old typo in MasterCard's DNS. An unwelcome surprise received by 18,459 low-level hackers. DDoS attacks continue growing, seemingly without any end in sight. Let's Encrypt clarifies their plans for 6-day "we barely knew you" certificates. SpinRite uncovers a bad brand new 8TB drive. Listener feedback about TOTP, Syncthing and UDP hole punching, email spam, ValiDrive speed, AI neural nets, DJI geofencing, and advertising in the "New" Outlook. A look into the tradeoffs required to obtain privacy for our DNS lookups.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1010/sn1010.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:19:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1010/sn1010.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1010/sn1010.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1010/sn1010.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1009: Attacking TOTP</title>
+<pubDate>21 Jan 2025</pubDate>
+<comments>http://twit.tv/sn/1009</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What do we learn from January's record breaking 0-day critical Patch Tuesday? Microsoft to "force-install" a new Outlook into all Windows 10 and 11 desktops? GoDaddy is required to get much more serious about its hosting security. More age verification enforcement is coming, including globally. What another instance of a widely exposed management interface teaches us. DJI drone's official firmware update lifts geofencing for unrestricted flight. CISA's efforts pay off with MUCH improved critical infrastructure security. Listener feedback about TOTP, HOTP and age-verification. And we take a deep dive into cracking authenticator keys.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1009/sn1009.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:46:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1009/sn1009.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1009/sn1009.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1009/sn1009.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1008: HOTP and TOTP</title>
+<pubDate>14 Jan 2025</pubDate>
+<comments>http://twit.tv/sn/1008</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Meta winds down 3rd-party content filtering. Is encryption soon to follow? Taking over abandoned Command &amp; Control server domains (strictly for research purposes only!). IoT devices to get the “Cyber Trust Mark” – will anyone notice or care? “SyncThing” receives a (blessedly infrequent) update. Government email is not using encryption? Really? Email relaying prevents point-to-point end-to-end encryption and authentication. Just because Let's Encrypt doesn't support email doesn't mean it's impossible. What Sci-Fi does ChatGPT think I (Steve) should start reading next? To auto-update or not to auto-update? – is that one question or two? And, until today, we've never taken a deep dive into the technology of time-varying 6-digit one time tokens. Let's fix that! (And last week's uncaptioned picture is finally captioned!)</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1008/sn1008.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:27:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1008/sn1008.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1008/sn1008.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1008/sn1008.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1007: AI Training &amp; Inference</title>
+<pubDate>07 Jan 2025</pubDate>
+<comments>http://twit.tv/sn/1007</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>The consequences of Internet content restriction. The measured risks of 3rd-party browser extensions. The consequences of SonicWall's unpatched 9.8 firewall severity. The incredible number of still-unencrypted email servers. Salt Typhoon finally evicted from three telecom carriers. HIPAA gets a long-needed cybersecurity upgrade. The EU standardizes on USB-C for power charging. What? Believe it or not, a CATCHA you solve by playing DOOM. And once we've caught up with all of that: What I learned from three weeks of study of AI.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1007/sn1007.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:24:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1007/sn1007.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1007/sn1007.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1007/sn1007.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1006: The Best of 2024</title>
+<pubDate>24 Dec 2024</pubDate>
+<comments>http://twit.tv/sn/1006</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>#956: Apple's Hardware Backdoor: Steve reflects on the previous week's 'The Mystery of CVE-2023-38606' deep-dive. #960: Unforeseen Consequences of Google's 3rd-party Cookie Cutoff: As Google moves to phase out third-party cookies, the advertising industry scrambles to find new ways to track users, potentially leading to more intrusive methods like requiring users to create accounts on websites. #961: Bitlocker: Chipped or Cracked?:  A clever hacker demonstrates how BitLocker-encrypted drives can be compromised on systems using separate TPM chips, highlighting the importance of integrating TPM functionality directly into the CPU. #964: So, What Is Apple's PQ3?: Steve analyzes Apple's new "PQ3" post-quantum safe iMessaging protocol, questioning whether it truly offers superior security compared to Signal's existing solution. #976: Recall - The 50 Gigabyte Privacy Bomb: Examining Microsoft's new "Recall" feature that records users' screens every few seconds, raising significant privacy concerns. #984: CrowdStruck: A look at the disastrous global IT outage caused by a faulty CrowdStrike Falcon update, affecting airports, hospitals, banks, and more. #1000: Steve and Leo reflect on 1000 episodes of Security Now. #1001: Artificial General Intelligence: Steve and Leo discuss the challenges in achieving artificial general intelligence (AGI) and the debate surrounding its potential timeline and societal impact.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1006/sn1006.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:31:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1006/sn1006.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1006/sn1006.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1006/sn1006.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1005: 6-Day Certificates? Why?</title>
+<pubDate>17 Dec 2024</pubDate>
+<comments>http://twit.tv/sn/1005</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Is AI the Wizard of Oz? Or is it more? Microsoft's long standing effective MFA login bypass. Is TPM 2.0 not required after all for Windows 11? Meet 14 North Korean IT workers who made $88 million from the West. Android updates its Bluetooth tracking with anti-tracking. The NPM package manager repository has had 540,000 malicious packages discovered hiding in plain sight. The AskWoody site remains alive, well, and terrific. My iPhone is linked to Windows and it's wonderful. Yay. How has email been finding logos before BIMI? If we use Him and Her for people, how about Hal for AI? Another very disturbing conversation with ChatGPT. What's going on with the new ChatGPT o1 model? It wants to escape? What?? Let's Encrypt plans to reduce its certificate lifetime from 90 to just 6 days. Why in the world?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1005/sn1005.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:7:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1005/sn1005.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1005/sn1005.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1005/sn1005.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1004: A Chat with GPT</title>
+<pubDate>10 Dec 2024</pubDate>
+<comments>http://twit.tv/sn/1004</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>All telecom providers have been hacked and may still not be safe to use. So now the government is recommending that we use our own encrypted communications. The plan to obsolete all non-TPM 2.0 PCs remains well underway. Microsoft must be feeling the heat, so they're taking time to not apologize. Whoops. Microsoft's product activation system has been fully hacked. All Windows and Office products may now be easily activated without any licensing. Here come the AI patents. Apple patents AI recognizing people by what they're wearing after earlier seeing their faces and noting what they're wearing. Zoom wasn't encrypting they're early video conferencing. They're still trying to get out from under the mess their lies created for them. AWS introduces physical data terminal locations where users can go to perform massive data transfers to and from the cloud. The FTC has set their sights on data brokers. Let's hope something comes of it. GRC's email finally gets BIMI. (Can you see the Ruby-G logo?) Lot's a terrific listener feedback about authenticator policy, a new and free point-to-point link service, Tor's "Snowflake", linking PCs and Smartphones, and even recharging spent SodaStream canisters. Then we look at a recent conversation I had with "ChatGPT 4o with canvas" and the new plan that resulted.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1004/sn1004.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:12:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1004/sn1004.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1004/sn1004.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1004/sn1004.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1003: A Light-Day Away</title>
+<pubDate>03 Dec 2024</pubDate>
+<comments>http://twit.tv/sn/1003</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Microsoft makes very clear what data they are NOT using to train their AI models. What's a “Digital Epileptic Seizure”? What induces them? And why you don't want your self-driving car to have one! A public plea for help in the form of volunteer bridge servers from the Tor Network. If you are one of 140 million Zello users, heed their notice to change your password. The U.S. Federal Trade Commission opens a broad antitrust investigation into whether Microsoft has been naughty or nice. A new form of Android smartphone “scareware” simulates a seriously malfunctioning, cracked and broken screen. It's almost certainly positively and completely safe to leave Wireguard open and listening for incoming connections. Is “almost certainly positively and completely safe” safe enough? If the Internet fills with AI output, what happens when AI starts training on that? It seems we know. Last week, Australia passed the social media age restriction law. Now what? And finally, not only is Voyager 1 nearly an entire light-day away, it's beginning to have some harder to remotely repair problems. How much longer will we be in touch with it?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1003/sn1003.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:56:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1003/sn1003.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1003/sn1003.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1003/sn1003.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1002: Disconnected Experiences</title>
+<pubDate>26 Nov 2024</pubDate>
+<comments>http://twit.tv/sn/1002</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What's the new “nearest neighbor” attack and how do you defend against it? Let's Encrypt just turned 10. What changes has it wrought? Now the Coast Guard is worried about Chinese built ship-to-shore cranes. Pakistan becomes the first country to block Bluesky. There's a new way to get Git repos "swatted" and removed. Who's to blame for Palo Alto Networks' serious new 0-day vulnerabilities? If you have any of these six D-Link VPN routers, unplug them immediately! It turns out that VPN apps are against Shariah Law. Who knew? The Return of Windows Recall. What are we learning now? How many of today's systems remain vulnerable to last year's most popular exploits? We share and respond to a bunch of terrific feedback from our listeners. Then we ask: What are Microsoft's “Connected Experience” and why might you choose to disconnect from them?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1002/sn1002.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:9:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1002/sn1002.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1002/sn1002.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1002/sn1002.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1001: Artificial General Intelligence (AGI)</title>
+<pubDate>19 Nov 2024</pubDate>
+<comments>http://twit.tv/sn/1001</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>How Microsoft lured the US Government into a far deeper and expensive dependency upon its cybersecurity solutions. Gmail to offer native throwaway email aliases like Apple and Mozilla. Russia to ban several additional hosting companies and give its big Internet disconnect switch another test. Russia uses a diabolical Windows flaw to attack Ukrainians. The value of old Security Now episodes. TrueCrypt's successor. Using Cloudflare's Tunnel service for remote network access. How to make a local server appear to be on a remote public IP. How to share an 'impossible to type' password with someone. How to find obscure previous references in the Security Now podcast. What are the parameters for the expected and widely anticipated next generation Artificial General Intelligence (AGI)? What do those in the industry and academia expect? And is OpenAI's Sam Altman completely nuts for predicting it next year? Is it just a stock ploy?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1001/sn1001.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:3:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1001/sn1001.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1001/sn1001.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1001/sn1001.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1000: 1000!</title>
+<pubDate>12 Nov 2024</pubDate>
+<comments>http://twit.tv/sn/1000</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Did Bitwarden go closed-source? The rights of German security researchers are clarified. Australia to impose age limits on social media. Free Windows Server 2025 anyone? UAC wasn't in the way enough, so they're fixing that. "From Russia with fines" -- obey or else. South Korea fines Meta over serious user privacy violations. Synology's (very) critical zero-click RCE flaw. Malicious Python packages invoked by typos. Google to enforce full MFA for all cloud service users. Mozilla Foundation lays off 30%? Is Firefox safe? Some feedback from Dave's Garage (https://grc.sc/dave) And a bunch of thought provoking "Closing The Loop" feedback from our terrific listeners: The AI arms race, blocking YouTube shorts with uBlock Origin, the story behind the hose crossing the train tracks, the DNS Benchmark on non-Windows platforms, will AIs learn to tell the truth?, how to securely connect remotely to home network resources?, and listeners who have been with us for the past 20 years of their lives.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1000/sn1000.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:5:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1000/sn1000.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1000/sn1000.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1000/sn1000.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 999: AI Vulnerability Discovery</title>
+<pubDate>05 Nov 2024</pubDate>
+<comments>http://twit.tv/sn/999</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Google's record-breaking fine by Russia. (How many 0's is that?) RT's editor-in-chief admits that their TV hosts are AI-generated. Windows 10 security updates set to end next October... or are they? When a good Chrome extension goes bad. Windows .RDP launch config files. What could possibly go wrong? Firefox 132 just received some new features. Chinese security cameras being removed from the UK. I know YOU wouldn't fall for this social engineering attack. What's GRC's next semi-commercial product going to be? And what's the prospect for AI being used to analyze code to eliminate security vulnerabilities?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0999/sn0999.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:34:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0999/sn0999.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0999/sn0999.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0999/sn0999.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 998: The Endless Journey to IPv6</title>
+<pubDate>29 Oct 2024</pubDate>
+<comments>http://twit.tv/sn/998</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Apple proposes 45-day maximum certificate life. Please, no. :( SEC fines four companies for downplaying their SolarWinds attack severity. Google adds 5 new features to Messenger including inappropriate content. Does AI-driven local device-side filtering resolve the encryption dilemma forever? The very nice looking “Session” messenger leaves Australia for Switzerland. Another quick look at the question of the EU's software liability moves. Fake North Korean employees WERE found to install backdoor malware. How to speed up an SSD without using SpinRite. Using ChatGPT to review and suggest improvements in code. And Internet governance has been trying to move the Internet to IPv6 for the past 25 years, but the Internet just doesn't want to go. Why not? And will it ever?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0998/sn0998.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:30:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0998/sn0998.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0998/sn0998.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0998/sn0998.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 997: Credential Exchange Protocol</title>
+<pubDate>22 Oct 2024</pubDate>
+<comments>http://twit.tv/sn/997</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Did Chinese researchers really break RSA encryption? What did they do? What next-level terror extortion is being powered by the NPD breach data? The EU to hold software companies liable for software security? Microsoft lost weeks of security logs. How hard did the try to fix the problem? The Chinese drone company DJI has sued the DoJ over its ban on DJI's drones. The DoJ wishes to acquire “DeepFake” technology to create fake people. Microsoft has bots pretending to fall for phishing campaigns, then leading the bad guys to their honeypots. It's diabolical and brilliant. A bit of BIMI logo follow-up, then... A look at the operation of the FIDO Alliance's forthcoming Credential Exchange Protocol which promises to create passkey collection portability.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0997/sn0997.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:59:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0997/sn0997.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0997/sn0997.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0997/sn0997.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 996: BIMI (up Scotty)</title>
+<pubDate>15 Oct 2024</pubDate>
+<comments>http://twit.tv/sn/996</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>A great deal more about uBlock Origin which we've been underutilizing. National Public Data files for bankruptcy (is anyone surprised?). Will the .IO top level Internet domain be disappearing? Last week was Patch Tuesday, what did we learn? Firefox fixed a bad remote exploit that was attacking Tor users. Why a Server edition of Windows won't substitute for a desktop edition. A look back at a fabulous multi-platform puzzle/game from 2015. Feedback on Saturday's surprise Security Now! Mailing. More on “What's the best router?” What in the world is BIMI for email? What it does and what it promises. And next week we dig into the just-announced Passkey “Credential Exchange Protocol” which promises to deliver passkey portability.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0996/sn0996.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:14:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0996/sn0996.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0996/sn0996.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0996/sn0996.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 995: uBlock Origin &amp; Manifest V3</title>
+<pubDate>08 Oct 2024</pubDate>
+<comments>http://twit.tv/sn/995</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Meta was not bothering to hash passwords? PayPal to begin selling its user's purchase histories. 2021's record for maximum DDoS size has been broken. It's national cybersecurity month. When was the last time you updated your router's firmware? North Korean hackers are successfully posing as domestic IT workers. Why would a security-related podcast ever talk about Vitamin D? What's another way the recent Linux CUPS vulnerability might be weaponized? What's the secure consumer WiFi router of choice today? And what should be done to further secure it after purchase? Recent troubles with uBlock Origin's Lite edition shine a light on Chrome's coming content-blocking add-on restrictions. What's going on and what can be done?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0995/sn0995.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:15:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0995/sn0995.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0995/sn0995.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0995/sn0995.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 994: Recall's Re-Rollout</title>
+<pubDate>01 Oct 2024</pubDate>
+<comments>http://twit.tv/sn/994</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>We have the full story about the Linux remote code execution flaw. What bad stuff can happen if a domain escapes control even briefly? What social media platform is now in Russia's Roskomnadzor crosshairs? Update VLC to eliminate a potential remote code execution flaw. Tor merges with Tails for greater efficiency. Telegram announces that it will now obey court orders to disclose information. Interesting info from Bobiverse's author and some early feedback about Peter F. Hamilton's latest novel. How to keep Windows from re-asking to set up an already setup system. And... Microsoft is re-rolling out Recall. Have they actually addressed the valid
+concerns? Or is this just more lipstick on a pig?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0994/sn0994.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:58:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0994/sn0994.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0994/sn0994.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0994/sn0994.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 993: Kaspersky exits the U.S.</title>
+<pubDate>24 Sep 2024</pubDate>
+<comments>http://twit.tv/sn/993</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>The case of the exploding pagers and walkie-talkies. Are Ford Motor Company autos planning to listen-in to their occupants? Highly personal data of 106,316,633 U.S individuals was found unprotected online. Passkeys takes a huge step forward with native support in Chrome. Is there a serious 9.9-level unauthenticated remote code exploit in Linux? More credit bureau freezing insanity, Drobo vs Synology, GRC's email adventure, WiFi security with and without a VPN, obtaining CPE credits from listening to Security Now, and in defense of Microsoft Defender XDR. Then, what mess did Kaspersky make leaving the U.S. market last week and what are the wider implications for the Internet's future?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0993/sn0993.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:6:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0993/sn0993.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0993/sn0993.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0993/sn0993.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 992: Password Manager Injection Attacks</title>
+<pubDate>17 Sep 2024</pubDate>
+<comments>http://twit.tv/sn/992</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What happened during Microsoft's recent Windows Endpoint Security Ecosystem Summit? And what, if anything, will probably result? How reliable is ANY form of digital storage when used for long-term archiving? What happened when an illegal Starlink Internet network was set up on a U.S. Navy ship? What's the best solution for securing the Internet-facing "edge" of enterprise networks? GRC has started notifying SpinRite 6 owners about 6.1. What's been learned about the challenge of sending email in 2024? Why might running SpinRite on an SSD cause the SSD to then appear to be running more slowly? Why is true secrecy so difficult to achieve, and how were most password managers leaking some of their secrets.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0992/sn0992.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:12:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0992/sn0992.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0992/sn0992.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0992/sn0992.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 991: RAMBO</title>
+<pubDate>10 Sep 2024</pubDate>
+<comments>http://twit.tv/sn/991</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Microsoft's “Recall” uninstallability is a bug. Yubikeys can be cloned. How worried should you be? When was that smoke detector installed? We share and discuss lots of interesting listener feedback: Is whatsApp more secure than Telegram? Does Telegram's lack of security really matter? Elevators in Paris have problems, too. There's a 4th credit bureau to be frozen, too. Can high pitched sound keep dogs from barking? A reminder of a terrific UNIX 2038 countdown clock. A new Bobiverse Sci-Fi book &amp; new Peter Hamilton novel. Why does SpinRite show user data flashing past? And... TEMPEST is alive and well in the form of the latest RAMBO attack.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0991/sn0991.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:6:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0991/sn0991.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0991/sn0991.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0991/sn0991.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 990: Is Telegram an Encrypted App?</title>
+<pubDate>03 Sep 2024</pubDate>
+<comments>http://twit.tv/sn/990</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Telegram's founder, owner and CEO arrested in France. What does that mean? One year after Microsoft began offering free cloud security event logging. How's that going? To no one's surprise, CrowdStrike is losing customers – But how many? Microsoft to meet with CrowdStrike and other vendors to discuss new solutions. Yelp is not happy with Google. Did/does Google put their thumb on the scale? Where do you go to purchase yourself some DDoS? How about sending a Telegram? Chrome exploits are becoming more rare and difficult to find so Google has upped the ante. Believe it or not, Cox Media Group is still promoting their incredibly privacy invading "Active Listening" capability. How about secretly having foreigners doing all of your work for you. What could possibly go wrong? And Johns Hopkins Cryptographer Matthew Green has become increasingly annoyed by Telegram's claims of being an encrypted messaging platform. So he finally asks the question: Is Telegram an Encrypted App?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0990/sn0990.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:53:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0990/sn0990.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0990/sn0990.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0990/sn0990.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 989: Cascading Bloom Filters</title>
+<pubDate>27 Aug 2024</pubDate>
+<comments>http://twit.tv/sn/989</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>CrowdStrike's president appears in person to accept the "Most Epic Fail" award. A secret backdoor discovered in Chinese-made RFID access key cards. Counterfeit and poorly functioning Cisco brand networking gear in use by major institutions, government and military. A startling SSD performance improvement thanks to SpinRite. When is "Bing" actually "Edge" ... and other errata. Another useful National Public Data breach check service. And what are "Cascading Bloom Filters" and why do they offer the promise of 100% browser local and instantaneous certificate revocation detection?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0989/sn0989.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:51:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0989/sn0989.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0989/sn0989.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0989/sn0989.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 988: National Public Data</title>
+<pubDate>20 Aug 2024</pubDate>
+<comments>http://twit.tv/sn/988</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>As we embark on our 20th year of this weekly Internet security and privacy oriented technical news podcast, we're going to look at some more interesting certificate revocation news and we have an experiment for our listeners. What six 0-days were patched during Microsoft's Patch Tuesday last week? 53 episodes of the 1980's "Famous Computer Cafe" radio show were recently discovered and are now online -- hear Bill Gates before his voice changed. We have release #3 of IsBootSecure and a GRC email update and some interesting listener feedback. Then, to no one's surprise, we're going to take a deep dive into the background, meaning and impact of the largest personal data breach in history; how to look up your own breached records online, what to do and what this means for the future.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0988/sn0988.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:59:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0988/sn0988.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0988/sn0988.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0988/sn0988.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 987: Revisiting Revocation</title>
+<pubDate>13 Aug 2024</pubDate>
+<comments>http://twit.tv/sn/987</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>A million domains are vulnerable to the “Sitting Duck” attack. What is it? Is it new? Why does it happen? And who needs to worry about it? A CVSS 9.8 (serious) remote code execution vulnerability has been discovered in Windows' RDL (Remote Desktop Licensing) service. Patch it before the bad guys use it! All of AMD's chips have a critical (but patchable) microcode bug that allows boot-time security to be compromised. Now what? Microsoft apparently decides NOT to fix a simple Windows bug that allows anyone to easily crash Windows with a Blue Screen of Death anytime they wish. You sure don't want that in your Windows startup folder! GRC's IsBootSecure freeware is updated and very nearly finished. And believe it or not, the entire certificate revocation system that the industry has just spent the past ten years getting working is about to be scrapped in favor of what never worked before. Go figure.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0987/sn0987.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0987/sn0987.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0987/sn0987.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0987/sn0987.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 986: How Revoking!</title>
+<pubDate>06 Aug 2024</pubDate>
+<comments>http://twit.tv/sn/986</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What's been learned over the past week about the PKfile Platform Key misuse issue? What is “IsBootSecure?” and why does that sound suspiciously like a new piece of GRC freeware? There's plenty of news on the 3rd-party cookie front. What's going on with Firefox and what position has the World Wide Web Consortium (W3C) taken on this important issue? Now that we're a few weeks downstream of the CrowdStrike disaster, the attorneys have come out to play. What are we learning about the legal side of this massive outage? What's been going on with GRC's incoming “SecurityNow” email system? And we finish by looking at DigiCert's recent mass certificate revocation event. Why it happened? What happened? Did it matter? Was it necessary? And how does it compare to Entrust's past behavior?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0986/sn0986.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:46:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0986/sn0986.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0986/sn0986.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0986/sn0986.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 985: Platform Key Disclosure</title>
+<pubDate>30 Jul 2024</pubDate>
+<comments>http://twit.tv/sn/985</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>The obligatory follow-up on the massive CrowdStrike event: How do CrowdStrike's users feel? Are they switching or staying? How does CrowdStrike explain what happened? Does it make sense? How much blame should they receive? An update on how Entrust is attempting to keep its customers from changing certificate authorities. Firefox appears not to be blocking 3rd-party tracking cookies when it claims to be. How hiring remote workers can come back to bite you in the you-know-what. Did Google really want to kill off 3rd-party cookies or are they actually happy? And is there any hope of ending abusive tracking? Auto-updating anything is fraught with danger. Why do we do it and is there no better solution? And what serious mistake did a security firm discover that compromises the security of nearly 850 PC makes and models?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0985/sn0985.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:17:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0985/sn0985.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0985/sn0985.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0985/sn0985.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 984: CrowdStruck</title>
+<pubDate>23 Jul 2024</pubDate>
+<comments>http://twit.tv/sn/984</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What do we know about how the FBI broke into the smartphone of Trump's deceased would-be assassin? Cisco scored another very rare CVSS 10.0 for a serious remote authentication vulnerability. If you're affected you MUST update! Untrusted Entrust's plan for the future is revealed. Surprisingly, Google loses the anti-3rd-party cookie battle. 3rd-party cookies stay. More interesting experiences from GRC's weekly Security Now podcast mailings. Now we know why the company named itself "Snowflake". A collection of interesting listener feedback follow-ups on recent discussions. And we learn what in, literally, the world happened to allow CrowdStrike to crash 8.5 million Windows gateways, servers and workstations to cause the largest IT outage of all time.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0984/sn0984.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:11:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0984/sn0984.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0984/sn0984.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0984/sn0984.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 983: A Snowflake's Chance</title>
+<pubDate>16 Jul 2024</pubDate>
+<comments>http://twit.tv/sn/983</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>How can content delivery networks be used safely? What do we learn from the ransomware attack that affected 15,000 auto dealers? Guess who uses an Entrust certificate and when it expires? How worried should we be about polyfill.io attack aftermath? Whose side is Microsoft really on? Let's look at their history. How is GRC's new weekly Security Now mailing going? And what about feedback? And, finally, the company named “Snowflake” was the epicenter of what has now become the largest series of corporate data breaches in history (and that's saying something). Naturally there's been a lot of finger pointing. So who's saying what, and what appears to be most likely?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0983/sn0983.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:55:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0983/sn0983.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0983/sn0983.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0983/sn0983.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 982: The Polyfill.io Attack</title>
+<pubDate>09 Jul 2024</pubDate>
+<comments>http://twit.tv/sn/982</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What was Entrust's response to Google's decision to refuse trust of any of their TLS certificates signed after October 2024? How have the other CA's responded to this new “opportunity”? What's a Passkey Redaction Attack? – And how worried should you be? And speaking of Passkeys, why not just have each website hold as many as we need? Wouldn't adding port knocking in front of the serious OpenSSH flaw we discussed last week prevent the problem? And if so, what's the larger lesson to be learned? And what about blocking an IP after some number of failed attempts? And finally, once again the Internet dodged a potentially devastating bullet. What happened and what significant lesson should we take away?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0982/sn0982.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:44:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0982/sn0982.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0982/sn0982.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0982/sn0982.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 981: The End of Entrust Trust</title>
+<pubDate>02 Jul 2024</pubDate>
+<comments>http://twit.tv/sn/981</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Why does everyone running OpenSSH need to patch immediately? Who just moved 50 bitcoins minted in 2010? (Sadly, it wasn't me.) How are things going with our intrepid Voyager 1? What features have I removed from GRC's email system? And what embarrassingly affordable commercial emailing system do I now recommend without reservation? Who's a "she" and not a "he"? What's recently been happening with SyncThing? Why do I use DNS for freeware release management? And what in the world happened to cause one of the industry's original SSL/TLS certificate authorities to fall from grace and lose all future access to Chrome's root store? Another really great episode of Security Now! is yours for the taking.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0981/sn0981.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:13:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0981/sn0981.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0981/sn0981.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0981/sn0981.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 980: The Mixed Blessing of a Crappy PRNG</title>
+<pubDate>25 Jun 2024</pubDate>
+<comments>http://twit.tv/sn/980</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>How long did it take for Windows' recent horrific WiFi flaw to be weaponized? What are the implications of the U.S. Commerce Department's total ban on Kaspersky? How is the Kremlin reacting? Why would an EU privacy watchdog file a complaint against Google for their Privacy Sandbox? When is an email tracking bug not a tracking bug? What can this podcast do to help a well known security researcher present his work at DEFCON and BlackHat this summer? What's another near-certainty for Microsoft's plan for Recall? What two mistakes have I been making on this podcast? And why might a really bad password generator wind up being a good thing?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0980/sn0980.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:46:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0980/sn0980.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0980/sn0980.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0980/sn0980.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 979: The Angle of the Dangle</title>
+<pubDate>18 Jun 2024</pubDate>
+<comments>http://twit.tv/sn/979</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Why is updating your Windows laptop with last week's patches potentially much more important than usual? CoPilot+'s Recall feature won't be released today; what happened? Was Recall recalled? What does Johns Hopkins well-known cryptographer think about Apple's new Private Cloud Compute concept? How could the WGET command-line utility possibly have a CVSS 10.0 vulnerability? Or does it? What order did Google, Cloudflare and Cisco recently receive from a Parisian court? And after a brief GRC email update and three pieces of closing the loop feedback from our listeners, we're going to examine exactly how Microsoft lost control of their code.microsoft.com subdomain and why the underlying problem is far bigger than them.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0979/sn0979.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:48:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0979/sn0979.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0979/sn0979.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0979/sn0979.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 978: The rise and fall of code.microsoft.com</title>
+<pubDate>11 Jun 2024</pubDate>
+<comments>http://twit.tv/sn/978</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>How has Microsoft responded to the tidal wave of criticism over Recall? And what about Google? Who else recently lost control of their data? Apple devices will be getting a password manager? What about iCloud? Is that a drone recording a wedding, or a Chinese Communist Party surveillance device? What did SlashData's survey of more than 10,000 coders reveal about their use of AI and choice of language? And if AIs can code, what's the career future for programmers? Why has the Linux Kernel project suddenly begun spewing CVEs in great number? Will we be able to order pizza in the future? What did one listener discover when he attempted to register his new Passkey devices across the Internet? And how did a stunning mistake at Microsoft turn into a goldmine of attacker intelligence?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0978/sn0978.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:4:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0978/sn0978.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0978/sn0978.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0978/sn0978.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 977: A Large Language Model in Every Pot</title>
+<pubDate>04 Jun 2024</pubDate>
+<comments>http://twit.tv/sn/977</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>When is a simpler application better than something complex? How did the first week of GRC's new email system go? Have you been Pwned? And if so, how worried should you be? What's the latest new supply-chain attack vector? What certificate authority just lost all their TLS server business? And remember that early messaging service ICQ? - whatever became of it? Finally, after I share a tip about a perfect science fiction movie, two pieces of listener feedback and one user's happiness over SpinRite, we're going to look at what a prominent security researcher learned after using Microsoft's Recall for ten days, and why I think Microsoft is willing to bet the farm and risk the dire warnings of the entire security community over this unasked for capability.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0977/sn0977.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:50:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0977/sn0977.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0977/sn0977.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0977/sn0977.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 976: The 50 Gigabyte Privacy Bomb</title>
+<pubDate>28 May 2024</pubDate>
+<comments>http://twit.tv/sn/976</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Why is Google's AI Overview fundamentally impossible today? And what's the latest news on how to suppress it? What's LastPass' decade-late announcement? Why and when is a VPN not a VPN? Are eMMC chips really impossible to replace? Are vertical tabs finally coming to Firefox? What's one well informed listener think about Fritz!Box network appliances? And what's just about the worst thing that could be done with 4-digit PINs? Were we guilty of WinXP abuse by exposing it to today's Internet? And how can Security Now! listeners now send email directly to me? Yes! GRC's new email system is alive. After looking at all of that, we're going to examine the latest crazy idea from Microsoft which deliberately plants a 50 gigabyte privacy bomb right in the middle of all Windows 11 PCs.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0976/sn0976.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:56:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0976/sn0976.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0976/sn0976.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0976/sn0976.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 975: 312 Scientists &amp; Researchers Respond</title>
+<pubDate>21 May 2024</pubDate>
+<comments>http://twit.tv/sn/975</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Which browser has had a very rough week? And why? Which bodily fluid should you probably not drink despite Google's recommendation? And how can you tweak your browser to avoid those in the future? What happens when a Windows XP machine is exposed to the unfiltered Internet? Duck and Cover! How did a pair of college kids get their laundry washed for free? And what do we learn about still-clueless corporations? And finally, after engaging with some terrific listener feedback, we're going to examine the latest thought-provoking response to the EU's proposed Child Sexual Abuse Regulation from their own scientific and research community.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0975/sn0975.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:56:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0975/sn0975.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0975/sn0975.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0975/sn0975.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 974: Microsoft's head in the Clouds</title>
+<pubDate>14 May 2024</pubDate>
+<comments>http://twit.tv/sn/974</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What fascinating insights do we obtain from examining 3.4 million 4-digit PINs? What plans are already underway as a backup for today's vulnerable GPS technology? How many passkeys will websites store per account? And what's all this about Microsoft promising to get serious about their cloud-based services security?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0974/sn0974.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:39:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0974/sn0974.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0974/sn0974.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0974/sn0974.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 973: Not So Fast</title>
+<pubDate>07 May 2024</pubDate>
+<comments>http://twit.tv/sn/973</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What danger is presented by the world's dependence upon GPS? And why is that of any concern? Has the sky fallen on all VPN systems? And why does the tech press appear to think so? Today's myriad network authentication options are confusing and incomplete. What does the future promise? Why might Apple have been erasing iCloud Keychain data? And what's actually going on between Google and the United Kingdom regarding the sunsetting of 3rd-party cookies? What's the problem? Or is there one?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0973/sn0973.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:9:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0973/sn0973.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0973/sn0973.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0973/sn0973.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 972: Passkeys: A Shattered Dream?</title>
+<pubDate>30 Apr 2024</pubDate>
+<comments>http://twit.tv/sn/972</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>The choice for this week's main topic received some serious competition from some surprising legislation that came into effect yesterday in the United Kingdom. So we're going to start by taking a close look at what happened in the UK that promises to completely change the face of consumer IoT device security. As we'll see, that's not an overstatement; the world as we've known it just changed. While that exploration is going to consume most of the first half of today's podcast, I also want to look at what happened last week with Chrome's change of plan regarding 3rd-party cookies, I have a bit of listener feedback to share, and news of the next installment in a long-running science fiction book series. I also have the welcome news that I am finally working on bringing up GRC's eMail communications system. Then we'll finish by taking a look at a blog posting by an industry insider that many of our listeners forwarded to me asking “what do you think about this?”.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0972/sn0972.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:59:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0972/sn0972.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0972/sn0972.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0972/sn0972.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 971: Chat (out of) Control</title>
+<pubDate>23 Apr 2024</pubDate>
+<comments>http://twit.tv/sn/971</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What would you call Stuxnet on steroids? What's the latest on the Voyager 1 drama? What new features are coming to Android and Thunderbird? What's China done now? Why did Gentoo Linux say 'no' to AI? And after sharing and discussing a bunch of feedback from our terrific listeners and a SpinRite update, we're going to examine the latest update to the European Union's worrisome "Chat Control" legislation which is reportedly just over a month away from becoming law. Is the EU about to force the end of end-to-end encryption in order to enable and require the scanning of all encrypted communications?  It appears ready to do just that.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0971/sn0971.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:3:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0971/sn0971.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0971/sn0971.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0971/sn0971.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 970: GhostRace</title>
+<pubDate>16 Apr 2024</pubDate>
+<comments>http://twit.tv/sn/970</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What's the latest on that massive five year old AT&amp;T data breach? Who just leaked more than 340,000 social security numbers, Medicare data and more, and what does that mean? Are websites honoring their cookie banner notification permissions? And why do we already know the answer to that question? What surprise has the GDPR's transparency requirements just revealed? And after sharing a bit of feedback from our listeners, we're going to go deeper into raw fundamental computer science technology than we have in a long time... and it may be inadvisable to operate any heavy equipment while listening to that part.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0970/sn0970.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:39:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0970/sn0970.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0970/sn0970.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0970/sn0970.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 969: Minimum Viable Secure Product</title>
+<pubDate>09 Apr 2024</pubDate>
+<comments>http://twit.tv/sn/969</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>When is it far better for a security researcher to just keep their mouth shut? Are all Internet-based secure note exchanging sites created equal? What's been happening in the lucrative and slimy world of 0-days for pay? And what has NASA just learned about the state of Voyager 1? Something momentous has happened with SpinRite, and we're going to take a deep dive into an important industry initiative that just acquired an important new contributor.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0969/sn0969.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:37:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0969/sn0969.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0969/sn0969.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0969/sn0969.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 968: A Cautionary Tale</title>
+<pubDate>02 Apr 2024</pubDate>
+<comments>http://twit.tv/sn/968</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Why should all Linux users update their systems if they haven't since February? What do 73 million current and past AT&amp;T customers all have in common? What additional and welcome, though very different, new features await Signal and Telegram users? Which major IT supplier has left Russia early? What did Ghostery's ad blocking profile reveal about Internet users? Whatever happened with that Incognito-mode lawsuit against Google? And how are things going in the open source repository world? And then, after I share something kinda special that happened Sunday involving my Wife, SpinRite and her laptop – and it's probably not what you think – we're going to take a look at another rather horrifying bullet that the Internet dodged again.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0968/sn0968.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:34:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0968/sn0968.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0968/sn0968.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0968/sn0968.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 967: GoFetch</title>
+<pubDate>26 Mar 2024</pubDate>
+<comments>http://twit.tv/sn/967</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>After I comment on US Departement of Justice's antitrust suit against Apple, we'll update on General Motor's violation of its car owner's privacy and answer some questions, including what happy news is Super Sushi Samurai celebrating? Has Apple abandoned its plans for HomeKit-compatible routers? And what appears to be shaping up to take their place? Will our private networks be receiving their own domain names? And if so, what? The UN has spoken out about AI -- does anyone care? and what do I think the prospects are of us controlling AI? What significant European country just blocked Telegram? What did the just-finished 2024 Pwn2Own competition teach? Might the US be hacking back against China as they are against us? And after a bit of interesting SpinRite news and a bit of feedback from our listeners, we're going to spent the rest of our time looking into last week's quite explosive headlines about the apparently horrific unfixable flaws in Apple's M-series silicon. Just how bad is it?</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0967/sn0967.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:45:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0967/sn0967.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0967/sn0967.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0967/sn0967.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 966: Morris The Second</title>
+<pubDate>19 Mar 2024</pubDate>
+<comments>http://twit.tv/sn/966</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>Voyager lives! (Maybe). The world wide web just turned 35. What does its Dad think? What's the latest horrific violation of consumer privacy to come to light? Our listeners have been extremely engaged and interested in several of this podcast's recent topics. So we're going to use their feedback to finish off several of those topics. And finally, we look at how a group of Cornell University researchers managed to get today's generative AI models to behave badly and at just how much of a cautionary tale this may be.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0966/sn0966.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:58:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0966/sn0966.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0966/sn0966.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0966/sn0966.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 965: Passkeys vs 2FA</title>
+<pubDate>12 Mar 2024</pubDate>
+<comments>http://twit.tv/sn/965</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>What happened with CERT?  What headache has VMware been dealing with?  What's Microsoft's latest vulnerability disclosure strategy?  What's China's “Document 79,” and is it any surprise?  What long-awaited new feature is in version 7.0 of Signal?  How is Meta coping with the EU's new Digital Marketing Act that just went into effect?  What's the latest on that devastating ransomware attack on Change Healthcare?  And after addressing some interesting feedback from our listeners, I want to clarify something about Passkeys that is not at all obvious.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0965/sn0965.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:14:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn0965/sn0965.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn0965/sn0965.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn0965/sn0965.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
 <title>SN 964: PQ3</title>
 <pubDate>05 Mar 2024</pubDate>
 <comments>http://twit.tv/sn/964</comments>
@@ -61,7 +2106,7 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <description>Last week we covered a large amount of security news; this week, not so much. There are security stories I'll be catching us up with next week, but after sharing a wonderful piece of writing about the fate of Voyager 1, news of an attractive new Humble Bundle, a tip of the week from a listener, a bit of SpinRite news and a number of interesting discussions resulting from feedback from our listeners, our promised coverage of Apple's new “PQ3” post-quantum safe iMessage protocol consumed the entire balance of this week's podcast budget, bulging today's show notes to a corpulent 21 pages. I think everyone's going to have a good time.</description>
 <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn0964/sn0964.mp3</guid>
 <itunes:explicit>no</itunes:explicit>
-<itunes:duration>0:1:00</itunes:duration>
+<itunes:duration>1:59:00</itunes:duration>
 <link>http://cdn.twit.tv/audio/sn/sn0964/sn0964.mp3</link>
 <enclosure url="http://cdn.twit.tv/audio/sn/sn0964/sn0964.mp3" length="0" type="audio/mpeg"/>
 <media:content url="http://cdn.twit.tv/audio/sn/sn0964/sn0964.mp3" fileSize="0" type="audio/mpeg" medium="audio">
