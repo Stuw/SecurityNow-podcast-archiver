@@ -1,0 +1,89 @@
+name: Update Podcast Archive
+
+on:
+  schedule:
+    # Run every Friday at 2:00 AM UTC
+    - cron: '0 2 * * 5'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Action to perform on changes'
+        required: true
+        default: 'pr'
+        type: choice
+        options:
+          - pr
+          - commit-and-release
+
+jobs:
+  update-archive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # for commits, tags, releases
+      pull-requests: write     # for creating PRs
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # full history for proper release notes
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Adjust if you have a requirements.txt or specific packages
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run archive generator
+        run: python generate-snarchive.py
+
+      - name: Check for changes
+        id: git-diff
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.git-diff.outputs.changes == 'true' && github.event.inputs.mode == 'pr'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: 'Update podcast archive'
+          body: |
+            Automated archive update by `generate-snarchive.py`.
+            
+            Please review the changes. If everything looks good, merge this PR.
+          commit-message: 'chore: update podcast archive'
+          branch: 'update-archive'
+          base: 'master'
+          delete-branch: true
+
+      - name: Commit and create release
+        if: steps.git-diff.outputs.changes == 'true' && (github.event.inputs.mode == 'commit-and-release' || github.event_name == 'schedule')
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Auto: update podcast archive"
+          git push origin master
+
+          # Create a tag based on current date/time
+          TAG_NAME="archive-$(date +'%Y%m%d-%H%M%S')"
+          git tag $TAG_NAME
+          git push origin $TAG_NAME
+
+          # Create a GitHub Release
+          gh release create $TAG_NAME \
+            --title "Archive update $(date +'%Y-%m-%d')" \
+            --generate-notes \
+            --target master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
