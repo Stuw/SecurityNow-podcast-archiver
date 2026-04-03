@@ -130,7 +130,7 @@ def find_episodes_in_page(soup):
 def get_item(soup, item):
   link = soup.find('a', attrs={'name':str(item)})
   
-  header = link.findNext('table')
+  header = link.find_next('table')
   episode, date, length = (x.strip() for x in header.text.split('|'))
   nr = int(episode.partition('#')[2])
   try:
@@ -138,10 +138,10 @@ def get_item(soup, item):
   except:
     minutes = 1
 
-  body = header.findNext('table')
+  body = header.find_next('table')
 
-  title = body.findChild('font', size=2).text
-  description = body.findChild('font', size=1).text
+  title = body.find('font', size=2).text
+  description = body.find('font', size=1).text
   if description.startswith(title):
     description = description.partition(title)[2]
   description = description.strip()
