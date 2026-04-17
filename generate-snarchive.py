@@ -22,6 +22,7 @@ backto = 2005
 output = 'snarchive.xml'
 
 
+import os
 import tzlocal, datetime
 import string
 import requests, bs4
@@ -59,6 +60,9 @@ class Cache:
   def _is_expired(self, fname, expiration_days):
     if not expiration_days:
       return False
+
+    if os.getenv('GITHUB_ACTIONS'):
+      return True
 
     mtime = datetime.datetime.fromtimestamp(os.stat(fname).st_mtime, tz=tzlocal.get_localzone())
 
