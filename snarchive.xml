@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 01 May 2026 05:48:34 +0000</lastBuildDate>
-<pubDate>Fri, 01 May 2026 05:48:34 +0000</pubDate>
+<lastBuildDate>Fri, 08 May 2026 05:10:15 +0000</lastBuildDate>
+<pubDate>Fri, 08 May 2026 05:10:15 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -51,6 +51,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Software How-To"/>
 </itunes:category>
 <item>
+<title>SN 1077: A Browser AI API?</title>
+<pubDate>05 Apr 2026</pubDate>
+<comments>http://twit.tv/sn/1077</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Hackers AI-code a portal, forget to add authentication. • The UK's NCSC issues a Mythos warning. Where's CISA? • Another (of many) Linux local privilege escalations. • AI may be spelling the end of bug bounties. • Anthropic releases "Claude Security" mini-Mythos. • ChatGPT gets very serious about login security. • Syncthing's SyncTrayzor v1 abandoned; v2 created. • Google drops an AI API into Chrome; Mozilla objects.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1077/sn1077.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:16:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1077/sn1077.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1077/sn1077.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1077/sn1077.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
 <title>SN 1076: FAST16.SYS</title>
 <pubDate>28 Apr 2026</pubDate>
 <comments>http://twit.tv/sn/1076</comments>
@@ -61,7 +80,7 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <description>• Bitwarden's CLI hit with a supply-chain attack. • Commercial routers in Iran fail shortly before the war. • Meta logging all employee activity to train replacement AI. • GRC's DNS Benchmark Release 5. • Two miscellaneous AI thoughts. • A bunch of terrific listener feedback. • Unravelling the diabolical history of “fast16.sys.”</description>
 <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1076/sn1076.mp3</guid>
 <itunes:explicit>no</itunes:explicit>
-<itunes:duration>0:1:00</itunes:duration>
+<itunes:duration>2:13:00</itunes:duration>
 <link>http://cdn.twit.tv/audio/sn/sn1076/sn1076.mp3</link>
 <enclosure url="http://cdn.twit.tv/audio/sn/sn1076/sn1076.mp3" length="0" type="audio/mpeg"/>
 <media:content url="http://cdn.twit.tv/audio/sn/sn1076/sn1076.mp3" fileSize="0" type="audio/mpeg" medium="audio">
