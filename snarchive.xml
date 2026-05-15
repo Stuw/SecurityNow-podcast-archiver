@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 08 May 2026 05:10:15 +0000</lastBuildDate>
-<pubDate>Fri, 08 May 2026 05:10:15 +0000</pubDate>
+<lastBuildDate>Fri, 15 May 2026 06:01:00 +0000</lastBuildDate>
+<pubDate>Fri, 15 May 2026 06:01:00 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -51,8 +51,28 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Software How-To"/>
 </itunes:category>
 <item>
+<title>SN 1078: DigiCert Does It Right</title>
+<pubDate>12 May 2026</pubDate>
+<comments>http://twit.tv/sn/1078</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The FCC decides router firmware updates are useful. • Netgear applies for and gets a full FCC pass.
+AI uncovers a 21-year old critical FreeBSD RCE. • What was behind that Let's Encrypt outage. • AI model repositories are overflowing with malware. • The CISA 2015 info-sharing act is being renewed. • Edge leaves ALL usernames and passwords in the clear. • An examination of DigiCert's breach and their response.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1078/sn1078.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:21:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1078/sn1078.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1078/sn1078.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1078/sn1078.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
 <title>SN 1077: A Browser AI API?</title>
-<pubDate>05 Apr 2026</pubDate>
+<pubDate>05 May</pubDate>
 <comments>http://twit.tv/sn/1077</comments>
 <itunes:author>TWiT</itunes:author>
 <author>leo@twit.tv (Leo Laporte)</author>
