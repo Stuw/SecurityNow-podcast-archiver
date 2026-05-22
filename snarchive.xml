@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 15 May 2026 06:01:00 +0000</lastBuildDate>
-<pubDate>Fri, 15 May 2026 06:01:00 +0000</pubDate>
+<lastBuildDate>Fri, 22 May 2026 06:15:42 +0000</lastBuildDate>
+<pubDate>Fri, 22 May 2026 06:15:42 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1079: Daybreak and Codename MDASH</title>
+<pubDate>19 May 2026</pubDate>
+<comments>http://twit.tv/sn/1079</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Microsoft rethinks Edge's “intended behavior” after it gets press. • Chaotic Eclipse hacker strikes again with a Bitlocker bypass. • Google's threat analysis group documents malicious AI use. • Canada hasn't learned the lessons of the EU and the UK. • AI chatbots may be far more addictive than social media. • Project: Hail Mary now available to stream. • An apparently-serious zero-point quantum vacuum energy source. • A bit of listener feedback. • OpenAI's &amp; Microsoft's vulnerability discovery systems.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1079/sn1079.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:26:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1079/sn1079.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1079/sn1079.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1079/sn1079.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1078: DigiCert Does It Right</title>
 <pubDate>12 May 2026</pubDate>
