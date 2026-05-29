@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 22 May 2026 06:15:42 +0000</lastBuildDate>
-<pubDate>Fri, 22 May 2026 06:15:42 +0000</pubDate>
+<lastBuildDate>Fri, 29 May 2026 06:21:50 +0000</lastBuildDate>
+<pubDate>Fri, 29 May 2026 06:21:50 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1080: Vulnerability Debt Repayment</title>
+<pubDate>26 May 2026</pubDate>
+<comments>http://twit.tv/sn/1080</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Cisco meets Mythos. • Can the aging CVE system survive AI. • Patch deployment latency in the AI age. • MSFT's official YellowKey Bitlocker bypass mitigation. • Ubiquity patches 5 serious vulnerabilities. • Drupal being attacked by PostgreSQL injection. • Microsoft terminates SMS as a second factor. • Github hacked - all of its source exfiltrated. • Russia using very old Western software. • Why to get a no-charge AI chatbot account. • New Sci-Fi on Netflix. • What we learn from Mozilla's use of Mythos.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1080/sn1080.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:21:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1080/sn1080.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1080/sn1080.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1080/sn1080.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1079: Daybreak and Codename MDASH</title>
 <pubDate>19 May 2026</pubDate>
