@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 29 May 2026 06:21:50 +0000</lastBuildDate>
-<pubDate>Fri, 29 May 2026 06:21:50 +0000</pubDate>
+<lastBuildDate>Fri, 05 Jun 2026 06:39:55 +0000</lastBuildDate>
+<pubDate>Fri, 05 Jun 2026 06:39:55 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,26 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1081: AI Captures the Flag</title>
+<pubDate>02 Jun 2026</pubDate>
+<comments>http://twit.tv/sn/1081</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• As expected, UnFiOS devices are under attack. • CISA commands federal agencies to update Drupal.
+Can the largest botnet ever, be killed. • Defender endpoint can cutoff a PC from the network. • Charter Communications big account leak. • Chrome moves device-bound session cookies from beta. • Anthropic to release Mythos shortly. • cURL and Daniel Stenberg. • IBM &amp; RedHat commit to fixing open source with AI. • LOTS of terrific listener feedback this week. • AI spells the end of a terrific source of training.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1081/sn1081.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:56:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1081/sn1081.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1081/sn1081.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1081/sn1081.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1080: Vulnerability Debt Repayment</title>
 <pubDate>26 May 2026</pubDate>
