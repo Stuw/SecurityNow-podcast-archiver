@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 12 Jun 2026 06:51:01 +0000</lastBuildDate>
-<pubDate>Fri, 12 Jun 2026 06:51:01 +0000</pubDate>
+<lastBuildDate>Fri, 19 Jun 2026 07:20:13 +0000</lastBuildDate>
+<pubDate>Fri, 19 Jun 2026 07:20:13 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1083: Patch Tuesday à la AI</title>
+<pubDate>16 Jun 2026</pubDate>
+<comments>http://twit.tv/sn/1083</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Rootkits found in more than 400 ArchLinux User Repository packages. • The US government requests Anthropic to remove Mythos and Fable. • CISA responds to AI-driven attacks with new patching requirements. • NPM to switch to more secure install defaults. Will it help? • Our listeners react to last week's PHP commentary. • June shows that AI has arrived for vulnerability discovery.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1083/sn1083.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:14:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1083/sn1083.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1083/sn1083.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1083/sn1083.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1082: The Malicious Use of AI</title>
 <pubDate>09 Jun 2026</pubDate>
