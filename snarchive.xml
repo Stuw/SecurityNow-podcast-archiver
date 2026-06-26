@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 19 Jun 2026 07:20:13 +0000</lastBuildDate>
-<pubDate>Fri, 19 Jun 2026 07:20:13 +0000</pubDate>
+<lastBuildDate>Fri, 26 Jun 2026 06:17:42 +0000</lastBuildDate>
+<pubDate>Fri, 26 Jun 2026 06:17:42 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1084: The Residential Proxy Threat</title>
+<pubDate>23 Jun 2026</pubDate>
+<comments>http://twit.tv/sn/1084</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Worries of AI-power cyberattacks are spreading. • Mythos “missed some” important vulnerabilities in Firefox. • Every recent patch Tuesday Nightmare Eclipse has struck. What now? • Massive store of valid FortiGate VPN credentials found. • F5 issues emergency updates to their NGINX-based server offerings. • Introducing “AI Potpourri” -- deeply altering an AI's personality. • A close look at the explosion in malicious proxy networks. • A Canadian judge okayed the illegal removal of such infections.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1084/sn1084.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:21:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1084/sn1084.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1084/sn1084.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1084/sn1084.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1083: Patch Tuesday à la AI</title>
 <pubDate>16 Jun 2026</pubDate>
