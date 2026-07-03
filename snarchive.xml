@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 26 Jun 2026 06:17:42 +0000</lastBuildDate>
-<pubDate>Fri, 26 Jun 2026 06:17:42 +0000</pubDate>
+<lastBuildDate>Fri, 03 Jul 2026 06:00:42 +0000</lastBuildDate>
+<pubDate>Fri, 03 Jul 2026 06:00:42 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1085: A SOTA State-Sponsored Campaign</title>
+<pubDate>30 Jun 2026</pubDate>
+<comments>http://twit.tv/sn/1085</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Win10's popularity forces another year of free updates. • CISA directs all federal agencies to update their UniFi OS devices. • CISA gave federal agencies "the weekend" to update Cisco devices. • Australia is disturbed by a deeply compromised infrastructure provider. • OpenAI introduces Daybreak-powered "Patch the Planet" initiative. • Meta's employee monitoring-for-AI-training backfired badly. • Script Kiddies figure out how to use AI to find vulnerabilities. • AI improves with "looping", "repeating" or "iterating". • A wonderful story about Kevin Mitnick. • Serious hackers mistakenly left a server directory accessible.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1085/sn1085.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:29:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1085/sn1085.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1085/sn1085.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1085/sn1085.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1084: The Residential Proxy Threat</title>
 <pubDate>23 Jun 2026</pubDate>
