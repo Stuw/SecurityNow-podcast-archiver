@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 03 Jul 2026 06:00:42 +0000</lastBuildDate>
-<pubDate>Fri, 03 Jul 2026 06:00:42 +0000</pubDate>
+<lastBuildDate>Fri, 10 Jul 2026 06:11:47 +0000</lastBuildDate>
+<pubDate>Fri, 10 Jul 2026 06:11:47 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1086: The Apex Agentic Adversary</title>
+<pubDate>07 Jul 2026</pubDate>
+<comments>http://twit.tv/sn/1086</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Why Fable5's re-release has disappointed. • Opera becomes the first browser to offer “Paste Protect” • Microsoft BlueHammer exploit is “hammering” systems. • Industry legend (TCP creator) Vint Cerf on AI. • Chrome turns 150 with too many fixes to load. • Google fails to sidestep a $4.67 billion EU fine. • One last (we can hope) Chat Control vote next week. • AirDrop &amp; Android Quick Share are exploitable. • How to bypass Claude's and ChatGPT's guardrails. • My own Sunday spin with SpinRite. • A legendary hacker uses AI on a widespread library.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1086/sn1086.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:29:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1086/sn1086.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1086/sn1086.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1086/sn1086.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1085: A SOTA State-Sponsored Campaign</title>
 <pubDate>30 Jun 2026</pubDate>
