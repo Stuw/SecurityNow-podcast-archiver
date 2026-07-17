@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 10 Jul 2026 06:11:47 +0000</lastBuildDate>
-<pubDate>Fri, 10 Jul 2026 06:11:47 +0000</pubDate>
+<lastBuildDate>Fri, 17 Jul 2026 05:20:02 +0000</lastBuildDate>
+<pubDate>Fri, 17 Jul 2026 05:20:02 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1087: HalluSquatting, GhostApproval &amp; GitLost</title>
+<pubDate>14 Jul 2026</pubDate>
+<comments>http://twit.tv/sn/1087</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Europe warns their largest banks to prepare for AI attack. • The EU launches an action plan for AI Cybersecurity. • China considers keeping its budget AI to itself. • The UK's NCSC &amp; GCHQ announce their "Cyber Shield". • CISA is using Mythos to audit U.S. government code. • Microsoft warns of their upcoming patch flood. • "RoguePlanet" receives an on-the-fly patch. • An underused mode to kid-proof an iPhone. • Listener feedback and three new AI attacks.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1087/sn1087.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1087/sn1087.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1087/sn1087.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1087/sn1087.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1086: The Apex Agentic Adversary</title>
 <pubDate>07 Jul 2026</pubDate>
