@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 17 Jul 2026 05:20:02 +0000</lastBuildDate>
-<pubDate>Fri, 17 Jul 2026 05:20:02 +0000</pubDate>
+<lastBuildDate>Fri, 24 Jul 2026 05:27:15 +0000</lastBuildDate>
+<pubDate>Fri, 24 Jul 2026 05:27:15 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -51,6 +51,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Software How-To"/>
 </itunes:category>
 <item>
+<title>SN 1088: A nefarious novel use for AI</title>
+<pubDate>21 Jul 2026</pubDate>
+<comments>http://twit.tv/sn/1088</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• The “bone crushing” didn't happen this month. • Revisiting and inspecting July's Patch Tuesday. • A widespread and worrisome flaw in OpenSSL. • Claude can now access your 1Password credentials. • Bitwarden is aware that we need whole new security. • The day ends in "y" so a new prompt injection attack. • A true (and rare) core Wordpress emergency update. • Lots of interesting listener feedback. • And new ways AI is being used by bad guys.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1088/sn1088.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1088/sn1088.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1088/sn1088.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1088/sn1088.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
 <title>SN 1087: HalluSquatting, GhostApproval &amp; GitLost</title>
 <pubDate>14 Jul 2026</pubDate>
 <comments>http://twit.tv/sn/1087</comments>
@@ -61,7 +80,7 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <description>• Europe warns their largest banks to prepare for AI attack. • The EU launches an action plan for AI Cybersecurity. • China considers keeping its budget AI to itself. • The UK's NCSC &amp; GCHQ announce their "Cyber Shield". • CISA is using Mythos to audit U.S. government code. • Microsoft warns of their upcoming patch flood. • "RoguePlanet" receives an on-the-fly patch. • An underused mode to kid-proof an iPhone. • Listener feedback and three new AI attacks.</description>
 <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1087/sn1087.mp3</guid>
 <itunes:explicit>no</itunes:explicit>
-<itunes:duration>0:1:00</itunes:duration>
+<itunes:duration>2:25:00</itunes:duration>
 <link>http://cdn.twit.tv/audio/sn/sn1087/sn1087.mp3</link>
 <enclosure url="http://cdn.twit.tv/audio/sn/sn1087/sn1087.mp3" length="0" type="audio/mpeg"/>
 <media:content url="http://cdn.twit.tv/audio/sn/sn1087/sn1087.mp3" fileSize="0" type="audio/mpeg" medium="audio">
