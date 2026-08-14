@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 07 Aug 2026 04:30:20 +0000</lastBuildDate>
-<pubDate>Fri, 07 Aug 2026 04:30:20 +0000</pubDate>
+<lastBuildDate>Fri, 14 Aug 2026 04:14:03 +0000</lastBuildDate>
+<pubDate>Fri, 14 Aug 2026 04:14:03 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,44 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1091: The Post BlackHat State of AI</title>
+<pubDate>11 Aug 2026</pubDate>
+<comments>http://twit.tv/sn/1091</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Anthropic's agentic AI also broke free and hacked others. • We know much (much!) more about the OpenAI breakout. • OpenAI posts that they're pausing "Astra" - even internally. • What was that about AI recently cracking (or denting) cryptography. • Bruce Schneier brilliantly equates AI agents to capricious genies. • Apple doesn't react so well to the new deluge of security reports. • Chrome 149 + 150 updates together fix 1,072 bugs. Yikes. • psSense's creator is working to finish its nfSensei, its successor.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1091/sn1091.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:27:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1091/sn1091.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1091/sn1091.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1091/sn1091.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
+<title>SN 1090: Black Hat - The Hidden Flaws in AI Security Nobody Saw Coming</title>
+<pubDate>05 Aug 2026</pubDate>
+<comments>http://twit.tv/sn/1090</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Leo, Paul Thurrott, Richard Campbell and Steve convene in a corner of ThreatLocker's booth during this year's annual Black Hat conference. We discuss issues raised by our listeners ... and lots more!</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1090/sn1090.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:54:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1090/sn1090.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1090/sn1090.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1090/sn1090.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1089: Models Go Rogue &amp; ExploitGym</title>
 <pubDate>28 Jul 2026</pubDate>
