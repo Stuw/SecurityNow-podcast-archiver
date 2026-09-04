@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 28 Aug 2026 14:15:59 +0000</lastBuildDate>
-<pubDate>Fri, 28 Aug 2026 14:15:59 +0000</pubDate>
+<lastBuildDate>Fri, 04 Sep 2026 07:09:50 +0000</lastBuildDate>
+<pubDate>Fri, 04 Sep 2026 07:09:50 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -51,6 +51,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Software How-To"/>
 </itunes:category>
 <item>
+<title>SN 1094: AI Patching Shortcomings</title>
+<pubDate>01 Sep 2026</pubDate>
+<comments>http://twit.tv/sn/1094</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• A possible means for preventing prompt injection abuse. • Clear evidence of Chinese-made router malicious intent. • A cool before and after SpinRite graph of SSD performance. • How about adding unpredictable hashes to role tags? • What did Claude make of last week's podcast? • Could much better harnesses prevent prompt injection? • A listener wants us to stop saying AI "thinks". • AI designers ignore well-understood security concepts. • Can we explain LLM AI using conventional computer terms? • A listener strongly dislikes the term "rotating credentials". • The land of AI is being filled with "meat proxies". • Researchers exhaustively test frontier model vulnerability remediation. (It does not go well.)</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1094/sn1094.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:28:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1094/sn1094.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1094/sn1094.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1094/sn1094.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
+<item>
 <title>SN 1093: Tokens in the Stream</title>
 <pubDate>25 Aug 2026</pubDate>
 <comments>http://twit.tv/sn/1093</comments>
@@ -61,7 +80,7 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <description>• Understanding the controversy surrounding “AI Model Distillation” • Anthropic moves to make their most powerful Mythos 5 model more widely available. • Bitwarden's “Secrets Manager” offering prevents agentic and prompt injection abuse. • The astounding and disturbing truth about the way conversation AI actually works.</description>
 <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1093/sn1093.mp3</guid>
 <itunes:explicit>no</itunes:explicit>
-<itunes:duration>0:1:00</itunes:duration>
+<itunes:duration>2:23:00</itunes:duration>
 <link>http://cdn.twit.tv/audio/sn/sn1093/sn1093.mp3</link>
 <enclosure url="http://cdn.twit.tv/audio/sn/sn1093/sn1093.mp3" length="0" type="audio/mpeg"/>
 <media:content url="http://cdn.twit.tv/audio/sn/sn1093/sn1093.mp3" fileSize="0" type="audio/mpeg" medium="audio">
