@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 09 Oct 2026 08:49:49 +0000</lastBuildDate>
-<pubDate>Fri, 09 Oct 2026 08:49:49 +0000</pubDate>
+<lastBuildDate>Fri, 16 Oct 2026 06:59:52 +0000</lastBuildDate>
+<pubDate>Fri, 16 Oct 2026 06:59:52 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,26 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1100: Booby Trapping LLMs</title>
+<pubDate>13 Oct 2026</pubDate>
+<comments>http://twit.tv/sn/1100</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• Anthropic cuts live Internet access during testing. • Will LLM technology turn out to be an uncontrollable dead end?
+What alternative AI technologies are underway? • Anthropic offers free AI vulnerability scanning for open source. • South Korean banks hit by Claude-driven cyberattacks. • Japan declares a state of cyber-emergency due to attacks. • For one listener, Agentic coding has taken the joy out of coding. • A listener is having way too much fun with AI and Halloween. • Some listeners believe I'm downplaying the dangers of AI. • We carefully examine the consequences of maliciously trained AI.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1100/sn1100.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1100/sn1100.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1100/sn1100.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1100/sn1100.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1099: An Alien Mind</title>
 <pubDate>06 Oct 2026</pubDate>
