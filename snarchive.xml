@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 06 Nov 2026 09:12:45 +0000</lastBuildDate>
-<pubDate>Fri, 06 Nov 2026 09:12:45 +0000</pubDate>
+<lastBuildDate>Fri, 13 Nov 2026 09:23:17 +0000</lastBuildDate>
+<pubDate>Fri, 13 Nov 2026 09:23:17 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1104: The Hole in OpenSSH</title>
+<pubDate>10 Nov 2026</pubDate>
+<comments>http://twit.tv/sn/1104</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• A surprising (!) announcement regarding SpinRite. • What is being “AI-pilled” and how does it happen? • OpenAI just released GPT-6 Cyber. What does that mean? • An irresponsible hacker published 30+ N-Able 0-days. • 700 French refrigerators hacked. What's next? • Lots of listener feedback about the Cloudflare tunneling solution, Voyager 1, true hardware drive encryption, the random number 4 and the amount of debris in orbit. • Then we look at a 10-year old serious SSH authentication bug (that's kinda wonderful).</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1104/sn1104.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:1:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1104/sn1104.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1104/sn1104.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1104/sn1104.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1103: Exposing Bad Consumer Crypto</title>
 <pubDate>03 Nov 2026</pubDate>
