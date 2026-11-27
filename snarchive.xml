@@ -13,8 +13,8 @@ This work is licensed under a Creative Commons License - Attribution-NonCommerci
 <ttl>720</ttl>
 <sy:updatePeriod>weekly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
-<lastBuildDate>Fri, 20 Nov 2026 09:54:44 +0000</lastBuildDate>
-<pubDate>Fri, 20 Nov 2026 09:54:44 +0000</pubDate>
+<lastBuildDate>Fri, 27 Nov 2026 10:43:58 +0000</lastBuildDate>
+<pubDate>Fri, 27 Nov 2026 10:43:58 +0000</pubDate>
 <category>Technology</category>
 <category>Security</category>
 <image>
@@ -50,6 +50,25 @@ Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, enc
 <itunes:category text="Technology">
 <itunes:category text="Software How-To"/>
 </itunes:category>
+<item>
+<title>SN 1106: ARTEX</title>
+<pubDate>24 Nov 2026</pubDate>
+<comments>http://twit.tv/sn/1106</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Security</category>
+<description>• An overview of the past several weeks of widespread outages. • The “Reverse Engineer Anything” craze hits a road bump. • Quad9 withdraws its DNS service from France. What's next. • California sues OpenAI over Hugging Face and more. • More critical vulnerabilities in Synology. • PHP vulnerabilities, round two. • Google and Anthropic reduce their disclosure windows. • A listener uses Mythos, discovers unexpected bugs. • SpinRite is booting on 97 different UEFI PCs. • ARTEX - The inevitable happened, and it's bad.</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/sn/sn1106/sn1106.mp3</guid>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:33:00</itunes:duration>
+<link>http://cdn.twit.tv/audio/sn/sn1106/sn1106.mp3</link>
+<enclosure url="http://cdn.twit.tv/audio/sn/sn1106/sn1106.mp3" length="0" type="audio/mpeg"/>
+<media:content url="http://cdn.twit.tv/audio/sn/sn1106/sn1106.mp3" fileSize="0" type="audio/mpeg" medium="audio">
+<media:rating scheme="urn:simple">nonadult</media:rating>
+<media:rating scheme="urn:v-chip">tv-g</media:rating>
+</media:content>
+</item>
 <item>
 <title>SN 1105: Formal Code Verification</title>
 <pubDate>17 Nov 2026</pubDate>
